@@ -3,6 +3,7 @@
 import React from "react"
 
 import { useState } from "react"
+import { submitContactForm } from "@/lib/contact-client"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
@@ -12,15 +13,33 @@ import { Phone, Mail, MapPin, CheckCircle2, Loader2 } from "lucide-react"
 export function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [submitError, setSubmitError] = useState<string | null>(null)
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setIsSubmitting(true)
-    
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500))
-    
+    setSubmitError(null)
+
+    const form = e.currentTarget
+    const formData = new FormData(form)
+
+    const result = await submitContactForm({
+      name: String(formData.get("name") || ""),
+      company: String(formData.get("company") || ""),
+      email: String(formData.get("email") || ""),
+      phone: String(formData.get("phone") || ""),
+      package: String(formData.get("package") || ""),
+      message: String(formData.get("message") || ""),
+    })
+
     setIsSubmitting(false)
+
+    if (!result.ok) {
+      setSubmitError(result.error)
+      return
+    }
+
+    form.reset()
     setIsSubmitted(true)
   }
 
@@ -121,6 +140,11 @@ export function ContactForm() {
                     Vi svarer vanligvis innen 24 timer
                   </p>
                 </div>
+                {submitError ? (
+                  <div className="rounded-lg border border-destructive/30 bg-destructive/10 px-4 py-3 text-sm text-destructive">
+                    {submitError}
+                  </div>
+                ) : null}
 
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
