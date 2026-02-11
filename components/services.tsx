@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link"
 import { Globe, Paintbrush, Search, Smartphone, Zap, HeadphonesIcon } from "lucide-react"
 import { AnimateOnScroll } from "@/components/animate-on-scroll"
 
@@ -9,36 +10,42 @@ const services = [
     title: "Nettside for bedrift",
     description:
       "Profesjonelle og moderne nettsider tilpasset din bedrifts behov og merkevare.",
+    href: "/nettside-for-bedrift",
   },
   {
     icon: Paintbrush,
     title: "Moderne design",
     description:
       "Skreddersydd visuelt design som reflekterer din bedrifts identitet og verdier.",
+    href: "/webdesign-byra",
   },
   {
     icon: Search,
     title: "SEO-optimalisering",
     description:
       "Vi sørger for at din nettside blir funnet på Google og andre søkemotorer.",
+    href: "/seo-for-nettsider",
   },
   {
     icon: Smartphone,
     title: "Mobilvennlig",
     description:
       "Responsivt design som fungerer perfekt på alle enheter og skjermstørrelser.",
+    href: "/nettside-for-bedrift",
   },
   {
     icon: Zap,
     title: "Rask ytelse",
     description:
       "Optimalisert kode som sikrer lynrask lasting og god brukeropplevelse.",
+    href: "/webflow-nettside",
   },
   {
     icon: HeadphonesIcon,
     title: "Løpende support",
     description:
       "Dedikert kundestøtte og kontinuerlig vedlikehold av din nettside.",
+    href: "/drift-og-vedlikehold",
   },
 ]
 
@@ -79,6 +86,12 @@ export function Services() {
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   {service.description}
                 </p>
+                <Link
+                  href={service.href}
+                  className="inline-flex mt-4 text-sm font-medium text-accent hover:underline"
+                >
+                  Les mer
+                </Link>
               </div>
             ))}
           </div>

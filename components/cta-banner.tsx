@@ -28,7 +28,7 @@ export function CTABanner() {
                 size="lg"
                 className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 px-8"
               >
-                <Link href="#kontakt" className="flex items-center gap-2">
+                <Link href="/kontakt" className="flex items-center gap-2">
                   Gratis samtale
                   <ArrowRight className="w-4 h-4" />
                 </Link>

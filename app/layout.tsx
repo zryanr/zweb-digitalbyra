@@ -40,11 +40,20 @@ export const metadata: Metadata = {
     type: "website",
     siteName: SITE_NAME,
     url: SITE_URL,
+    images: [
+      {
+        url: `${SITE_URL}/opengraph-image`,
+        width: 1200,
+        height: 630,
+        alt: "ZWEB Digitalbyrå - Nettsider for norske bedrifter",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "ZWEB Digitalbyrå | Profesjonelle nettsider",
     description: "Moderne nettsider for norske bedrifter fra 999 kr/mnd",
+    images: [`${SITE_URL}/twitter-image`],
   },
   robots: {
     index: true,
@@ -82,15 +91,23 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="no">
+    <html lang="nb">
       <body className={`${inter.variable} font-sans antialiased`}>
         <JsonLd
           data={{
             "@context": "https://schema.org",
             "@type": "Organization",
             name: BUSINESS_INFO.name,
+            legalName: BUSINESS_INFO.legalName,
             url: BUSINESS_INFO.url,
             logo: `${SITE_URL}/icon.svg`,
+            foundingDate: BUSINESS_INFO.foundingDate,
+            sameAs: BUSINESS_INFO.sameAs,
+            identifier: {
+              "@type": "PropertyValue",
+              propertyID: "orgnr",
+              value: BUSINESS_INFO.orgNr,
+            },
             contactPoint: {
               "@type": "ContactPoint",
               telephone: BUSINESS_INFO.phone,
@@ -102,7 +119,7 @@ export default function RootLayout({
         <JsonLd
           data={{
             "@context": "https://schema.org",
-            "@type": "ProfessionalService",
+            "@type": "LocalBusiness",
             name: BUSINESS_INFO.name,
             description:
               "Vi lager moderne, profesjonelle nettsider for norske bedrifter. Alt inkludert fra kun 999 kr/mnd.",
@@ -110,6 +127,12 @@ export default function RootLayout({
             email: BUSINESS_INFO.email,
             url: BUSINESS_INFO.url,
             priceRange: "999-6999 NOK",
+            sameAs: BUSINESS_INFO.sameAs,
+            identifier: {
+              "@type": "PropertyValue",
+              propertyID: "orgnr",
+              value: BUSINESS_INFO.orgNr,
+            },
             address: {
               "@type": "PostalAddress",
               addressCountry: BUSINESS_INFO.country,
@@ -126,6 +149,11 @@ export default function RootLayout({
             "@type": "WebSite",
             name: SITE_NAME,
             url: SITE_URL,
+            potentialAction: {
+              "@type": "SearchAction",
+              target: `${SITE_URL}/blog?query={search_term_string}`,
+              "query-input": "required name=search_term_string",
+            },
           }}
         />
         {children}

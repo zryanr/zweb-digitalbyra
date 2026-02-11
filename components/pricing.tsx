@@ -149,7 +149,7 @@ export function Pricing() {
                   }`}
                   size="lg"
                 >
-                  <Link href="#kontakt">{plan.cta}</Link>
+                  <Link href="/kontakt">{plan.cta}</Link>
                 </Button>
               </div>
             ))}
@@ -162,7 +162,7 @@ export function Pricing() {
             <p className="text-sm text-muted-foreground">
               Usikker på hva du trenger?{" "}
               <Link
-                href="#kontakt"
+                href="/kontakt"
                 className="text-accent hover:underline font-medium"
               >
                 Ta kontakt for en gratis, uforpliktende samtale

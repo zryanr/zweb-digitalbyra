@@ -28,12 +28,12 @@ export function Footer() {
             <h4 className="font-semibold mb-4">Snarveier</h4>
             <ul className="space-y-2">
               {[
-                { href: "/#tjenester", label: "Tjenester" },
-                { href: "/#priser", label: "Priser" },
-                { href: "/#prosess", label: "Prosess" },
+                { href: "/nettside-for-bedrift", label: "Tjenester" },
+                { href: "/priser", label: "Priser" },
+                { href: "/case", label: "Case" },
                 { href: "/blog", label: "Blogg" },
-                { href: "/#faq", label: "FAQ" },
-                { href: "/#kontakt", label: "Kontakt" },
+                { href: "/seo-for-nettsider", label: "SEO" },
+                { href: "/kontakt", label: "Kontakt" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link
