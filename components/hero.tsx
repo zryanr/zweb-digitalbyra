@@ -113,7 +113,7 @@ export function Hero() {
               )}
               style={{ animationDelay: "500ms" }}
             >
-              Org.nr: 924 592 575 &bull; Norsk digitalbyrå
+              Org.nr: 924 592 575 &bull; ZWEB digitalbyrå
             </p>
           </div>
 
