@@ -2,17 +2,24 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 import { Menu, X, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const pathname = usePathname()
+  const isHome = pathname === "/"
+
+  // Prefix hash links with "/" when not on homepage
+  const anchor = (hash: string) => (isHome ? hash : `/${hash}`)
 
   const navLinks = [
-    { href: "#tjenester", label: "Tjenester" },
-    { href: "#priser", label: "Priser" },
-    { href: "#prosess", label: "Prosess" },
-    { href: "#kontakt", label: "Kontakt" },
+    { href: anchor("#tjenester"), label: "Tjenester" },
+    { href: anchor("#priser"), label: "Priser" },
+    { href: anchor("#prosess"), label: "Prosess" },
+    { href: "/blog", label: "Blogg" },
+    { href: anchor("#kontakt"), label: "Kontakt" },
   ]
 
   return (
@@ -33,7 +40,7 @@ export function Header() {
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <Link
-                key={link.href}
+                key={link.label}
                 href={link.href}
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
               >
@@ -44,12 +51,18 @@ export function Header() {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center gap-3">
-            <a href="tel:+4794112356" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <a
+              href="tel:+4794112356"
+              className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
               <Phone className="w-4 h-4" />
               <span>94 11 23 56</span>
             </a>
-            <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90">
-              <Link href="#kontakt">Gratis samtale</Link>
+            <Button
+              asChild
+              className="bg-primary text-primary-foreground hover:bg-primary/90"
+            >
+              <Link href={anchor("#kontakt")}>Gratis samtale</Link>
             </Button>
           </div>
 
@@ -60,7 +73,11 @@ export function Header() {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label={isMenuOpen ? "Lukk meny" : "Åpne meny"}
           >
-            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {isMenuOpen ? (
+              <X className="w-6 h-6" />
+            ) : (
+              <Menu className="w-6 h-6" />
+            )}
           </button>
         </div>
 
@@ -70,7 +87,7 @@ export function Header() {
             <div className="flex flex-col gap-4">
               {navLinks.map((link) => (
                 <Link
-                  key={link.href}
+                  key={link.label}
                   href={link.href}
                   className="text-base font-medium text-muted-foreground hover:text-foreground transition-colors"
                   onClick={() => setIsMenuOpen(false)}
@@ -79,12 +96,18 @@ export function Header() {
                 </Link>
               ))}
               <div className="flex flex-col gap-3 pt-4 border-t border-border">
-                <a href="tel:+4794112356" className="flex items-center gap-2 text-muted-foreground">
+                <a
+                  href="tel:+4794112356"
+                  className="flex items-center gap-2 text-muted-foreground"
+                >
                   <Phone className="w-4 h-4" />
                   <span>94 11 23 56</span>
                 </a>
-                <Button asChild className="w-full bg-primary text-primary-foreground">
-                  <Link href="#kontakt">Gratis samtale</Link>
+                <Button
+                  asChild
+                  className="w-full bg-primary text-primary-foreground"
+                >
+                  <Link href={anchor("#kontakt")}>Gratis samtale</Link>
                 </Button>
               </div>
             </div>
