@@ -6,10 +6,12 @@ import { getArticleBySlug, getAllArticles } from "@/lib/blog"
 import { BlogArticleContent } from "@/components/blog-article-content"
 import { BlogArticleCard } from "@/components/blog-article-card"
 import { BlogCTA } from "@/components/blog-cta"
+import { PageFaq } from "@/components/page-faq"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { JsonLd } from "@/components/json-ld"
 import { SITE_URL, SITE_NAME } from "@/lib/constants"
+import { buildPageMetadata } from "@/lib/seo"
 
 type Props = { params: Promise<{ slug: string }> }
 
@@ -18,18 +20,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = getArticleBySlug(slug)
   if (!article) return {}
 
-  return {
+  const base = buildPageMetadata({
     title: article.title,
     description: article.description,
+    path: `/blog/${slug}`,
     keywords: article.keywords,
-    alternates: { canonical: `/blog/${slug}` },
+    type: "article",
+  })
+
+  return {
+    ...base,
     openGraph: {
-      title: article.title,
-      description: article.description,
+      ...base.openGraph,
       type: "article",
       publishedTime: article.date,
-      modifiedTime: article.updatedDate,
-      locale: "nb_NO",
+      modifiedTime: article.updatedDate || article.date,
+      authors: [article.author.name],
       siteName: SITE_NAME,
       url: `${SITE_URL}/blog/${slug}`,
     },
@@ -65,9 +71,19 @@ export default async function BlogArticlePage({ params }: Props) {
           description: article.description,
           datePublished: article.date,
           dateModified: article.updatedDate || article.date,
+          inLanguage: "nb-NO",
+          isAccessibleForFree: true,
+          keywords: article.keywords.join(", "),
           author: {
-            "@type": "Organization",
+            "@type": "Person",
             name: article.author.name,
+            url: `${SITE_URL}/forfatter/${article.authorSlug}`,
+            jobTitle: article.author.role,
+            affiliation: {
+              "@type": "Organization",
+              name: SITE_NAME,
+              url: SITE_URL,
+            },
           },
           publisher: {
             "@type": "Organization",
@@ -82,8 +98,25 @@ export default async function BlogArticlePage({ params }: Props) {
             "@type": "WebPage",
             "@id": `${SITE_URL}/blog/${slug}`,
           },
+          citation: article.sources.map((source) => source.url),
         }}
       />
+      {article.faqs?.length ? (
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: article.faqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.answer,
+              },
+            })),
+          }}
+        />
+      ) : null}
       <JsonLd
         data={{
           "@context": "https://schema.org",
@@ -115,13 +148,13 @@ export default async function BlogArticlePage({ params }: Props) {
         <article className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Breadcrumb */}
           <nav className="text-sm text-muted-foreground mb-8">
-            <a href="/" className="hover:text-accent transition-colors">
+            <Link href="/" className="hover:text-accent transition-colors">
               Hjem
-            </a>
+            </Link>
             <span className="mx-2">/</span>
-            <a href="/blog" className="hover:text-accent transition-colors">
+            <Link href="/blog" className="hover:text-accent transition-colors">
               Blogg
-            </a>
+            </Link>
             <span className="mx-2">/</span>
             <span className="text-foreground line-clamp-1">{article.title}</span>
           </nav>
@@ -149,7 +182,12 @@ export default async function BlogArticlePage({ params }: Props) {
             <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground border-t border-border pt-4">
               <span className="flex items-center gap-1.5">
                 <User className="w-4 h-4" />
-                {article.author.name}
+                <Link
+                  href={`/forfatter/${article.authorSlug}`}
+                  className="hover:text-accent transition-colors"
+                >
+                  {article.author.name}
+                </Link>
               </span>
               <span className="flex items-center gap-1.5">
                 <Calendar className="w-4 h-4" />
@@ -183,6 +221,48 @@ export default async function BlogArticlePage({ params }: Props) {
 
           {/* Article Content */}
           <BlogArticleContent sections={article.sections} />
+
+          {article.internalLinks?.length ? (
+            <section className="mt-10 rounded-xl border border-border bg-secondary/30 p-6">
+              <h2 className="text-xl font-bold text-foreground mb-4">
+                Relaterte sider
+              </h2>
+              <ul className="space-y-2">
+                {article.internalLinks.map((item) => (
+                  <li key={item.href}>
+                    <Link
+                      href={item.href}
+                      className="text-accent hover:underline leading-relaxed"
+                    >
+                      {item.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ) : null}
+
+          <section className="mt-10 rounded-xl border border-border bg-card p-6">
+            <h2 className="text-xl font-bold text-foreground mb-4">Kilder</h2>
+            <ul className="space-y-2">
+              {article.sources.map((source) => (
+                <li key={source.url} className="text-sm text-muted-foreground leading-relaxed">
+                  <a
+                    href={source.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-accent hover:underline"
+                  >
+                    {source.title}
+                  </a>
+                  {source.publisher ? ` (${source.publisher})` : ""}
+                  {source.publishedDate ? ` - oppdatert ${source.publishedDate}` : ""}
+                </li>
+              ))}
+            </ul>
+          </section>
+
+          {article.faqs?.length ? <PageFaq items={article.faqs} /> : null}
 
           {/* CTA */}
           <BlogCTA />

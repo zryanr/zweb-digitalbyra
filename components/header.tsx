@@ -2,24 +2,18 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { usePathname } from "next/navigation"
 import { Menu, X, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const pathname = usePathname()
-  const isHome = pathname === "/"
-
-  // Prefix hash links with "/" when not on homepage
-  const anchor = (hash: string) => (isHome ? hash : `/${hash}`)
 
   const navLinks = [
-    { href: anchor("#tjenester"), label: "Tjenester" },
-    { href: anchor("#priser"), label: "Priser" },
-    { href: anchor("#prosess"), label: "Prosess" },
+    { href: "/nettside-for-bedrift", label: "Tjenester" },
+    { href: "/priser", label: "Priser" },
+    { href: "/case", label: "Case" },
     { href: "/blog", label: "Blogg" },
-    { href: anchor("#kontakt"), label: "Kontakt" },
+    { href: "/kontakt", label: "Kontakt" },
   ]
 
   return (
@@ -62,7 +56,7 @@ export function Header() {
               asChild
               className="bg-primary text-primary-foreground hover:bg-primary/90"
             >
-              <Link href={anchor("#kontakt")}>Gratis samtale</Link>
+              <Link href="/kontakt">Gratis samtale</Link>
             </Button>
           </div>
 
@@ -107,7 +101,7 @@ export function Header() {
                   asChild
                   className="w-full bg-primary text-primary-foreground"
                 >
-                  <Link href={anchor("#kontakt")}>Gratis samtale</Link>
+                  <Link href="/kontakt">Gratis samtale</Link>
                 </Button>
               </div>
             </div>

@@ -50,7 +50,7 @@ export function FloatingCTA() {
           </a>
           
           <Link
-            href="#kontakt"
+            href="/kontakt"
             onClick={() => setIsExpanded(false)}
             className="flex items-center gap-3 p-3 bg-accent text-accent-foreground rounded-xl hover:bg-accent/90 transition-colors"
           >

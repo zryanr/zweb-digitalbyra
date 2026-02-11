@@ -16,7 +16,7 @@ export function BlogCTA() {
         asChild
         className="bg-accent text-accent-foreground hover:bg-accent/90"
       >
-        <Link href="/#kontakt" className="flex items-center gap-2">
+        <Link href="/kontakt" className="flex items-center gap-2">
           Gratis samtale
           <ArrowRight className="w-4 h-4" />
         </Link>

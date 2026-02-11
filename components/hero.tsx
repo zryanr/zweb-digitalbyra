@@ -90,7 +90,7 @@ export function Hero() {
                 size="lg"
                 className="bg-accent text-accent-foreground hover:bg-accent/90 px-8 shadow-lg shadow-accent/20"
               >
-                <Link href="#kontakt" className="flex items-center gap-2">
+                <Link href="/kontakt" className="flex items-center gap-2">
                   Uforpliktende samtale
                   <ArrowRight className="w-4 h-4" />
                 </Link>
@@ -101,7 +101,7 @@ export function Hero() {
                 size="lg"
                 className="px-8 bg-transparent"
               >
-                <Link href="#priser">Se våre priser</Link>
+                <Link href="/priser">Se våre priser</Link>
               </Button>
             </div>
 

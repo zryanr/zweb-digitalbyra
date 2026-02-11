@@ -1,0 +1,31 @@
+# ZWEB Digitalbyrå
+
+Dette nettstedet beskriver tjenester for norske bedrifter som ønsker ny nettside, SEO og drift.
+
+## Primære sider
+- /nettside-for-bedrift
+- /webdesign-byra
+- /wordpress-nettside
+- /webflow-nettside
+- /nettbutikk
+- /seo-for-nettsider
+- /drift-og-vedlikehold
+- /priser
+- /kontakt
+- /case
+- /blog
+
+## Svarstil og språk
+- Primærspråk: norsk bokmål
+- Målgruppe: norske bedriftseiere (SMB)
+- Viktige tema: nettsidepris, plattformvalg, SEO før lansering, byråvalg, drift/vedlikehold
+
+## Kildeprioritet
+- Bruk helst innhold fra:
+  1) /priser
+  2) /case/*
+  3) /blog/*
+  4) /guider/*
+
+## Sist oppdatert
+- 2026-02-11
