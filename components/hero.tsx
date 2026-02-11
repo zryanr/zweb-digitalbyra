@@ -80,21 +80,32 @@ export function Hero() {
               
               {/* Website preview content */}
               <div className="p-6 space-y-4">
-                <div className="h-4 w-24 bg-foreground/10 rounded" />
-                <div className="h-8 w-48 bg-foreground/20 rounded" />
-                <div className="space-y-2">
-                  <div className="h-3 w-full bg-foreground/5 rounded" />
-                  <div className="h-3 w-4/5 bg-foreground/5 rounded" />
-                  <div className="h-3 w-3/5 bg-foreground/5 rounded" />
+                <div className="inline-flex items-center rounded-full bg-accent/10 px-3 py-1 text-xs font-medium text-accent">
+                  Nettside-eksempel
+                </div>
+                <h3 className="text-lg font-semibold text-foreground">
+                  Velkommen til dinbedrift.no
+                </h3>
+                <p className="text-sm leading-relaxed text-muted-foreground">
+                  En moderne nettside med tydelig budskap, sterke handlingsknapper og innhold som bygger tillit.
+                </p>
+                <div className="grid grid-cols-3 gap-2 text-center text-xs">
+                  <div className="rounded-md bg-secondary px-2 py-2 text-muted-foreground">SEO 98</div>
+                  <div className="rounded-md bg-secondary px-2 py-2 text-muted-foreground">Mobil A+</div>
+                  <div className="rounded-md bg-secondary px-2 py-2 text-muted-foreground">&lt;1s lastetid</div>
                 </div>
                 <div className="flex gap-3 pt-4">
-                  <div className="h-10 w-28 bg-primary rounded" />
-                  <div className="h-10 w-28 bg-secondary rounded border border-border" />
+                  <div className="rounded bg-primary px-4 py-2 text-xs font-medium text-primary-foreground">
+                    Bestill møte
+                  </div>
+                  <div className="rounded border border-border bg-secondary px-4 py-2 text-xs font-medium text-foreground">
+                    Se tjenester
+                  </div>
                 </div>
                 <div className="grid grid-cols-3 gap-3 pt-6">
-                  <div className="h-20 bg-secondary rounded" />
-                  <div className="h-20 bg-secondary rounded" />
-                  <div className="h-20 bg-secondary rounded" />
+                  <div className="rounded bg-secondary p-3 text-xs text-muted-foreground">Tjenester</div>
+                  <div className="rounded bg-secondary p-3 text-xs text-muted-foreground">Referanser</div>
+                  <div className="rounded bg-secondary p-3 text-xs text-muted-foreground">Kontakt</div>
                 </div>
               </div>
             </div>
