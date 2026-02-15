@@ -10,11 +10,19 @@ export type AuthorProfile = {
   updatedDate: string
 }
 
-const authorSameAs =
-  process.env.NEXT_PUBLIC_AUTHOR_SAME_AS
-    ?.split(",")
-    .map((item) => item.trim())
-    .filter(Boolean) || []
+const defaultAuthorSameAs = [
+  "https://www.linkedin.com/in/zryan-rzgar-20b442185/",
+]
+
+const authorSameAs = Array.from(
+  new Set([
+    ...defaultAuthorSameAs,
+    ...(process.env.NEXT_PUBLIC_AUTHOR_SAME_AS
+      ?.split(",")
+      .map((item) => item.trim())
+      .filter(Boolean) || []),
+  ])
+)
 
 export const authors: AuthorProfile[] = [
   {
@@ -30,8 +38,7 @@ export const authors: AuthorProfile[] = [
       "Konverteringsoptimalisering",
       "Drift og vedlikehold av nettsider",
     ],
-    // Bytt til f.eks. /authors/zryan-rzgar.jpg når du har lastet opp portrettbilde.
-    image: "/placeholder-user.jpg",
+    image: "/authors/zryan-rzgar.jpg",
     imageAlt: "Profilbilde av Zryan Rzgar",
     sameAs: authorSameAs,
     updatedDate: "2026-02-15",
