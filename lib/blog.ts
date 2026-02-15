@@ -50,7 +50,7 @@ type RawBlogArticle = Omit<BlogArticle, "updatedDate" | "authorSlug" | "sources"
   sources?: ArticleSource[]
 }
 
-const DEFAULT_AUTHOR_SLUG = "zweb-redaksjonen"
+const DEFAULT_AUTHOR_SLUG = "zryan-rzgar"
 
 const DEFAULT_ARTICLE_SOURCES: ArticleSource[] = [
   {

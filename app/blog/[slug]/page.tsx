@@ -182,12 +182,17 @@ export default async function BlogArticlePage({ params }: Props) {
             <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground border-t border-border pt-4">
               <span className="flex items-center gap-1.5">
                 <User className="w-4 h-4" />
-                <Link
-                  href={`/forfatter/${article.authorSlug}`}
-                  className="hover:text-accent transition-colors"
-                >
-                  {article.author.name}
-                </Link>
+                <span className="inline-flex flex-col leading-tight">
+                  <Link
+                    href={`/forfatter/${article.authorSlug}`}
+                    className="hover:text-accent transition-colors"
+                  >
+                    {article.author.name}
+                  </Link>
+                  <span className="text-xs text-muted-foreground/90">
+                    {article.author.role}
+                  </span>
+                </span>
               </span>
               <span className="flex items-center gap-1.5">
                 <Calendar className="w-4 h-4" />

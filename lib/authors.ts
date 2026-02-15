@@ -16,19 +16,20 @@ const authorSameAs =
 
 export const authors: AuthorProfile[] = [
   {
-    slug: "zweb-redaksjonen",
-    name: "ZWEB Redaksjonen",
-    role: "Fagredaksjon for nettsider og SEO",
-    bio: "Redaksjonen i ZWEB skriver og kvalitetssikrer innhold om webdesign, SEO, konvertering og drift for norske bedrifter. Innholdet bygger på praktisk prosjektarbeid og dokumenterte leveransemønstre.",
+    slug: "zryan-rzgar",
+    name: "Zryan Rzgar",
+    role: "Mastergrad i datavitenskap, fullstack-utvikler med 7 års erfaring",
+    bio: "Zryan Rzgar skriver og kvalitetssikrer innhold om webdesign, SEO, konvertering og teknisk drift for norske bedrifter. Han har mastergrad i datavitenskap og 7 års erfaring som fullstack-utvikler.",
     expertise: [
-      "Webdesign for SMB",
+      "Webdesign for bedrifter",
       "Teknisk SEO",
+      "Fullstack utvikling",
       "Informasjonsarkitektur",
       "Konverteringsoptimalisering",
       "Drift og vedlikehold av nettsider",
     ],
     sameAs: authorSameAs,
-    updatedDate: "2026-02-11",
+    updatedDate: "2026-02-15",
   },
 ]
 
