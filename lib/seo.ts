@@ -29,7 +29,12 @@ export function buildPageMetadata({
     title: resolvedTitle,
     description,
     keywords,
-    alternates: { canonical: path },
+    alternates: {
+      canonical: path,
+      languages: {
+        "nb-NO": path,
+      },
+    },
     openGraph: {
       title,
       description,

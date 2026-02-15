@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import type { Metadata } from "next"
 import { Header } from "@/components/header"
@@ -32,8 +33,19 @@ export default function AuthorIndexPage() {
           <div className="grid sm:grid-cols-2 gap-6">
             {authors.map((author) => (
               <article key={author.slug} className="rounded-xl border border-border bg-card p-6">
-                <h2 className="text-xl font-semibold text-foreground mb-1">{author.name}</h2>
-                <p className="text-sm text-accent mb-3">{author.role}</p>
+                <div className="flex items-start gap-4 mb-3">
+                  <Image
+                    src={author.image || "/placeholder-user.jpg"}
+                    alt={author.imageAlt || `Profilbilde av ${author.name}`}
+                    width={64}
+                    height={64}
+                    className="h-16 w-16 rounded-full object-cover border border-border bg-secondary/40"
+                  />
+                  <div>
+                    <h2 className="text-xl font-semibold text-foreground mb-1">{author.name}</h2>
+                    <p className="text-sm text-accent">{author.role}</p>
+                  </div>
+                </div>
                 <p className="text-sm text-muted-foreground leading-relaxed mb-4">
                   {author.bio}
                 </p>

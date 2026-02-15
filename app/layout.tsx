@@ -13,6 +13,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  applicationName: SITE_NAME,
   title: {
     default: "ZWEB Digitalbyrå | Profesjonelle nettsider for norske bedrifter",
     template: "%s | ZWEB Digitalbyrå",
@@ -32,6 +33,7 @@ export const metadata: Metadata = {
     "SEO-optimalisering",
     "nettside for småbedrifter",
   ],
+  category: "business",
   openGraph: {
     title: "ZWEB Digitalbyrå | Profesjonelle nettsider for norske bedrifter",
     description:
@@ -61,10 +63,17 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
     },
   },
+  referrer: "origin-when-cross-origin",
   alternates: {
     canonical: "/",
+    languages: {
+      "nb-NO": "/",
+    },
   },
   icons: {
     icon: [

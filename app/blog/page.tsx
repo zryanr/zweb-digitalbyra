@@ -8,7 +8,7 @@ import { JsonLd } from "@/components/json-ld"
 import { SITE_URL, SITE_NAME } from "@/lib/constants"
 import { buildPageMetadata } from "@/lib/seo"
 
-export const metadata: Metadata = buildPageMetadata({
+const BLOG_INDEX_METADATA = {
   title: "Blogg — Guider om nettsider, SEO og webdesign",
   description:
     "Les våre artikler og guider om nettsider for bedrifter, SEO-optimalisering, webdesign og digitale løsninger for norske bedrifter.",
@@ -20,14 +20,40 @@ export const metadata: Metadata = buildPageMetadata({
     "nettside pris",
     "wordpress vs webflow",
   ],
-})
+}
 
 type BlogPageProps = {
   searchParams: Promise<{ query?: string }>
 }
 
+export async function generateMetadata({
+  searchParams,
+}: BlogPageProps): Promise<Metadata> {
+  const query = (await searchParams).query?.trim()
+  const base = buildPageMetadata(BLOG_INDEX_METADATA)
+
+  if (!query) return base
+
+  return {
+    ...base,
+    title: `Søk i blogg: ${query}`,
+    description: `Søkeresultater i ZWEB-bloggen for \"${query}\".`,
+    robots: {
+      index: false,
+      follow: true,
+    },
+    alternates: {
+      canonical: "/blog",
+      languages: {
+        "nb-NO": "/blog",
+      },
+    },
+  }
+}
+
 export default async function BlogPage({ searchParams }: BlogPageProps) {
-  const query = (await searchParams).query?.trim().toLowerCase() || ""
+  const rawQuery = (await searchParams).query?.trim() || ""
+  const query = rawQuery.toLowerCase()
   const allArticles = getAllArticles()
   const articles = query
     ? allArticles.filter(
@@ -87,7 +113,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
               <input
                 id="query"
                 name="query"
-                defaultValue={query}
+                defaultValue={rawQuery}
                 placeholder="Søk etter pris, webflow, SEO, webbyrå ..."
                 className="w-full h-11 rounded-md border border-input bg-background px-3 text-sm"
               />

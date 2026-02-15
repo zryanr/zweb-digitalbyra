@@ -4,31 +4,44 @@ export type AuthorProfile = {
   role: string
   bio: string
   expertise: string[]
+  image?: string
+  imageAlt?: string
   sameAs: string[]
   updatedDate: string
 }
 
-const authorSameAs =
-  process.env.NEXT_PUBLIC_AUTHOR_SAME_AS
-    ?.split(",")
-    .map((item) => item.trim())
-    .filter(Boolean) || []
+const defaultAuthorSameAs = [
+  "https://www.linkedin.com/in/zryan-rzgar-20b442185/",
+]
+
+const authorSameAs = Array.from(
+  new Set([
+    ...defaultAuthorSameAs,
+    ...(process.env.NEXT_PUBLIC_AUTHOR_SAME_AS
+      ?.split(",")
+      .map((item) => item.trim())
+      .filter(Boolean) || []),
+  ])
+)
 
 export const authors: AuthorProfile[] = [
   {
-    slug: "zweb-redaksjonen",
-    name: "ZWEB Redaksjonen",
-    role: "Fagredaksjon for nettsider og SEO",
-    bio: "Redaksjonen i ZWEB skriver og kvalitetssikrer innhold om webdesign, SEO, konvertering og drift for norske bedrifter. Innholdet bygger på praktisk prosjektarbeid og dokumenterte leveransemønstre.",
+    slug: "zryan-rzgar",
+    name: "Zryan Rzgar",
+    role: "Fullstack-utvikler med 7 års erfaring, sivilingeniør innen datavitenskap",
+    bio: "Zryan Rzgar skriver og kvalitetssikrer innhold om webdesign, SEO, konvertering og teknisk drift for norske bedrifter. Han har 7 års erfaring som fullstack-utvikler, og er sivilingeniør innen datavitenskap.",
     expertise: [
-      "Webdesign for SMB",
+      "Webdesign for bedrifter",
       "Teknisk SEO",
+      "Fullstack utvikling",
       "Informasjonsarkitektur",
       "Konverteringsoptimalisering",
       "Drift og vedlikehold av nettsider",
     ],
+    image: "/authors/zryan-rzgar.jpg",
+    imageAlt: "Profilbilde av Zryan Rzgar",
     sameAs: authorSameAs,
-    updatedDate: "2026-02-11",
+    updatedDate: "2026-02-15",
   },
 ]
 

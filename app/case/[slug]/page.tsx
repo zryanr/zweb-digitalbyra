@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "article",
       publishedTime: caseStudy.publishedDate,
       modifiedTime: caseStudy.updatedDate,
-      authors: ["ZWEB Redaksjonen"],
+      authors: ["Zryan Rzgar"],
     },
   }
 }
@@ -80,9 +80,10 @@ export default async function CaseDetailPage({ params }: Props) {
           ].join(", "),
           author: {
             "@type": "Person",
-            name: "ZWEB Redaksjonen",
-            jobTitle: "Fagredaksjon for nettsider og SEO",
-            url: `${BUSINESS_INFO.url}/forfatter/zweb-redaksjonen`,
+            name: "Zryan Rzgar",
+            jobTitle:
+              "Fullstack-utvikler med 7 års erfaring, sivilingeniør innen datavitenskap",
+            url: `${BUSINESS_INFO.url}/forfatter/zryan-rzgar`,
             affiliation: {
               "@type": "Organization",
               name: BUSINESS_INFO.name,
