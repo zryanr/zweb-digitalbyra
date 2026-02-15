@@ -82,7 +82,7 @@ export default async function CaseDetailPage({ params }: Props) {
             "@type": "Person",
             name: "Zryan Rzgar",
             jobTitle:
-              "Mastergrad i datavitenskap, fullstack-utvikler med 7 års erfaring",
+              "Fullstack-utvikler med 7 års erfaring, sivilingeniør innen datavitenskap",
             url: `${BUSINESS_INFO.url}/forfatter/zryan-rzgar`,
             affiliation: {
               "@type": "Organization",
