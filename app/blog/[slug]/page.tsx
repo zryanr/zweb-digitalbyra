@@ -1,8 +1,10 @@
+import Image from "next/image"
 import type { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
-import { ArrowLeft, Calendar, Clock, User } from "lucide-react"
+import { ArrowLeft, Calendar, Clock } from "lucide-react"
 import { getArticleBySlug, getAllArticles } from "@/lib/blog"
+import { getAuthorBySlug } from "@/lib/authors"
 import { BlogArticleContent } from "@/components/blog-article-content"
 import { BlogArticleCard } from "@/components/blog-article-card"
 import { BlogCTA } from "@/components/blog-cta"
@@ -11,7 +13,7 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { JsonLd } from "@/components/json-ld"
 import { SITE_URL, SITE_NAME } from "@/lib/constants"
-import { buildPageMetadata } from "@/lib/seo"
+import { absoluteUrl, buildPageMetadata } from "@/lib/seo"
 
 type Props = { params: Promise<{ slug: string }> }
 
@@ -60,6 +62,9 @@ export default async function BlogArticlePage({ params }: Props) {
   const relatedArticles = article.relatedSlugs
     .map((s) => getArticleBySlug(s))
     .filter(Boolean)
+  const authorProfile = getAuthorBySlug(article.authorSlug)
+  const authorImage = authorProfile?.image || "/placeholder-user.jpg"
+  const authorImageAlt = authorProfile?.imageAlt || `Profilbilde av ${article.author.name}`
 
   return (
     <>
@@ -79,6 +84,7 @@ export default async function BlogArticlePage({ params }: Props) {
             name: article.author.name,
             url: `${SITE_URL}/forfatter/${article.authorSlug}`,
             jobTitle: article.author.role,
+            image: absoluteUrl(authorImage),
             affiliation: {
               "@type": "Organization",
               name: SITE_NAME,
@@ -181,7 +187,13 @@ export default async function BlogArticlePage({ params }: Props) {
             </p>
             <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground border-t border-border pt-4">
               <span className="flex items-center gap-1.5">
-                <User className="w-4 h-4" />
+                <Image
+                  src={authorImage}
+                  alt={authorImageAlt}
+                  width={28}
+                  height={28}
+                  className="h-7 w-7 rounded-full object-cover border border-border bg-secondary/40"
+                />
                 <span className="inline-flex flex-col leading-tight">
                   <Link
                     href={`/forfatter/${article.authorSlug}`}

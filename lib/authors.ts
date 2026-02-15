@@ -4,6 +4,8 @@ export type AuthorProfile = {
   role: string
   bio: string
   expertise: string[]
+  image?: string
+  imageAlt?: string
   sameAs: string[]
   updatedDate: string
 }
@@ -28,6 +30,9 @@ export const authors: AuthorProfile[] = [
       "Konverteringsoptimalisering",
       "Drift og vedlikehold av nettsider",
     ],
+    // Bytt til f.eks. /authors/zryan-rzgar.jpg når du har lastet opp portrettbilde.
+    image: "/placeholder-user.jpg",
+    imageAlt: "Profilbilde av Zryan Rzgar",
     sameAs: authorSameAs,
     updatedDate: "2026-02-15",
   },

@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
@@ -7,7 +8,7 @@ import { JsonLd } from "@/components/json-ld"
 import { getAuthorBySlug, authors } from "@/lib/authors"
 import { getAllArticles } from "@/lib/blog"
 import { SITE_NAME, SITE_URL } from "@/lib/constants"
-import { buildBreadcrumbList, buildPageMetadata } from "@/lib/seo"
+import { absoluteUrl, buildBreadcrumbList, buildPageMetadata } from "@/lib/seo"
 
 type Props = {
   params: Promise<{ slug: string }>
@@ -39,6 +40,8 @@ export default async function AuthorProfilePage({ params }: Props) {
   const authoredArticles = getAllArticles().filter(
     (article) => article.authorSlug === author.slug
   )
+  const authorImage = author.image || "/placeholder-user.jpg"
+  const authorImageAlt = author.imageAlt || `Profilbilde av ${author.name}`
 
   return (
     <>
@@ -57,6 +60,7 @@ export default async function AuthorProfilePage({ params }: Props) {
           description: author.bio,
           jobTitle: author.role,
           url: `${SITE_URL}/forfatter/${author.slug}`,
+          image: absoluteUrl(authorImage),
           worksFor: {
             "@type": "Organization",
             name: SITE_NAME,
@@ -82,11 +86,22 @@ export default async function AuthorProfilePage({ params }: Props) {
           </nav>
 
           <header className="mb-10">
-            <h1 className="text-3xl sm:text-4xl font-bold text-foreground mb-2">
-              {author.name}
-            </h1>
-            <p className="text-accent font-medium mb-4">{author.role}</p>
-            <p className="text-muted-foreground leading-relaxed">{author.bio}</p>
+            <div className="flex flex-col sm:flex-row gap-5 sm:items-center">
+              <Image
+                src={authorImage}
+                alt={authorImageAlt}
+                width={112}
+                height={112}
+                className="h-24 w-24 sm:h-28 sm:w-28 rounded-full object-cover border border-border bg-secondary/40"
+              />
+              <div>
+                <h1 className="text-3xl sm:text-4xl font-bold text-foreground mb-2">
+                  {author.name}
+                </h1>
+                <p className="text-accent font-medium mb-4">{author.role}</p>
+                <p className="text-muted-foreground leading-relaxed">{author.bio}</p>
+              </div>
+            </div>
           </header>
 
           <section className="mb-12">
