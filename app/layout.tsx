@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s | ZWEB Digitalbyrå",
   },
   description:
-    "Vi bygger nettsider som gir flere henvendelser for norske bedrifter: webdesign, WordPress, Webflow, nettbutikk, SEO og drift/vedlikehold.",
+    "Vi lager moderne, profesjonelle nettsider for norske bedrifter. Alt inkludert fra kun 999 kr/mnd. Gratis uforpliktende samtale. Webdesign byrå i Norge.",
   keywords: [
     "nettside for bedrifter",
     "webdesign norge",
@@ -29,18 +29,15 @@ export const metadata: Metadata = {
     "webdesign byrå",
     "digitalbyrå norge",
     "lage nettside for firma",
-    "wordpress byrå",
-    "webflow byrå",
-    "nettbutikk byrå",
+    "billig nettside bedrift",
     "SEO-optimalisering",
-    "drift og vedlikehold nettside",
     "nettside for småbedrifter",
   ],
   category: "business",
   openGraph: {
     title: "ZWEB Digitalbyrå | Profesjonelle nettsider for norske bedrifter",
     description:
-      "Webdesign, WordPress, Webflow, nettbutikk og SEO for norske bedrifter som vil ha flere henvendelser.",
+      "Moderne nettsider for norske bedrifter fra 999 kr/mnd. Alt inkludert — design, hosting, domene, SEO og support.",
     locale: "nb_NO",
     type: "website",
     siteName: SITE_NAME,
