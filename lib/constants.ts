@@ -10,7 +10,7 @@ function normalizeSiteUrl(value: string): string {
 const rawSiteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ||
   process.env.VERCEL_PROJECT_PRODUCTION_URL ||
-  "https://v0-zweb-digitalbyra-website.vercel.app"
+  "https://zweb.no"
 
 const orgSameAs =
   process.env.NEXT_PUBLIC_ORG_SAME_AS

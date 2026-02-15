@@ -12,6 +12,16 @@ function parseIsoDate(value: string): Date {
 export default function sitemap(): MetadataRoute.Sitemap {
   const allArticles = getAllArticles()
   const allCases = getAllCases()
+  const latestLandingDate =
+    landingPages
+      .map((page) => page.updatedDate)
+      .sort()
+      .at(-1) || "2026-02-11"
+  const latestAuthorDate =
+    authors
+      .map((author) => author.updatedDate)
+      .sort()
+      .at(-1) || "2026-02-11"
   const latestArticleDate =
     allArticles
       .map((article) => article.updatedDate)
@@ -22,11 +32,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       .map((caseStudy) => caseStudy.updatedDate)
       .sort()
       .at(-1) || "2026-02-11"
+  const siteLastModified =
+    [latestLandingDate, latestArticleDate, latestCaseDate, latestAuthorDate]
+      .sort()
+      .at(-1) || "2026-02-11"
 
   const staticPages: MetadataRoute.Sitemap = [
     {
       url: SITE_URL,
-      lastModified: parseIsoDate("2026-02-11"),
+      lastModified: parseIsoDate(siteLastModified),
       changeFrequency: "weekly",
       priority: 1.0,
     },
@@ -34,7 +48,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${SITE_URL}/blog`,
       lastModified: parseIsoDate(latestArticleDate),
       changeFrequency: "weekly",
-      priority: 0.8,
+      priority: 0.85,
     },
     {
       url: `${SITE_URL}/case`,
@@ -44,7 +58,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${SITE_URL}/forfatter`,
-      lastModified: parseIsoDate("2026-02-11"),
+      lastModified: parseIsoDate(latestAuthorDate),
       changeFrequency: "monthly",
       priority: 0.5,
     },
@@ -66,9 +80,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const blogPages: MetadataRoute.Sitemap = allArticles.map((article) => ({
     url: `${SITE_URL}/blog/${article.slug}`,
-    lastModified: new Date(article.updatedDate || article.date),
+    lastModified: parseIsoDate(article.updatedDate || article.date),
     changeFrequency: "monthly" as const,
-    priority: 0.7,
+    priority: 0.75,
   }))
 
   const authorPages: MetadataRoute.Sitemap = authors.map((author) => ({
