@@ -394,7 +394,7 @@ For små bedrifter er den smarteste strategien ofte å bli best på et avgrenset
     sections: [
       {
         id: "valgkriterier",
-        heading: "Start med mål og driftsmodell - ikke preferanse",
+        heading: "Start med mål og driftsmodell, ikke preferanse",
         content: `Valget mellom WordPress og Webflow handler om forretningsdrift, ikke bare design. Plattformen påvirker hvor raskt dere kan publisere, hvor mye teknisk vedlikehold dere trenger, og hvor dyrt små endringer blir over tid.
 
 For små bedrifter er riktig spørsmål ofte: Hvem skal oppdatere innholdet, hvor ofte skal siden forbedres, og hvor avhengige vil dere være av ekstern hjelp?`
@@ -415,7 +415,7 @@ Uansett plattform bør dere be om en konkret redaktørdemo før beslutning. Hvis
       },
       {
         id: "seo-og-ytelse",
-        heading: "SEO og ytelse: begge kan rangere - hvis grunnmuren er riktig",
+        heading: "SEO og ytelse: begge kan rangere hvis grunnmuren er riktig",
         content: `Både WordPress og Webflow kan prestere svært godt i Google når teknisk SEO, internlenking, metadata og innholdsstruktur er satt opp riktig. Plattformen alene gir ikke topprangeringer.
 
 Velg løsningen som gjør det enkelt å vedlikeholde titler, beskrivelser, kanoniske URL-er, schema og redaksjonell struktur uten friksjon i hverdagen.`
@@ -425,7 +425,7 @@ Velg løsningen som gjør det enkelt å vedlikeholde titler, beskrivelser, kanon
         heading: "Sikkerhet, vedlikehold og eierskap må avklares før signering",
         content: `For WordPress bør du avklare ansvar for oppdateringer, backup, plugin-governance og gjenoppretting ved feil. For Webflow bør du avklare planbegrensninger, publiseringsflyt og hvordan større funksjonsbehov løses.
 
-Be alltid om en konkret driftsplan med responstid, ansvarsfordeling og estimerte kostnader for løpende endringer. Dette reduserer risikoen for dyre overraskelser etter go-live.`
+Be alltid om en konkret driftsplan med responstid, ansvarsfordeling og estimerte kostnader for løpende endringer. Dette reduserer risikoen for dyre overraskelser etter lansering.`
       },
       {
         id: "beslutningsmatrise",
@@ -596,7 +596,7 @@ Når du velger med tydelige kriterier, øker sjansen for et prosjekt som leverer
   },
   {
     slug: "nettside-for-handverker-flere-oppdrag",
-    title: "Nettside for håndverkere: slik får du flere oppdrag fra Google",
+    title: "Nettside for håndverker: slik får du flere oppdrag fra Google",
     description:
       "En konkret guide for håndverkere som vil få flere lokale henvendelser gjennom bedre nettside, tillitsbevis og lokal SEO.",
     keywords: [

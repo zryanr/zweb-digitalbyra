@@ -179,10 +179,10 @@ const rawLandingPages: RawLandingPage[] = [
   },
   {
     path: "/wordpress-nettside",
-    title: "WordPress nettside med full kontroll og fleksibilitet",
+    title: "WordPress-nettside med full kontroll og fleksibilitet",
     description:
       "Vi bygger WordPress-nettsider for bedrifter som trenger skalerbarhet, eierskap og SEO-klar struktur.",
-    metaTitle: "WordPress nettside for bedrifter | ZWEB",
+    metaTitle: "WordPress-nettside for bedrifter | ZWEB",
     metaDescription:
       "Få en WordPress-nettside for bedrift med skreddersydd design, SEO-oppsett, opplæring og drift som gjør det enkelt å skalere innhold over tid.",
     keywords: ["wordpress nettside", "wordpress byrå norge", "wordpress bedrift"],
@@ -224,10 +224,10 @@ const rawLandingPages: RawLandingPage[] = [
   },
   {
     path: "/webflow-nettside",
-    title: "Webflow nettside for rask vekst",
+    title: "Webflow-nettside for rask vekst",
     description:
       "Webflow-løsninger for bedrifter som vil ha moderne design, høy hastighet og enkel redigering.",
-    metaTitle: "Webflow nettside for bedrifter | ZWEB",
+    metaTitle: "Webflow-nettside for bedrifter | ZWEB",
     metaDescription:
       "Vi bygger Webflow-nettsider for bedrifter som vil lansere raskt, redigere enkelt og kombinere designfrihet med teknisk SEO og konverteringsfokus.",
     keywords: ["webflow byrå norge", "webflow nettside", "webflow bedrift"],
@@ -551,7 +551,7 @@ const rawLandingPages: RawLandingPage[] = [
     title: "Webdesign i Oslo for små og mellomstore bedrifter",
     description:
       "Lokal webdesign-partner for bedrifter i Oslo som vil ha bedre synlighet og flere henvendelser.",
-    metaTitle: "Webdesign Oslo | Nettside for bedrifter",
+    metaTitle: "Webdesign i Oslo | Nettside for bedrifter",
     metaDescription:
       "Vi hjelper bedrifter i Oslo med nettsider som kombinerer lokal SEO, tydelig budskap og konverteringsfokus for flere kvalifiserte henvendelser.",
     keywords: ["webdesign oslo", "nettside oslo", "webbyrå oslo"],
@@ -587,7 +587,7 @@ const rawLandingPages: RawLandingPage[] = [
     title: "Webdesign i Bergen for bedrifter som vil vokse",
     description:
       "Vi bygger moderne nettsider for bedrifter i Bergen med fokus på synlighet og henvendelser.",
-    metaTitle: "Webdesign Bergen | Nettside for bedrift",
+    metaTitle: "Webdesign i Bergen | Nettside for bedrift",
     metaDescription:
       "Lokal webdesign i Bergen med strategisk sidearkitektur, teknisk SEO og tydelig kontaktflyt som gir flere relevante henvendelser.",
     keywords: ["webdesign bergen", "nettside bergen", "webbyrå bergen"],
@@ -624,7 +624,7 @@ const rawLandingPages: RawLandingPage[] = [
     title: "Webdesign i Trondheim med fokus på resultater",
     description:
       "Nettsider for bedrifter i Trondheim som vil bli synlige i søk og konvertere bedre.",
-    metaTitle: "Webdesign Trondheim | Nettside og SEO",
+    metaTitle: "Webdesign i Trondheim | Nettside og SEO",
     metaDescription:
       "Vi lager nettsider for bedrifter i Trondheim med lokal SEO, tydelig verdi og konverteringsfokus som gir flere kvalifiserte henvendelser.",
     keywords: ["webdesign trondheim", "nettside trondheim", "webbyrå trondheim"],
@@ -718,10 +718,10 @@ const rawLandingPages: RawLandingPage[] = [
   },
   {
     path: "/guider/nettside-pris",
-    title: "Guide: Hva koster en nettside for bedrifter?",
+    title: "Guide: hva koster en nettside for bedrifter?",
     description:
       "Lær hva som påvirker nettsidepris, og hvordan du sammenligner tilbud på en smart måte.",
-    metaTitle: "Nettside pris guide for bedrifter | ZWEB",
+    metaTitle: "Nettside prisguide for bedrifter | ZWEB",
     metaDescription:
       "Praktisk guide til nettsidepris for bedrifter: kostnadsdrivere, skjulte poster, sammenligning av tilbud og valg av riktig prismodell.",
     keywords: ["nettside pris guide", "hva koster nettside", "webdesign pris"],
@@ -764,10 +764,10 @@ const rawLandingPages: RawLandingPage[] = [
   },
   {
     path: "/guider/wordpress-vs-webflow",
-    title: "Guide: WordPress vs Webflow for små bedrifter",
+    title: "Guide: WordPress vs. Webflow for små bedrifter",
     description:
       "Praktisk sammenligning av WordPress og Webflow med fokus på pris, drift, SEO og fleksibilitet.",
-    metaTitle: "WordPress vs Webflow guide | ZWEB",
+    metaTitle: "WordPress vs. Webflow-guide | ZWEB",
     metaDescription:
       "Lær forskjellen mellom WordPress og Webflow med norsk SMB-fokus på pris, drift, SEO, fleksibilitet og hvilken plattform som passer best.",
     keywords: ["wordpress vs webflow", "webflow eller wordpress", "plattformsammenligning"],
@@ -812,7 +812,7 @@ const rawLandingPages: RawLandingPage[] = [
     title: "Guide: SEO-sjekkliste før lansering av nettside",
     description:
       "Steg-for-steg sjekkliste for teknisk SEO, innhold og måling før du publiserer ny nettside.",
-    metaTitle: "SEO sjekkliste før lansering | ZWEB",
+    metaTitle: "SEO-sjekkliste før lansering | ZWEB",
     metaDescription:
       "Bruk denne SEO-sjekklisten før lansering for å sikre riktig metadata, struktur, internlenking og måling før ny nettside går live.",
     keywords: ["seo sjekkliste", "seo før lansering", "teknisk seo nettside"],

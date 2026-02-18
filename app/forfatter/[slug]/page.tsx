@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     .join(", ")}.`
 
   return buildPageMetadata({
-    title: `${author.name} - forfatter og fagprofil`,
+    title: `${author.name} – forfatter og fagprofil`,
     description:
       profileDescription.length > 158
         ? `${profileDescription.slice(0, 155).trimEnd()}...`

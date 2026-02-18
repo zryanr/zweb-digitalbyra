@@ -201,9 +201,9 @@ export function ContactForm() {
                     className="w-full h-10 px-3 rounded-md border border-input bg-background text-sm"
                   >
                     <option value="">Velg pakke</option>
-                    <option value="alt-inkludert">Alt inkludert - 999 kr/mnd (anbefalt)</option>
-                    <option value="engangskjop">Engangskjøp - 6 999 kr</option>
-                    <option value="usikker">Usikker - trenger veiledning</option>
+                    <option value="alt-inkludert">Alt inkludert – 999 kr/mnd (anbefalt)</option>
+                    <option value="engangskjop">Engangskjøp – 6 999 kr</option>
+                    <option value="usikker">Usikker – trenger rådgivning</option>
                   </select>
                 </div>
 

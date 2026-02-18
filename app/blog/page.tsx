@@ -9,7 +9,7 @@ import { SITE_URL, SITE_NAME } from "@/lib/constants"
 import { buildBreadcrumbList, buildPageMetadata } from "@/lib/seo"
 
 const BLOG_INDEX_METADATA = {
-  title: "Blogg - guider om nettsider, SEO og webdesign",
+  title: "Blogg: guider om nettsider, SEO og webdesign",
   description:
     "Les våre artikler og guider om nettsider for bedrifter, SEO-optimalisering, webdesign og digitale løsninger for norske bedrifter.",
   path: "/blog",
@@ -171,7 +171,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
                 Hovedguide
               </p>
               <h2 className="text-lg font-semibold text-foreground mb-1">
-                WordPress vs Webflow
+                WordPress vs. Webflow
               </h2>
               <p className="text-sm text-muted-foreground">
                 Velg riktig plattform for bedriften.
