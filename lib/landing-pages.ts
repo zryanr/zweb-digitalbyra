@@ -636,21 +636,22 @@ const rawLandingPages: RawLandingPage[] = [
     ],
     sections: [
       {
-        heading: "Nettside i Trondheim som skaffer lokale henvendelser",
+        heading: "Konkurrer bedre i lokale søk",
         paragraphs: [
-          "Driver du en lokal bedrift i Trondheim, må nettsiden hjelpe deg å få flere relevante henvendelser, ikke bare se bra ut.",
-          "Når en kunde søker etter for eksempel rørlegger Trondheim, elektriker Trondheim eller tannlege Trondheim, må siden din raskt vise hva du tilbyr, hvorfor kunden bør velge deg, og hvordan de tar kontakt.",
+          "Vi hjelper bedrifter i Trondheim med nettsider som kombinerer tydelig verdi, lokal relevans og teknisk kvalitet.",
+          "Når en kunde søker etter for eksempel rørlegger Trondheim, elektriker Trondheim eller tannlege Trondheim, må siden raskt vise hva du tilbyr, hvorfor du er et trygt valg, og hvordan kunden tar kontakt.",
         ],
       },
       {
-        heading: "Dette trenger en lokal bedrift på nettsiden",
+        heading: "Vår lokale leveransemodell",
         paragraphs: [
-          "De fleste besøkende bestemmer seg på få sekunder. Hvis tjenestene er uklare eller kontaktinformasjonen er vanskelig å finne, går de videre til neste aktør.",
+          "Modellen er laget for lokale bedrifter som trenger en nettside som både rangerer i søk og skaper kvalifiserte henvendelser.",
         ],
         bullets: [
           "Tydelig oversikt over tjenester, priser og geografisk område",
-          "Tjenestesider bygget rundt det kundene faktisk søker etter",
+          "Sider tilpasset tjenestene du faktisk selger",
           "Synlig telefonnummer og enkel kontaktflyt på mobil",
+          "Målrettet internlenking fra innhold til konverteringssider",
           "Tydelige CTA-er over folden og etter nøkkelseksjoner",
           "Teknisk SEO med riktig metadata, struktur og hastighet",
           "Måling av henvendelser og løpende forbedring",
@@ -670,10 +671,10 @@ const rawLandingPages: RawLandingPage[] = [
         ],
       },
       {
-        heading: "Nettsiden skal gjøre det enkelt å velge deg",
+        heading: "Hva en kunde vil se før de tar kontakt",
         paragraphs: [
-          "En god lokal nettside fjerner tvil. Kunden skal raskt forstå hva du leverer, hva som skjer etter kontakt, og hvorfor du er et trygt valg.",
-          "Vi bygger innhold som er skrevet for kundene dine, med klart språk og konkrete neste steg i stedet for generelle og uklare formuleringer.",
+          "En god lokal nettside fjerner tvil raskt. Kunden vil forstå hva du leverer, hvilket område du dekker, og hva som skjer videre etter at de tar kontakt.",
+          "Derfor prioriterer vi tydelige tjenester, klare CTA-er og innhold som svarer på vanlige spørsmål før første samtale.",
         ],
       },
       {
@@ -686,36 +687,31 @@ const rawLandingPages: RawLandingPage[] = [
     ],
     faqs: [
       {
+        question: "Hva er inkludert i webdesign trondheim?",
+        answer:
+          "Leveransen inkluderer strategi, design, teknisk oppsett og publisering. Eksakt omfang avhenger av pakken du velger.",
+      },
+      {
+        question: "Hvor raskt kan vi starte prosjektet?",
+        answer:
+          "De fleste prosjekter kan starte innen få arbeidsdager etter avklart omfang og oppstartsmøte.",
+      },
+      {
+        question: "Kan dere hjelpe med SEO og innhold samtidig?",
+        answer:
+          "Ja. Vi bygger inn teknisk SEO og hjelper med innhold som støtter både synlighet og konvertering.",
+      },
+      {
         question: "Passer dette for små lokale bedrifter i Trondheim?",
         answer:
-          "Ja. Løsningen passer spesielt godt for lokale bedrifter som rørlegger, elektriker, tannlege, håndverker og andre tjenestebedrifter som vil ha flere henvendelser fra nærområdet.",
-      },
-      {
-        question: "Må vi skrive alt innholdet selv?",
-        answer:
-          "Nei. Vi hjelper med struktur, tekst og innhold slik at nettsiden forklarer tjenestene tydelig for kundene dine og samtidig fungerer godt i søk.",
-      },
-      {
-        question: "Kan dere forbedre en eksisterende nettside i stedet for å starte på nytt?",
-        answer:
-          "Ja. Vi starter med en vurdering av teknisk kvalitet, innhold og konvertering for å se hva som bør beholdes. Deretter prioriterer vi de grepene som gir mest effekt først.",
+          "Ja. Løsningen passer godt for lokale tjenestebedrifter som rørlegger, elektriker, tannlege, håndverker og andre som vil ha flere henvendelser fra nærområdet.",
       },
       {
         question: "Når kan vi forvente flere henvendelser fra nettsiden?",
         answer:
-          "Noen bedrifter ser tidlige forbedringer raskt, men tydelig vekst kommer vanligvis gradvis over tid. Hvor raskt det går avhenger av konkurranse, utgangspunkt og hvor godt innholdet treffer kundebehovet.",
-      },
-      {
-        question: "Hva bør vi måle for å vite om nettsiden fungerer?",
-        answer:
-          "Vi følger blant annet med på kvalifiserte henvendelser, konverteringsrate, utvikling i lokale søk og hvilke sider som bidrar mest til nye kundedialoger.",
+          "Noen bedrifter ser tidlige forbedringer raskt, men tydelig vekst kommer vanligvis gradvis. Tidslinjen påvirkes av konkurranse, utgangspunkt og hvor godt innholdet treffer kundebehovet.",
       },
     ],
-    ctaTitle: "Trenger du en nettside som gir kunder i Trondheim?",
-    ctaDescription:
-      "Book en uforpliktende prat, så får du konkrete forslag til hva som bør være på plass for din bedrift.",
-    ctaPrimaryLabel: "Få gratis gjennomgang",
-    ctaSecondaryLabel: "Se priser og pakker",
     schemaType: "Service",
     serviceName: "Webdesign Trondheim",
     servicePriceFrom: "999",
