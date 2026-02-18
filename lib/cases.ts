@@ -28,7 +28,7 @@ export const cases: CaseStudy[] = [
     updatedDate: "2026-02-11",
     title: "Ny nettside ga 2,3x flere kvalifiserte henvendelser",
     summary:
-      "Byggpartner Oslo trengte en modernisering av nettsiden for å vinne flere oppdrag i Oslo-området.",
+      "Byggpartner Oslo moderniserte nettsiden for å vinne flere oppdrag i Oslo-området, med tydeligere lokale tjenestesider, bedre mobilflyt og sterkere SEO-grunnmur.",
     challenge:
       "Eksisterende nettside var treg, utdatert og rangert svakt for lokale søk som \"tømrer Oslo\".",
     approach: [
@@ -63,7 +63,7 @@ export const cases: CaseStudy[] = [
     updatedDate: "2026-02-11",
     title: "Ny tillitsprofil ga flere bestilte konsultasjoner",
     summary:
-      "Advokatkontoret ønsket en mer profesjonell nettside med tydeligere fagområder og bedre henvendelsesflyt.",
+      "Advokatkontoret ønsket en mer profesjonell nettside med tydeligere fagområder, sterkere tillitssignaler og en enklere kontaktflyt som ga flere kvalifiserte konsultasjoner.",
     challenge:
       "Kunder forsto ikke forskjellen mellom tjenestene, og få tok kontakt via nettsiden.",
     approach: [
@@ -98,7 +98,7 @@ export const cases: CaseStudy[] = [
     updatedDate: "2026-02-11",
     title: "Nettbutikk med bedre konvertering og raskere kjøpsflyt",
     summary:
-      "Fjordmat trengte ny nettbutikk med høyere konvertering og mer stabil drift.",
+      "Fjordmat trengte en ny nettbutikk med høyere konvertering, raskere checkout og mer stabil drift, uten å miste organisk synlighet i kategori- og produktsøk.",
     challenge:
       "Høy frafallsrate i kjøpsflyten og svak organisk synlighet på produktkategorier.",
     approach: [

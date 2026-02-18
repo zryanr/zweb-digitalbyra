@@ -60,11 +60,12 @@ export function Services() {
               Våre tjenester
             </p>
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4 text-balance">
-              Alt du trenger for en profesjonell nettside
+              Tjenester for ny nettside, SEO og løpende vekst
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              Vi leverer komplette nettsideløsninger med fokus på kvalitet, design
-              og resultater. Din bedrift fortjener det beste.
+              Fra webdesign og plattformvalg til SEO, nettbutikk og vedlikehold.
+              Vi bygger løsninger som gjør det enklere å rangere, konvertere og
+              drifte nettsiden videre.
             </p>
           </div>
         </AnimateOnScroll>

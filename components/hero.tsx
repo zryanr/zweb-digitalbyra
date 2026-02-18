@@ -10,10 +10,10 @@ export function Hero() {
   const { ref, isVisible } = useAnimateOnScroll(0.05)
 
   const benefits = [
-    "Profesjonelt design",
-    "SEO-optimalisert",
-    "Mobilvennlig",
-    "Rask leveringstid",
+    "WordPress eller Webflow",
+    "SEO-grunnmur inkludert",
+    "Mobilvennlig og rask",
+    "Klarspråk på bokmål",
   ]
 
   return (
@@ -36,7 +36,7 @@ export function Hero() {
                   isVisible && "animate-fade-in-up"
                 )}
               >
-                Norges mest prisgunstige nettsider
+                Nettsider for norske SMB-bedrifter
               </p>
               <h1
                 className={cn(
@@ -45,8 +45,8 @@ export function Hero() {
                 )}
                 style={{ animationDelay: "100ms" }}
               >
-                Profesjonelle nettsider for{" "}
-                <span className="text-accent">norske bedrifter</span>
+                Nettsider som gir{" "}
+                <span className="text-accent">flere henvendelser</span>
               </h1>
               <p
                 className={cn(
@@ -55,9 +55,9 @@ export function Hero() {
                 )}
                 style={{ animationDelay: "200ms" }}
               >
-                Vi brenner for å gi norske bedrifter nettsider som imponerer — og
-                som faktisk fungerer. Moderne design, lynrask ytelse og
-                SEO-optimalisert fra dag én. Alt inkludert fra kun 999 kr/mnd.
+                Vi bygger nettsider for bedrifter som trenger tydelig budskap,
+                høy tillit og en kontaktflyt som konverterer. Få design, innhold
+                og teknisk SEO satt opp fra start, med priser fra 999 kr/mnd.
               </p>
             </div>
 
@@ -157,13 +157,13 @@ export function Hero() {
                 </p>
                 <div className="grid grid-cols-3 gap-2 text-center text-xs">
                   <div className="rounded-md bg-secondary px-2 py-2 text-muted-foreground">
-                    SEO 98
+                    SEO-klar
                   </div>
                   <div className="rounded-md bg-secondary px-2 py-2 text-muted-foreground">
-                    Mobil A+
+                    Mobiloptimalisert
                   </div>
                   <div className="rounded-md bg-secondary px-2 py-2 text-muted-foreground">
-                    &lt;1s lastetid
+                    Konverteringsklar
                   </div>
                 </div>
                 <div className="flex gap-3 pt-4">
@@ -196,9 +196,9 @@ export function Hero() {
                 </div>
                 <div>
                   <p className="text-sm font-medium text-foreground">
-                    100+ fornøyde kunder
+                    Fast kontaktperson
                   </p>
-                  <p className="text-xs text-muted-foreground">i hele Norge</p>
+                  <p className="text-xs text-muted-foreground">for hele prosjektet</p>
                 </div>
               </div>
             </div>

@@ -372,18 +372,19 @@ For små bedrifter er den smarteste strategien ofte å bli best på et avgrenset
     slug: "wordpress-vs-webflow-for-smabedrifter",
     title: "WordPress vs. Webflow for små bedrifter: hva bør du velge i 2026?",
     description:
-      "En norsk, praktisk sammenligning av WordPress og Webflow for SMB: kostnad, fleksibilitet, SEO, vedlikehold og teamkapasitet.",
+      "Sammenligning for norske bedrifter: pris over tid, SEO, redigering, vedlikehold og hvilken plattform som passer best for målene dine.",
     keywords: [
       "wordpress vs webflow",
       "webflow eller wordpress",
       "wordpress byrå",
       "webflow byrå",
       "wordpress eller webflow bedrift",
+      "wordpress vs webflow pris",
     ],
     date: "2026-02-11",
-    updatedDate: "2026-02-15",
+    updatedDate: "2026-02-18",
     author: { name: "ZWEB Digitalbyrå", role: "Redaksjonen" },
-    readingTime: "14 min",
+    readingTime: "15 min",
     category: "Sammenligning",
     relatedSlugs: [
       "hva-koster-en-nettside",
@@ -392,80 +393,105 @@ For små bedrifter er den smarteste strategien ofte å bli best på et avgrenset
     ],
     sections: [
       {
-        id: "plattformvalg",
-        heading: "Plattformvalget påvirker mer enn design",
-        content: `Valget mellom WordPress og Webflow handler ikke kun om hvordan nettsiden ser ut. Det påvirker arbeidsflyt, vedlikehold, publiseringshastighet, risiko og total kostnad over tid.
+        id: "valgkriterier",
+        heading: "Start med mål og driftsmodell - ikke preferanse",
+        content: `Valget mellom WordPress og Webflow handler om forretningsdrift, ikke bare design. Plattformen påvirker hvor raskt dere kan publisere, hvor mye teknisk vedlikehold dere trenger, og hvor dyrt små endringer blir over tid.
 
-Riktig valg bør derfor ta utgangspunkt i hvordan teamet ditt faktisk jobber, hvor ofte dere publiserer, og hvor mye teknisk kapasitet dere har internt.`
-      },
-      {
-        id: "wordpress",
-        heading: "WordPress: fleksibilitet, økosystem og kontroll",
-        content: `WordPress passer ofte godt når du trenger fleksible integrasjoner, spesialtilpasninger eller avansert innholdsmodell. Plattformen har stort økosystem og god skalerbarhet.
-
-Samtidig krever WordPress bedre styring av plugin-strategi, sikkerhet og oppdateringer. Kvaliteten avhenger mer av implementering enn av plattformnavnet i seg selv.`
-      },
-      {
-        id: "webflow",
-        heading: "Webflow: rask markedsføringstakt og visuell kontroll",
-        content: `Webflow er sterkt for team som ønsker rask iterasjon på design og innhold uten tung utviklingsprosess. Mange markedsmiljøer liker den visuelle redigeringsflyten.
-
-For svært komplekse behov må du likevel vurdere begrensninger tidlig. Plattformen bør matche dagens behov og sannsynlig vekst de neste årene.`
-      },
-      {
-        id: "seo-ytelse",
-        heading: "SEO og ytelse: begge kan levere høyt",
-        content: `Både WordPress og Webflow kan rangere svært godt med riktig struktur. Det er innholdskvalitet, teknisk hygiene, internlenking og autoritet som avgjør resultatene i praksis.
-
-Velg plattformen som gjør det enklest å holde metadata, struktur og innholdsproduksjon konsekvent over tid.`
+For små bedrifter er riktig spørsmål ofte: Hvem skal oppdatere innholdet, hvor ofte skal siden forbedres, og hvor avhengige vil dere være av ekstern hjelp?`
       },
       {
         id: "totalokonomi",
-        heading: "Sammenlign totaløkonomi, ikke bare oppstartspris",
-        content: `Mange sammenligner kun etableringskostnaden. Et bedre beslutningsgrunnlag er total kostnad over 24-36 måneder inkludert drift, support, opplæring og endringer.
+        heading: "Pris over tid: sammenlign 24-36 måneder, ikke kun oppstart",
+        content: `Mange sammenligner kun etableringskostnaden. Det gir et svakt beslutningsgrunnlag. Vurder i stedet totaløkonomi over 24-36 måneder: lisens, drift, support, opplæring, endringer og teknisk vedlikehold.
 
-En plattform som er billig ved oppstart kan bli dyr hvis små endringer krever ekstern hjelp hver gang.`
+Webflow kan være rimelig når teamet gjør mye selv i editoren. WordPress kan være mer kostnadseffektivt når dere trenger fleksible integrasjoner, men krever samtidig tydelig kontroll på plugins, oppdateringer og sikkerhetsrutiner.`
       },
       {
-        id: "valgmodell",
-        heading: "En enkel beslutningsmodell for SMB",
-        content: `Velg WordPress når integrasjonsbehov og fleksibilitet er høy prioritet. Velg Webflow når hastighet, visuell kontroll og redaksjonell enkelhet er viktigst.
+        id: "redaksjonell-flyt",
+        heading: "Redigering og publisering: hvem skal faktisk eie innholdsarbeidet?",
+        content: `Webflow passer ofte team som vil jobbe visuelt med sider og kampanjer uten lange utviklingssløyfer. WordPress passer godt når dere trenger et bredt CMS-økosystem, flere redaktørroller eller mer fleksibel innholdsmodell.
 
-Er du i tvil, be leverandøren forklare anbefalingen mot konkrete forretningsmål, ikke generelle plattformpåstander.`
+Uansett plattform bør dere be om en konkret redaktørdemo før beslutning. Hvis publisering oppleves tungt i praksis, blir SEO- og innholdsarbeidet nedprioritert etter lansering.`
+      },
+      {
+        id: "seo-og-ytelse",
+        heading: "SEO og ytelse: begge kan rangere - hvis grunnmuren er riktig",
+        content: `Både WordPress og Webflow kan prestere svært godt i Google når teknisk SEO, internlenking, metadata og innholdsstruktur er satt opp riktig. Plattformen alene gir ikke topprangeringer.
+
+Velg løsningen som gjør det enkelt å vedlikeholde titler, beskrivelser, kanoniske URL-er, schema og redaksjonell struktur uten friksjon i hverdagen.`
+      },
+      {
+        id: "sikkerhet-og-styring",
+        heading: "Sikkerhet, vedlikehold og eierskap må avklares før signering",
+        content: `For WordPress bør du avklare ansvar for oppdateringer, backup, plugin-governance og gjenoppretting ved feil. For Webflow bør du avklare planbegrensninger, publiseringsflyt og hvordan større funksjonsbehov løses.
+
+Be alltid om en konkret driftsplan med responstid, ansvarsfordeling og estimerte kostnader for løpende endringer. Dette reduserer risikoen for dyre overraskelser etter go-live.`
+      },
+      {
+        id: "beslutningsmatrise",
+        heading: "Rask beslutningsmatrise for små bedrifter",
+        content: `Velg WordPress når du trenger høy integrasjonsfleksibilitet, kompleks innholdsmodell eller tung skreddersøm. Velg Webflow når du prioriterer rask markedsføringstakt, visuell kontroll og enkel publisering for ikke-tekniske team.
+
+Er du i tvil, be om to konkrete løsningsskisser med kostnad over 24 måneder. Sammenlign deretter på forretningsmål: henvendelser, publiseringshastighet og driftsrisiko.`
+      },
+      {
+        id: "neste-steg",
+        heading: "Neste steg: velg plattformen teamet ditt faktisk kan drifte",
+        content: `Den beste plattformen er den dere klarer å vedlikeholde jevnt med god kvalitet. Stabil publisering og løpende forbedring gir mer effekt enn "perfekt" teknisk løsning som blir stående stille.
+
+Bruk sammenligningen som grunnlag for en beslutning som tåler både vekst og drift i hverdagen.`
       },
     ],
     faqs: [
       {
-        question: "Er WordPress bedre for SEO enn Webflow?",
+        question: "Er WordPress bedre enn Webflow for SEO?",
         answer:
-          "Ikke nødvendigvis. Begge kan prestere godt i søk når metadata, struktur, internlenking og innhold er riktig implementert og vedlikeholdt.",
+          "Ikke nødvendigvis. Begge kan prestere svært godt når metadata, internlenking, innholdsstruktur og teknisk hygiene vedlikeholdes konsekvent.",
       },
       {
-        question: "Hva er enklest for ikke-tekniske redaktører?",
+        question: "Hva er enklest for ikke-tekniske redaktører i praksis?",
         answer:
-          "Mange opplever Webflow som svært intuitivt visuelt, men godt satt opp WordPress med tydelige blokker og redaktørregler kan være like effektivt.",
+          "Mange opplever Webflow som intuitivt visuelt. Samtidig kan et godt satt opp WordPress-oppsett med tydelige blokker og roller fungere like effektivt.",
       },
       {
-        question: "Hvilken plattform er billigst over tid?",
+        question: "Hvilken plattform blir billigst over 2-3 år?",
         answer:
-          "Det avhenger av endringsbehov, intern kompetanse og driftsmodell. Sammenlign alltid total kostnad over minst to år.",
+          "Det avhenger av endringsbehov, intern kompetanse og driftsmodell. Sammenlign alltid total kostnad over minst 24 måneder, ikke bare oppstartspris.",
       },
       {
-        question: "Kan vi migrere mellom plattformene senere?",
+        question: "Kan vi migrere fra WordPress til Webflow eller omvendt senere?",
         answer:
-          "Ja, men migrering koster tid og penger. Planlegg struktur, URL-er og innholdsmodell tidlig for å redusere fremtidig migreringsrisiko.",
+          "Ja, men migrering koster tid og penger. Planlegg URL-struktur, innholdsmodell og redirect-strategi tidlig for å redusere risiko ved et senere bytte.",
       },
       {
-        question: "Hva passer best for en liten bedrift som vil vokse?",
+        question: "Hvilken plattform passer best for en liten bedrift som vil vokse?",
         answer:
-          "Begge kan passe. Velg plattformen som teamet ditt kan drifte stabilt, oppdatere ofte og utvikle videre uten unødvendig friksjon.",
+          "Begge kan passe. Velg plattformen teamet ditt kan drifte stabilt, oppdatere ofte og videreutvikle uten at små endringer blir flaskehalser.",
       },
     ],
     internalLinks: [
       { href: "/wordpress-nettside", label: "Se WordPress-løsning for bedrifter" },
       { href: "/webflow-nettside", label: "Se Webflow-løsning for bedrifter" },
+      { href: "/guider/wordpress-vs-webflow", label: "Se kortversjon av sammenligningen" },
       { href: "/priser", label: "Sammenlign pakker" },
       { href: "/kontakt", label: "Få plattformanbefaling" },
+    ],
+    sources: [
+      {
+        title: "Google Search Central Documentation",
+        url: "https://developers.google.com/search/docs",
+        publisher: "Google",
+      },
+      {
+        title: "WordPress Developer Documentation",
+        url: "https://developer.wordpress.org/",
+        publisher: "WordPress.org",
+      },
+      {
+        title: "Webflow Help Center",
+        url: "https://help.webflow.com/hc/en-us",
+        publisher: "Webflow",
+      },
     ],
   },
   {
@@ -1666,6 +1692,125 @@ Med riktig forarbeid kan redesign gi kraftig løft uten å ofre eksisterende SEO
       { href: "/seo-for-nettsider", label: "Sikre SEO ved redesign" },
       { href: "/kontakt", label: "Bestill redesign-vurdering" },
       { href: "/case", label: "Se før/etter-case" },
+    ],
+  },
+  {
+    slug: "webdesign-byra-oslo-bergen-trondheim",
+    title: "Webdesign byrå i Oslo, Bergen og Trondheim: hva bør du sammenligne?",
+    description:
+      "Kjøpsguide for norske bedrifter som vurderer webdesign-byrå lokalt: pris, leveranse, SEO, prosess og hvordan du velger riktig partner.",
+    keywords: [
+      "webdesign oslo",
+      "webdesign bergen",
+      "webdesign trondheim",
+      "webdesign byrå norge",
+      "webbyrå pris",
+      "velge webdesign byrå",
+    ],
+    date: "2026-02-18",
+    updatedDate: "2026-02-18",
+    author: { name: "ZWEB Digitalbyrå", role: "Redaksjonen" },
+    readingTime: "12 min",
+    category: "Kjøpsguide",
+    relatedSlugs: [
+      "slik-velger-du-webbyra",
+      "hva-koster-en-nettside",
+      "lokal-seo-for-bedrifter-i-norge",
+    ],
+    sections: [
+      {
+        id: "lokal-intensjon",
+        heading: "Hvorfor by-søk har høy kjøpsintensjon",
+        content: `Søk som "webdesign oslo", "webdesign bergen" og "webdesign trondheim" kommer ofte fra bedriftseiere som er nær beslutning. De vil finne en partner som kjenner lokalt marked, og som kan levere raskt uten lang onboarding.
+
+Derfor bør du vurdere byrå ikke bare på design, men på evnen til å levere en nettside som skaper henvendelser i ditt lokale konkurransebilde.`
+      },
+      {
+        id: "hva-du-skal-sammenligne",
+        heading: "5 ting du bør sammenligne før du velger byrå",
+        content: `Sammenlign alltid tilbud på samme grunnlag: hva som faktisk leveres, hvor lang tid prosjektet tar, hvordan SEO håndteres, og hva som skjer etter lansering.
+
+Be om tydelig spesifikasjon av ansvar for tekst, bilder, teknisk SEO, måling, opplæring og vedlikehold. Uklare tilbud ser ofte rimelige ut, men blir dyre når endringer kommer.`
+      },
+      {
+        id: "pris-og-omfang",
+        heading: "Prisforskjeller skyldes leveranse, ikke bare by",
+        content: `At et byrå ligger i Oslo, Bergen eller Trondheim forklarer sjelden hele prisforskjellen. Det som avgjør er omfang, rådgivningsnivå, innholdsarbeid og hvor mye etterarbeid som er inkludert.
+
+Sammenlign derfor total kostnad over 12-36 måneder, ikke kun oppstartspris. Da ser du hvilke tilbud som faktisk gir best økonomi over tid.`
+      },
+      {
+        id: "lokal-seo-kvalitet",
+        heading: "Lokal SEO bør være en del av leveransen fra dag én",
+        content: `For bysøk må nettsiden tydelig vise hvilke områder du leverer i, hvilke tjenester du tilbyr, og hvorfor kunder lokalt bør velge deg. Dette krever riktig sidearkitektur, internlenking og innhold med lokal relevans.
+
+Hvis byrået behandler SEO som et tillegg som kommer senere, øker risikoen for tapt synlighet etter lansering.`
+      },
+      {
+        id: "rodflagg",
+        heading: "Rødflagg i tilbud fra webdesign-byråer",
+        content: `Vær skeptisk til generelle lovnader uten konkret metode, manglende plan for vedlikehold og tilbud uten tydelige leveranser per fase. Dette skaper ofte uenighet om scope underveis.
+
+Du bør også styre unna oppsett der små endringer krever unødvendig mye tid eller ekstern bistand uten klare priser.`
+      },
+      {
+        id: "neste-steg",
+        heading: "Slik tar du en trygg beslutning",
+        content: `Be om to til tre sammenlignbare tilbud, evaluer dem mot samme kriterier, og velg byrået som best kobler nettsiden til konkrete forretningsmål.
+
+Når du prioriterer leveransekvalitet, driftsmodell og lokal synlighet samtidig, øker sjansen for en nettside som både rangerer og konverterer.`
+      },
+    ],
+    faqs: [
+      {
+        question: "Er det best å velge et webdesign-byrå i samme by som oss?",
+        answer:
+          "Ikke alltid. Lokalkunnskap er nyttig, men viktigst er dokumentert leveranseevne, tydelig prosess og forståelse for markedet du konkurrerer i.",
+      },
+      {
+        question: "Hva bør være inkludert i et godt tilbud fra webdesign-byrå?",
+        answer:
+          "Et godt tilbud beskriver sideomfang, ansvar for innhold, teknisk SEO, kvalitetssikring, tidslinje, måling og plan for drift etter lansering.",
+      },
+      {
+        question: "Hvordan sammenligner vi pris mellom byråer i Oslo, Bergen og Trondheim?",
+        answer:
+          "Sammenlign total kostnad over tid og hva som faktisk leveres, ikke bare startpris. Ulikt omfang gjør ellers tilbudene umulige å vurdere rettferdig.",
+      },
+      {
+        question: "Trenger vi egne lokale sider for å rangere på bysøk?",
+        answer:
+          "Ja, ofte. Egne sider med lokal relevans, riktige tjenester og tydelig kontaktflyt gjør det enklere å rangere på kjøpsnære lokale søk.",
+      },
+      {
+        question: "Hvor lang tid tar det før en ny lokal side begynner å gi henvendelser?",
+        answer:
+          "Noen ser tidlige signaler raskt, men stabil vekst kommer ofte gradvis over måneder når innhold, SEO og konverteringspunkter forbedres løpende.",
+      },
+    ],
+    internalLinks: [
+      { href: "/webdesign-byra", label: "Se hvordan vi jobber som webdesign-byrå" },
+      { href: "/lokalt/oslo-webdesign", label: "Webdesign Oslo" },
+      { href: "/lokalt/bergen-webdesign", label: "Webdesign Bergen" },
+      { href: "/lokalt/trondheim-webdesign", label: "Webdesign Trondheim" },
+      { href: "/kontakt", label: "Book en uforpliktende gjennomgang" },
+    ],
+    sources: [
+      {
+        title: "Google Search Central Documentation",
+        url: "https://developers.google.com/search/docs",
+        publisher: "Google",
+      },
+      {
+        title: "Webdesign: De 10 beste byråene i Norge",
+        url: "https://byråguiden.no/webdesign/webdesign",
+        publisher: "Byråguiden",
+      },
+      {
+        title: "Topp 10 Webdesign-byråer i Norge",
+        url: "https://ocast.com/no/agencies/web-design",
+        publisher: "Ocast",
+      },
     ],
   },
 ]

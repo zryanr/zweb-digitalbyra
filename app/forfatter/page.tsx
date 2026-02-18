@@ -10,7 +10,7 @@ import { buildBreadcrumbList, buildPageMetadata } from "@/lib/seo"
 export const metadata: Metadata = buildPageMetadata({
   title: "Forfattere og fagprofiler | ZWEB",
   description:
-    "Møt fagprofilene bak innholdet vårt om nettsider, SEO og konvertering.",
+    "Møt fagprofilene bak innholdet vårt om nettsider, SEO og konvertering, og se hvilke erfaringer som ligger bak rådene i hver artikkel.",
   path: "/forfatter",
   keywords: ["forfattere", "fagprofil", "seo redaksjon"],
 })

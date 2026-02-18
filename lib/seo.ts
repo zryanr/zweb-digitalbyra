@@ -23,7 +23,9 @@ export function buildPageMetadata({
   type = "website",
 }: MetadataInput): Metadata {
   const url = absoluteUrl(path)
-  const resolvedTitle = title.includes("|") ? { absolute: title } : title
+  // Keep long titles from being truncated unnecessarily by the global title template.
+  const resolvedTitle =
+    title.includes("|") || title.length > 58 ? { absolute: title } : title
 
   return {
     title: resolvedTitle,

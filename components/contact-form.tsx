@@ -54,11 +54,11 @@ export function ContactForm() {
                 Ta kontakt
               </p>
               <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-balance">
-                Klar for en uforpliktende samtale?
+                Klar for en uforpliktende gjennomgang?
               </h2>
               <p className="text-primary-foreground/80 leading-relaxed">
-                Fyll ut skjemaet, så tar vi kontakt for en gratis og uforpliktende
-                samtale om hvordan vi kan hjelpe din bedrift.
+                Fyll ut skjemaet, så tar vi kontakt med en konkret anbefaling for
+                nettside, SEO og neste steg basert på behovet i bedriften din.
               </p>
             </div>
 

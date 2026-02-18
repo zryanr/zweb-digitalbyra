@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!caseStudy) return {}
 
   const base = buildPageMetadata({
-    title: `${caseStudy.company}: ${caseStudy.title} | ZWEB case`,
+    title: `${caseStudy.company} case: ${caseStudy.industry} i ${caseStudy.location}`,
     description: caseStudy.summary,
     path: `/case/${caseStudy.slug}`,
     keywords: [

@@ -19,9 +19,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const author = getAuthorBySlug(slug)
   if (!author) return {}
 
+  const profileDescription = `${author.name} er ${author.role} i ${SITE_NAME}. Fagområder inkluderer ${author.expertise
+    .slice(0, 3)
+    .join(", ")}.`
+
   return buildPageMetadata({
-    title: `${author.name} | Forfatterprofil`,
-    description: author.bio,
+    title: `${author.name} - forfatter og fagprofil`,
+    description:
+      profileDescription.length > 158
+        ? `${profileDescription.slice(0, 155).trimEnd()}...`
+        : profileDescription,
     path: `/forfatter/${slug}`,
     keywords: [author.name, ...author.expertise],
   })
