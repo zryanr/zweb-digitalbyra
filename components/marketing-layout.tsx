@@ -31,9 +31,9 @@ export function MarketingLayout({
   description,
   children,
   ctaTitle = "Klar for neste steg?",
-  ctaDescription = "Book en uforpliktende samtale, så finner vi riktig løsning for din bedrift.",
+  ctaDescription = "Bestill en uforpliktende samtale, så finner vi riktig løsning for din bedrift.",
   ctaPrimaryHref = "/kontakt",
-  ctaPrimaryLabel = "Book gratis samtale",
+  ctaPrimaryLabel = "Bestill gratis samtale",
   ctaSecondaryHref = "/priser",
   ctaSecondaryLabel = "Se priser",
 }: MarketingLayoutProps) {

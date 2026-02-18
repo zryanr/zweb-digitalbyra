@@ -19,14 +19,14 @@ export const metadata: Metadata = {
     template: "%s | ZWEB Digitalbyrå",
   },
   description:
-    "Vi lager moderne, profesjonelle nettsider for norske bedrifter. Alt inkludert fra kun 999 kr/mnd. Gratis uforpliktende samtale. Webdesign byrå i Norge.",
+    "Vi lager moderne og profesjonelle nettsider for norske bedrifter. Alt inkludert fra 999 kr/mnd. Gratis, uforpliktende samtale. Webdesignbyrå i Norge.",
   keywords: [
     "nettside for bedrifter",
     "webdesign norge",
     "profesjonell nettside",
     "nettside pris",
     "hjemmeside bedrift",
-    "webdesign byrå",
+    "webdesignbyrå",
     "digitalbyrå norge",
     "lage nettside for firma",
     "billig nettside bedrift",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "ZWEB Digitalbyrå | Profesjonelle nettsider",
-    description: "Moderne nettsider for norske bedrifter fra 999 kr/mnd",
+    description: "Moderne nettsider for norske bedrifter fra 999 kr/mnd.",
     images: [`${SITE_URL}/twitter-image`],
   },
   robots: {
@@ -122,7 +122,7 @@ export default function RootLayout({
             contactPoint: {
               "@type": "ContactPoint",
               telephone: BUSINESS_INFO.phone,
-              contactType: "customer service",
+              contactType: "kundeservice",
               availableLanguage: "Norwegian",
             },
           }}
@@ -133,7 +133,7 @@ export default function RootLayout({
             "@type": "LocalBusiness",
             name: BUSINESS_INFO.name,
             description:
-              "Vi lager moderne, profesjonelle nettsider for norske bedrifter. Alt inkludert fra kun 999 kr/mnd.",
+              "Vi lager moderne og profesjonelle nettsider for norske bedrifter. Alt inkludert fra 999 kr/mnd.",
             telephone: BUSINESS_INFO.phone,
             email: BUSINESS_INFO.email,
             url: BUSINESS_INFO.url,
@@ -150,7 +150,7 @@ export default function RootLayout({
             },
             areaServed: {
               "@type": "Country",
-              name: "Norway",
+              name: "Norge",
             },
           }}
         />

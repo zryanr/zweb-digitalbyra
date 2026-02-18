@@ -34,7 +34,7 @@ export default function CaseIndexPage() {
         title="Case fra norske bedrifter"
         description="Eksempler på hvordan vi bygger nettsider som gir mer synlighet, bedre konvertering og flere henvendelser."
         ctaTitle="Vil du ha lignende resultater?"
-        ctaDescription="Book en uforpliktende samtale, så viser vi hva som er mest lønnsomt å prioritere først."
+        ctaDescription="Bestill en uforpliktende samtale, så viser vi hva som er mest lønnsomt å prioritere først."
       >
         <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {caseStudies.map((study) => (

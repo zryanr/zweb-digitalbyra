@@ -21,7 +21,7 @@ const orgSameAs =
 export const SITE_URL = normalizeSiteUrl(rawSiteUrl)
 export const SITE_NAME = "ZWEB Digitalbyrå"
 export const SITE_DESCRIPTION =
-  "Vi lager moderne, profesjonelle nettsider for norske bedrifter. Alt inkludert fra kun 999 kr/mnd. Gratis uforpliktende samtale."
+  "Vi lager moderne og profesjonelle nettsider for norske bedrifter. Alt inkludert fra 999 kr/mnd. Gratis, uforpliktende samtale."
 
 export const BUSINESS_INFO = {
   name: "ZWEB Digitalbyrå",

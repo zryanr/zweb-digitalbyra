@@ -19,13 +19,13 @@ const steps = [
     number: "03",
     title: "Gjennomgang",
     description:
-      "Du får se nettsiden og kan gi tilbakemeldinger. Vi gjør justeringer til du er 100% fornøyd.",
+      "Du får se nettsiden og kan gi tilbakemeldinger. Vi gjør justeringer til du er helt fornøyd.",
   },
   {
     number: "04",
     title: "Lansering",
     description:
-      "Nettsiden lanseres og blir synlig for verden. Vi sørger for en smidig overgang.",
+      "Nettsiden lanseres og gjøres klar for kunder. Vi sørger for en smidig overgang.",
   },
 ]
 

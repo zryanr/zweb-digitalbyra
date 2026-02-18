@@ -54,7 +54,7 @@ function createDefaultFaqs(page: RawLandingPage): LandingPageFaq[] {
     {
       question: "Hvor raskt kan vi starte prosjektet?",
       answer:
-        "De fleste prosjekter kan starte innen få arbeidsdager etter avklart scope og oppstartsmøte.",
+        "De fleste prosjekter kan starte innen få arbeidsdager etter avklart omfang og oppstartsmøte.",
     },
     {
       question: "Kan dere hjelpe med SEO og innhold samtidig?",
@@ -101,7 +101,7 @@ const rawLandingPages: RawLandingPage[] = [
           "Tydelig sidearkitektur for tjenester og konvertering",
           "Mobilvennlig design og rask lastetid",
           "Metadata, schema og internlenking på plass",
-          "Kontaktflyt som er enkel å bruke på mobil og desktop",
+          "Kontaktflyt som er enkel å bruke på mobil og datamaskin",
         ],
       },
       {
@@ -134,12 +134,12 @@ const rawLandingPages: RawLandingPage[] = [
   },
   {
     path: "/webdesign-byra",
-    title: "Webdesign byrå som leverer målbare resultater",
+    title: "Webdesignbyrå som leverer målbare resultater",
     description:
-      "Få et webdesign byrå som kombinerer strategi, design og SEO for å skape flere leads.",
-    metaTitle: "Webdesign byrå for SMB i Norge | ZWEB",
+      "Få et webdesignbyrå som kombinerer strategi, design og SEO for å skape flere henvendelser.",
+    metaTitle: "Webdesignbyrå for SMB i Norge | ZWEB",
     metaDescription:
-      "Vi er et webdesign byrå for bedrifter som vil ha en nettside med tydelig budskap, høy tillit og flere henvendelser.",
+      "Vi er et webdesignbyrå for bedrifter som vil ha en nettside med tydelig budskap, høy tillit og flere henvendelser.",
     keywords: ["webdesign byrå", "webbyrå norge", "digitalbyrå nettsider"],
     eyebrow: "Byråtjenester",
     breadcrumbs: [
@@ -162,8 +162,8 @@ const rawLandingPages: RawLandingPage[] = [
         bullets: [
           "Kickoff med mål, målgruppe og konkurransebilde",
           "Design og struktur med fokus på brukerflyt",
-          "Utvikling, QA og SEO-kontroll før lansering",
-          "Oppfølging etter go-live med forbedringsplan",
+          "Utvikling, kvalitetssikring og SEO-kontroll før lansering",
+          "Oppfølging etter lansering med forbedringsplan",
         ],
       },
       {
@@ -291,8 +291,8 @@ const rawLandingPages: RawLandingPage[] = [
         paragraphs: ["Vi starter med de grepene som påvirker omsetning direkte."],
         bullets: [
           "Tydelig kategoristruktur og filtrering",
-          "Produktmaler med trust-elementer",
-          "Rask checkout og mobiloptimalisering",
+          "Produktmaler med tillitsskapende elementer",
+          "Rask kjøpsflyt og mobiloptimalisering",
           "SEO for kategori- og produktsider",
         ],
       },
@@ -334,7 +334,7 @@ const rawLandingPages: RawLandingPage[] = [
         bullets: [
           "Riktig sidehierarki og URL-struktur",
           "Tittel, meta description, canonical og schema",
-          "Internlenking mellom pillar, cluster og money pages",
+          "Internlenking mellom pilar-, støtte- og konverteringssider",
           "Sitemap, robots og teknisk kvalitetssikring",
         ],
       },
@@ -393,10 +393,10 @@ const rawLandingPages: RawLandingPage[] = [
   },
   {
     path: "/priser",
-    title: "Nettside priser for bedrifter",
+    title: "Nettsidepriser for bedrifter",
     description:
       "Se hva som er inkludert i våre pakker, og hva som passer best for din bedrift.",
-    metaTitle: "Nettside priser | Pakker for norske bedrifter",
+    metaTitle: "Nettsidepriser | Pakker for norske bedrifter",
     metaDescription:
       "Transparente nettsidepriser med tydelige pakker, inkluderte tjenester og rask oppstart.",
     keywords: ["nettside pris", "hva koster nettside", "webdesign pris norge"],
@@ -412,7 +412,7 @@ const rawLandingPages: RawLandingPage[] = [
           "Engangskjøp fra 6 999 kr",
           "Alt inkludert fra 999 kr/mnd",
           "Ingen skjulte kostnader",
-          "Rask leveranse og tydelig scope",
+          "Rask leveranse og tydelig omfang",
         ],
       },
       {
@@ -441,7 +441,7 @@ const rawLandingPages: RawLandingPage[] = [
       "Fortell oss hva du trenger, så får du konkrete råd og anbefalt neste steg.",
     metaTitle: "Kontakt ZWEB Digitalbyrå",
     metaDescription:
-      "Book en gratis og uforpliktende samtale om ny nettside, SEO eller drift.",
+      "Bestill en gratis og uforpliktende samtale om ny nettside, SEO eller drift.",
     keywords: ["kontakt webbyrå", "bestill nettside", "gratis samtale webdesign"],
     breadcrumbs: [{ label: "Hjem", href: "/" }, { label: "Kontakt" }],
     sections: [
@@ -454,7 +454,7 @@ const rawLandingPages: RawLandingPage[] = [
       },
       {
         heading: "Hva du bør forberede",
-        paragraphs: ["Du trenger ikke en perfekt brief, men disse punktene hjelper."],
+        paragraphs: ["Du trenger ikke en perfekt prosjektbeskrivelse, men disse punktene hjelper."],
         bullets: [
           "Hva siden skal oppnå",
           "Hvem målgruppen er",
@@ -479,7 +479,7 @@ const rawLandingPages: RawLandingPage[] = [
       "Bransjetilpasset nettside for håndverkere med lokal SEO, tydelig kontaktflyt og høy tillit.",
     metaTitle: "Nettside for håndverkere | Få flere lokale oppdrag",
     metaDescription:
-      "Vi bygger håndverker-nettsider med lokal synlighet, sterke trust-signaler og flere henvendelser.",
+      "Vi bygger håndverker-nettsider med lokal synlighet, sterke tillitssignaler og flere henvendelser.",
     keywords: ["nettside for håndverker", "håndverker nettside", "lokal seo håndverker"],
     eyebrow: "Bransje",
     breadcrumbs: [
@@ -516,7 +516,7 @@ const rawLandingPages: RawLandingPage[] = [
       "Vi bygger nettsider for advokater med klar tjenestestruktur, faglig tyngde og høy konvertering.",
     metaTitle: "Nettside for advokatfirma | ZWEB",
     metaDescription:
-      "Profesjonell nettside for advokater med tydelige fagområder, tillitssignaler og bedre lead-flyt.",
+      "Profesjonell nettside for advokater med tydelige fagområder, tillitssignaler og bedre henvendelsesflyt.",
     keywords: ["nettside for advokat", "advokat nettside", "webdesign advokatfirma"],
     eyebrow: "Bransje",
     breadcrumbs: [
@@ -599,7 +599,7 @@ const rawLandingPages: RawLandingPage[] = [
     ],
     sections: [
       {
-        heading: "Lokal relevans gir bedre leads",
+        heading: "Lokal relevans gir flere henvendelser",
         paragraphs: [
           "For mange bedrifter i Bergen er lokale søk den viktigste kilden til nye kunder. Vi bygger struktur som gjør det enklere å rangere på relevante søk i regionen.",
         ],
@@ -645,8 +645,8 @@ const rawLandingPages: RawLandingPage[] = [
         paragraphs: [],
         bullets: [
           "Sider tilpasset tjenestene du faktisk selger",
-          "Målrettet internlenking fra innhold til money pages",
-          "Måling av leads og løpende forbedring",
+          "Målrettet internlenking fra innhold til konverteringssider",
+          "Måling av henvendelser og løpende forbedring",
         ],
       },
     ],
@@ -663,7 +663,7 @@ const rawLandingPages: RawLandingPage[] = [
     metaDescription:
       "Praktisk guide til nettsidepris: kostnadsdrivere, sammenligning av tilbud og valg av riktig prismodell.",
     keywords: ["nettside pris guide", "hva koster nettside", "webdesign pris"],
-    eyebrow: "Pillar guide",
+    eyebrow: "Hovedguide",
     breadcrumbs: [
       { label: "Hjem", href: "/" },
       { label: "Guider", href: "/blog" },
@@ -690,7 +690,7 @@ const rawLandingPages: RawLandingPage[] = [
       {
         heading: "Anbefalt neste steg",
         paragraphs: [
-          "Bruk guiden som sjekkliste i møte med leverandører, og be om tydelig scope før signering.",
+          "Bruk guiden som sjekkliste i møte med leverandører, og be om tydelig omfang før signering.",
         ],
       },
     ],
@@ -709,7 +709,7 @@ const rawLandingPages: RawLandingPage[] = [
     metaDescription:
       "Lær forskjellen mellom WordPress og Webflow, og velg riktig plattform for bedriften din.",
     keywords: ["wordpress vs webflow", "webflow eller wordpress", "plattformsammenligning"],
-    eyebrow: "Pillar guide",
+    eyebrow: "Hovedguide",
     breadcrumbs: [
       { label: "Hjem", href: "/" },
       { label: "Guider", href: "/blog" },
@@ -754,7 +754,7 @@ const rawLandingPages: RawLandingPage[] = [
     metaDescription:
       "Bruk denne sjekklisten for å sikre at ny nettside er teknisk og innholdsmessig klar for synlighet i Google.",
     keywords: ["seo sjekkliste", "seo før lansering", "teknisk seo nettside"],
-    eyebrow: "Pillar guide",
+    eyebrow: "Hovedguide",
     breadcrumbs: [
       { label: "Hjem", href: "/" },
       { label: "Guider", href: "/blog" },
@@ -762,9 +762,9 @@ const rawLandingPages: RawLandingPage[] = [
     ],
     sections: [
       {
-        heading: "Unngå dyre SEO-feil ved go-live",
+        heading: "Unngå dyre SEO-feil ved lansering",
         paragraphs: [
-          "Med riktig pre-launch sjekk sparer du tid, penger og tapt synlighet etter publisering.",
+          "Med riktig sjekk før lansering sparer du tid, penger og tapt synlighet etter publisering.",
         ],
       },
       {
@@ -773,8 +773,8 @@ const rawLandingPages: RawLandingPage[] = [
         bullets: [
           "Canonical og metadata per side",
           "Robots, sitemap og statuskoder",
-          "Internlenker mellom pillar og money pages",
-          "Schema for service, FAQ og brødsmuler",
+          "Internlenker mellom pilar- og konverteringssider",
+          "Schema for tjenestesider, FAQ og brødsmuler",
         ],
       },
       {
@@ -832,37 +832,95 @@ const rawLandingPages: RawLandingPage[] = [
   },
   {
     path: "/vilkar",
-    title: "Vilkår for bruk",
-    description: "Generelle vilkår for bruk av nettstedet og våre tjenester.",
-    metaTitle: "Vilkår | ZWEB Digitalbyrå",
+    title: "Vilkår og betingelser",
+    description: "Generelle vilkår for bruk av nettstedet og kjøp av tjenester fra ZWEB Digitalbyrå.",
+    metaTitle: "Vilkår og betingelser | ZWEB Digitalbyrå",
     metaDescription:
-      "Les vilkår for bruk av nettstedet, leveranse, ansvar og kommunikasjon.",
+      "Les våre vilkår og betingelser: avtaleinngåelse, leveranse, betaling, ansvar, rettigheter og tvisteløsning.",
     keywords: ["vilkår", "bruksvilkår", "betingelser"],
     breadcrumbs: [{ label: "Hjem", href: "/" }, { label: "Vilkår" }],
     sections: [
       {
-        heading: "Generelt",
+        heading: "1. Om vilkårene",
         paragraphs: [
-          "Ved bruk av nettstedet aksepterer du gjeldende vilkår. Innholdet på siden er ment som generell informasjon om våre tjenester.",
+          "Disse vilkårene gjelder for bruk av nettstedet og for kjøp av tjenester fra ZWEB Digitalbyrå, med mindre annet er avtalt skriftlig.",
+          "Dersom det er motstrid mellom disse vilkårene og en signert avtale, gjelder den signerte avtalen foran.",
         ],
       },
       {
-        heading: "Tilbud og leveranse",
+        heading: "2. Definisjoner",
         paragraphs: [
-          "Endelige leveransevilkår avtales skriftlig i tilbud og kontrakt mellom partene.",
-          "Opplysninger på nettsiden regnes ikke som bindende tilbud.",
+          "I denne malen betyr «leverandør» ZWEB Digitalbyrå, «kunde» den juridiske eller fysiske personen som bestiller tjenester, og «leveranse» det som er spesifisert i tilbud eller avtale.",
+        ],
+        bullets: [
+          "«Partene»: kunden og leverandøren samlet",
+          "«Arbeidsdager»: mandag til fredag, unntatt helligdager",
+          "«Endringsbestilling»: skriftlig bestilling av arbeid utenfor avtalt omfang",
         ],
       },
       {
-        heading: "Ansvarsbegrensning",
+        heading: "3. Tilbud, avtaleinngåelse og levering",
         paragraphs: [
-          "Vi tilstreber korrekt informasjon, men tar forbehold om feil og endringer i innhold.",
-          "Bruk av innhold skjer på eget ansvar.",
+          "Tilbud fra leverandøren er gyldig i den perioden som fremgår av tilbudet. Avtale anses inngått når kunden har akseptert tilbudet skriftlig.",
+          "Leveringstid er estimat med mindre annet er avtalt. Leverandøren er ikke ansvarlig for forsinkelser som skyldes manglende leveranser, godkjenninger eller medvirkning fra kunden.",
+        ],
+      },
+      {
+        heading: "4. Pris, fakturering og betaling",
+        paragraphs: [
+          "Pris og betalingsbetingelser fremgår av tilbud eller avtale. Alle priser oppgis normalt ekskl. mva., med mindre annet er opplyst.",
+          "Ved forsinket betaling kan leverandøren kreve forsinkelsesrente og gebyr etter gjeldende lovgivning.",
+        ],
+      },
+      {
+        heading: "5. Kundens ansvar",
+        paragraphs: [
+          "Kunden skal levere nødvendig innhold, tilgang og beslutninger innen avtalte frister. Kunden er ansvarlig for at innsendt innhold ikke krenker tredjeparts rettigheter.",
+        ],
+        bullets: [
+          "Kunden er ansvarlig for korrekthet i tekst, bilder og annet materiale",
+          "Kunden skal gi tilbakemelding innen avtalte frister",
+          "Forsinkelser fra kundens side kan medføre justert leveringstid og merkostnader",
+        ],
+      },
+      {
+        heading: "6. Immaterielle rettigheter",
+        paragraphs: [
+          "Rettigheter til ferdig leveranse overføres til kunden når fullt oppgjør er mottatt, med mindre annet følger av avtalen.",
+          "Leverandøren beholder eierskap til egne metoder, maler, kodebiblioteker og verktøy som er brukt i leveransen.",
+        ],
+      },
+      {
+        heading: "7. Personvern og databehandlerforhold",
+        paragraphs: [
+          "Partene skal behandle personopplysninger i tråd med gjeldende personvernlovgivning. Dersom leverandøren behandler personopplysninger på vegne av kunden, skal det inngås databehandleravtale ved behov.",
+          "Se egen side for mer informasjon om personvern: /personvern.",
+        ],
+      },
+      {
+        heading: "8. Ansvarsbegrensning",
+        paragraphs: [
+          "Leverandøren er ikke ansvarlig for indirekte tap, herunder tapt fortjeneste, tapte data eller avbrudd i virksomhet, med mindre annet følger av ufravikelig lov.",
+          "Samlet ansvar er begrenset til det beløpet kunden har betalt for den aktuelle leveransen de siste 12 månedene, med mindre annet er avtalt skriftlig.",
+        ],
+      },
+      {
+        heading: "9. Oppsigelse, endringer og force majeure",
+        paragraphs: [
+          "Løpende avtaler kan sies opp i henhold til oppsigelsestid angitt i avtalen. Endringer i avtalt omfang skal avtales skriftlig før arbeidet utføres.",
+          "Partene er ikke ansvarlige for manglende oppfyllelse som skyldes forhold utenfor rimelig kontroll (force majeure).",
+        ],
+      },
+      {
+        heading: "10. Lovvalg og tvisteløsning",
+        paragraphs: [
+          "Avtaleforholdet reguleres av norsk rett. Tvister skal søkes løst i minnelighet. Dersom dette ikke lykkes, kan tvisten bringes inn for ordinære domstoler med verneting i Norge.",
+          "Denne siden er en generell mal. Endelige vilkår fastsettes i skriftlig avtale mellom partene.",
         ],
       },
     ],
     ctaTitle: "Trenger du avklaringer?",
-    ctaDescription: "Ta kontakt dersom du ønsker nærmere informasjon om avtalevilkår.",
+    ctaDescription: "Ta kontakt dersom du ønsker et konkret avtaleutkast tilpasset leveransen din.",
     ctaPrimaryHref: "/kontakt",
     ctaPrimaryLabel: "Kontakt oss",
     ctaSecondaryHref: "/",

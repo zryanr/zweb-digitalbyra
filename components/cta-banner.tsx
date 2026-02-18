@@ -19,7 +19,7 @@ export function CTABanner() {
               Klar til å ta bedriften din til neste nivå?
             </h2>
             <p className="relative text-accent-foreground/80 mb-8 max-w-2xl mx-auto">
-              Start med en gratis og uforpliktende samtale. Vi hjelper deg å
+              Start med en gratis og uforpliktende samtale. Vi hjelper deg med å
               finne den beste løsningen for din bedrift.
             </p>
             <div className="relative flex flex-col sm:flex-row items-center justify-center gap-4">

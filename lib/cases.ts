@@ -30,16 +30,16 @@ export const cases: CaseStudy[] = [
     summary:
       "Byggpartner Oslo trengte en modernisering av nettsiden for å vinne flere oppdrag i Oslo-området.",
     challenge:
-      "Eksisterende nettside var treg, utdatert og rangert svakt for lokale søk som 'tømrer Oslo'.",
+      "Eksisterende nettside var treg, utdatert og rangert svakt for lokale søk som \"tømrer Oslo\".",
     approach: [
       "Bygget ny sidearkitektur med egne tjenestesider for tømrer, rehabilitering og tilbygg.",
-      "Optimaliserte innhold for lokale søk i Oslo bydelene der de faktisk leverer.",
-      "Laget tydeligere kontaktflyt med mobil sticky CTA og raskt tilbudsskjema.",
+      "Optimaliserte innholdet for lokale søk i bydelene i Oslo der de faktisk leverer.",
+      "Laget tydeligere kontaktflyt med fast mobil-CTA og raskt tilbudsskjema.",
     ],
     results: [
       "2,3x flere kvalifiserte henvendelser innen 90 dager.",
       "Økning fra 4 til 12 topp-10 rangeringer for lokale søk.",
-      "40% høyere konverteringsrate på mobiltrafikk.",
+      "40 % høyere konverteringsrate på mobiltrafikk.",
     ],
     timeline: "4 uker",
     platform: "WordPress",
@@ -61,20 +61,20 @@ export const cases: CaseStudy[] = [
     location: "Bergen",
     publishedDate: "2026-01-24",
     updatedDate: "2026-02-11",
-    title: "Ny tillitsprofil løftet antall konsultasjonsbookinger",
+    title: "Ny tillitsprofil ga flere bestilte konsultasjoner",
     summary:
-      "Advokatkontoret ønsket en mer profesjonell nettside med tydeligere fagområder og bedre lead-flyt.",
+      "Advokatkontoret ønsket en mer profesjonell nettside med tydeligere fagområder og bedre henvendelsesflyt.",
     challenge:
       "Kunder forsto ikke forskjellen mellom tjenestene, og få tok kontakt via nettsiden.",
     approach: [
       "Utviklet ny struktur med dedikerte sider for familierett, arbeidsrett og kontraktsrett.",
       "Implementerte FAQ-seksjoner med juridiske spørsmål potensielle klienter stiller tidlig.",
-      "Bygget case- og kompetansebevis med klare CTA-er til konsultasjon.",
+      "Bygget case- og kompetansebevis med tydelige handlingsknapper for konsultasjon.",
     ],
     results: [
-      "67% økning i bookings via kontaktskjema første 3 måneder.",
+      "67 % økning i bestilte konsultasjoner via kontaktskjema de første tre månedene.",
       "Topp 5 rangering på flere søk relatert til 'advokat Bergen'.",
-      "28% lavere avvisningsrate på tjenestesider.",
+      "28 % lavere avvisningsrate på tjenestesider.",
     ],
     timeline: "5 uker",
     platform: "Webflow",
@@ -96,20 +96,20 @@ export const cases: CaseStudy[] = [
     location: "Trondheim",
     publishedDate: "2026-01-30",
     updatedDate: "2026-02-11",
-    title: "Nettbutikk med bedre konvertering og raskere checkout",
+    title: "Nettbutikk med bedre konvertering og raskere kjøpsflyt",
     summary:
       "Fjordmat trengte ny nettbutikk med høyere konvertering og mer stabil drift.",
     challenge:
-      "Høy frafallsrate i checkout og svak organisk synlighet på produktkategorier.",
+      "Høy frafallsrate i kjøpsflyten og svak organisk synlighet på produktkategorier.",
     approach: [
-      "Lanserte ny Shopify-baserte nettbutikk med forenklet checkout-flyt.",
+      "Lanserte en ny Shopify-basert nettbutikk med forenklet kjøpsflyt.",
       "Bygget kategorisider med SEO-tekst og internlenking mellom produkter og guider.",
-      "La inn tydelige trust-elementer og frakt-/returinfo nær kjøpsknapp.",
+      "La inn tydelige tillitsskapende elementer og frakt-/returinformasjon nær kjøpsknappen.",
     ],
     results: [
-      "22% økning i konverteringsrate etter lansering.",
-      "31% høyere organisk trafikk til kategorisider på 4 måneder.",
-      "18% høyere gjennomsnittlig ordreverdi.",
+      "22 % økning i konverteringsrate etter lansering.",
+      "31 % høyere organisk trafikk til kategorisider på fire måneder.",
+      "18 % høyere gjennomsnittlig ordreverdi.",
     ],
     timeline: "6 uker",
     platform: "Shopify",
