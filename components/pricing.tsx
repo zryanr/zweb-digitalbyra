@@ -40,7 +40,7 @@ const pricingPlans = [
       "Inntil 5 sider",
       "Mobilvennlig nettside",
       "Kontaktskjema",
-      "SEO grunnoppsett",
+      "SEO-grunnoppsett",
       "Google Analytics",
       "Leveringstid: 2-3 uker",
     ],
@@ -66,11 +66,11 @@ export function Pricing() {
               Enkle og transparente priser
             </p>
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4 text-balance">
-              Nettside priser — velg pakken som passer din bedrift
+              Nettsidepriser - velg pakken som passer bedriften din
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              Ingen skjulte kostnader. Du vet alltid hva du betaler for. Alle
-              priser er ekskl. mva.
+              Ingen skjulte kostnader. Du vet alltid hva du betaler for.
+              Prisene er ekskl. mva.
             </p>
           </div>
         </AnimateOnScroll>

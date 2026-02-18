@@ -9,21 +9,21 @@ const services = [
     icon: Globe,
     title: "Nettside for bedrift",
     description:
-      "Profesjonelle og moderne nettsider tilpasset din bedrifts behov og merkevare.",
+      "Profesjonelle og moderne nettsider tilpasset bedriftens behov og merkevare.",
     href: "/nettside-for-bedrift",
   },
   {
     icon: Paintbrush,
     title: "Moderne design",
     description:
-      "Skreddersydd visuelt design som reflekterer din bedrifts identitet og verdier.",
+      "Skreddersydd visuelt design som reflekterer bedriftens identitet og verdier.",
     href: "/webdesign-byra",
   },
   {
     icon: Search,
     title: "SEO-optimalisering",
     description:
-      "Vi sørger for at din nettside blir funnet på Google og andre søkemotorer.",
+      "Vi sørger for at nettsiden din blir funnet på Google og andre søkemotorer.",
     href: "/seo-for-nettsider",
   },
   {
@@ -44,7 +44,7 @@ const services = [
     icon: HeadphonesIcon,
     title: "Løpende support",
     description:
-      "Dedikert kundestøtte og kontinuerlig vedlikehold av din nettside.",
+      "Dedikert kundestøtte og kontinuerlig vedlikehold av nettsiden din.",
     href: "/drift-og-vedlikehold",
   },
 ]

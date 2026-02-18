@@ -68,7 +68,7 @@ const DEFAULT_ARTICLE_SOURCES: ArticleSource[] = [
 const rawArticles: RawBlogArticle[] = [
   {
     slug: "hva-koster-en-nettside",
-    title: "Hva Koster en Nettside i 2026? Komplett Prisguide for Norske Bedrifter",
+    title: "Hva koster en nettside i 2026? Komplett prisguide for norske bedrifter",
     description:
       "En praktisk prisguide for norske bedrifter: hva som påvirker kostnad, hva som bør være inkludert, og hvordan du sammenligner tilbud uten å gå i prisfella.",
     keywords: [
@@ -96,19 +96,19 @@ const rawArticles: RawBlogArticle[] = [
         heading: "Hvorfor prisforskjellene er så store",
         content: `Mange bedriftseiere får tilbud som spriker kraftig i pris, selv om leveransen virker lik ved første øyekast. Årsaken er at ordet "nettside" kan bety alt fra en enkel visittkortside til en full salgskanal med strategi, innhold, SEO, måling og vedlikehold.
 
-For å sammenligne riktig må du gå bak totalsummen og se på leveransenivå. Spør alltid hva som er inkludert i tekstproduksjon, teknisk SEO, QA, tracking og oppfølging etter lansering. Det er ofte disse postene som avgjør om investeringen faktisk gir flere henvendelser.`
+For å sammenligne riktig må du gå bak totalsummen og se på leveransenivå. Spør alltid hva som er inkludert i tekstproduksjon, teknisk SEO, kvalitetssikring, sporing og oppfølging etter lansering. Det er ofte disse postene som avgjør om investeringen faktisk gir flere henvendelser.`
       },
       {
         id: "prisnivaer",
         heading: "Typiske prisnivåer for SMB i Norge",
         content: `I det norske SMB-markedet ligger enkle startsider i nedre sjikt, mens nettsider med sterkere merkevareprofil, innholdsstruktur og konverteringsarbeid ligger høyere. Deretter kommer mer komplekse prosjekter med integrasjoner, flerspråk, avansert innholdsmodell eller nettbutikklogikk.
 
-Et nyttig grep er å koble budsjett til mål. Hvis nettsiden skal være en aktiv leadkanal, bør du budsjettere for mer enn kun design og publisering. En for smal start kan føre til dyr ombygging etter få måneder.`
+Et nyttig grep er å koble budsjett til mål. Hvis nettsiden skal være en aktiv henvendelseskanal, bør du budsjettere for mer enn kun design og publisering. En for smal start kan føre til dyr ombygging etter få måneder.`
       },
       {
         id: "kostnadsdrivere",
         heading: "Hva som driver kostnaden opp eller ned",
-        content: `Kostnad påvirkes primært av omfang, kompleksitet, innholdsbehov, kvalitetssikring og grad av rådgivning. Prosjekter med tydelig brief, raske avklaringer og gode beslutningsrutiner blir nesten alltid mer kostnadseffektive enn prosjekter med uklare roller og hyppige omprioriteringer.
+        content: `Kostnad påvirkes primært av omfang, kompleksitet, innholdsbehov, kvalitetssikring og grad av rådgivning. Prosjekter med tydelig kravgrunnlag, raske avklaringer og gode beslutningsrutiner blir nesten alltid mer kostnadseffektive enn prosjekter med uklare roller og hyppige omprioriteringer.
 
 Valg av plattform, driftspakke og grad av SEO-arbeid påvirker også totaløkonomien. Derfor bør tilbud alltid vurderes over 12-36 måneder, ikke bare på oppstartspris.`
       },
@@ -117,14 +117,14 @@ Valg av plattform, driftspakke og grad av SEO-arbeid påvirker også totaløkono
         heading: "Engangskjøp vs abonnement i praksis",
         content: `Engangskjøp passer ofte bedrifter med intern kapasitet til innhold, oppdateringer og teknisk drift. Abonnement passer ofte bedrifter som ønsker lavere oppstartsterskel og en partner som håndterer vedlikehold, sikkerhet og support løpende.
 
-Ingen modell er automatisk billigst. Riktig valg kommer når du sammenligner total kostnad for drift, support, endringer og risiko. Be om et konkret TCO-oppsett (total cost of ownership) før du bestemmer deg.`
+Ingen modell er automatisk billigst. Riktig valg kommer når du sammenligner total kostnad for drift, support, endringer og risiko. Be om en konkret totalvurdering av eierkostnad før du bestemmer deg.`
       },
       {
         id: "sammenlign-tilbud",
         heading: "Slik sammenligner du tilbud uten å bli lurt",
         content: `Be alle leverandører spesifisere leveransen i samme format: antall sider, ansvar for tekst, teknisk SEO, antall revisjonsrunder, opplæring, drift, responstid og hva som skjer ved endringer. Når dette er uklart, fremstår tilbud kunstig billige.
 
-Se også etter hva som skjer etter go-live. Mangler det plan for oppfølging, risikerer du at nettsiden taper fart og synlighet raskt. En tydelig etterlanseringsplan er ofte et bedre kvalitetssignal enn laveste pris.`
+Se også etter hva som skjer etter lansering. Mangler det plan for oppfølging, risikerer du at nettsiden taper fart og synlighet raskt. En tydelig etterlanseringsplan er ofte et bedre kvalitetssignal enn laveste pris.`
       },
       {
         id: "oppsummering",
@@ -138,12 +138,12 @@ Er du usikker, start med en avgrenset fase: struktur, hovedsider og konvertering
       {
         question: "Hva er en realistisk startpris for en profesjonell nettside i Norge?",
         answer:
-          "For SMB varierer nivået etter omfang, men profesjonelle leveranser med strategi, innhold og teknisk grunnmur ligger ofte høyere enn en ren mal-løsning. Be om tydelig scope før du vurderer prisnivået.",
+          "For SMB varierer nivået etter omfang, men profesjonelle leveranser med strategi, innhold og teknisk grunnmur ligger ofte høyere enn en ren mal-løsning. Be om tydelig omfang før du vurderer prisnivået.",
       },
       {
         question: "Hva bør alltid være inkludert i et godt tilbud?",
         answer:
-          "Minimum bør være mål/struktur, design, teknisk SEO (metadata, canonical, sitemap/robots), mobiloptimalisering, QA før lansering og en konkret plan for drift eller videre oppfølging.",
+          "Minimum bør være mål/struktur, design, teknisk SEO (metadata, canonical, sitemap/robots), mobiloptimalisering, kvalitetssikring før lansering og en konkret plan for drift eller videre oppfølging.",
       },
       {
         question: "Er abonnement dyrere enn engangskjøp over tid?",
@@ -158,19 +158,19 @@ Er du usikker, start med en avgrenset fase: struktur, hovedsider og konvertering
       {
         question: "Hvordan unngår vi budsjettsprekker i prosjektet?",
         answer:
-          "Lås scope tidlig, avklar ansvar skriftlig og bruk faseinndeling. Be også om endringsrutiner med timesatser og godkjenningspunkter før prosjektstart.",
+          "Lås omfang tidlig, avklar ansvar skriftlig og bruk faseinndeling. Be også om endringsrutiner med timesatser og godkjenningspunkter før prosjektstart.",
       },
     ],
     internalLinks: [
       { href: "/priser", label: "Se våre nettsidepakker" },
       { href: "/nettside-for-bedrift", label: "Hva som bør være inkludert i en profesjonell nettside" },
       { href: "/drift-og-vedlikehold", label: "Les om drift og vedlikehold" },
-      { href: "/kontakt", label: "Book gratis samtale" },
+      { href: "/kontakt", label: "Bestill gratis samtale" },
     ],
   },
   {
     slug: "trenger-bedriften-din-nettside",
-    title: "7 Grunner til at Bedriften Din Trenger en Nettside i 2026",
+    title: "7 grunner til at bedriften din trenger en nettside i 2026",
     description:
       "Hvorfor en profesjonell nettside fortsatt er den viktigste digitale eiendelen for norske bedrifter som vil bygge tillit og få flere henvendelser.",
     keywords: [
@@ -194,7 +194,7 @@ Er du usikker, start med en avgrenset fase: struktur, hovedsider og konvertering
       {
         id: "grunnlag",
         heading: "Kunden sjekker deg digitalt før første kontakt",
-        content: `Selv når leads kommer via anbefalinger, gjør de fleste et digitalt kvalitetssjekk før de tar kontakt. En utdatert eller uklar nettside skaper tvil i et øyeblikk der kunden ønsker trygghet.
+        content: `Selv når henvendelser kommer via anbefalinger, gjør de fleste en digital kvalitetskontroll før de tar kontakt. En utdatert eller uklar nettside skaper tvil i et øyeblikk der kunden ønsker trygghet.
 
 Nettsiden din fungerer derfor som førsteinntrykk, referansebank og salgsstøtte samtidig. Når struktur og budskap er tydelige, går flere fra nysgjerrig til konkret henvendelse.`
       },
@@ -210,7 +210,7 @@ For bedrifter i bransjer med høy opplevd risiko, som håndverk, jus og B2B-tjen
         heading: "Du er tilgjengelig når kunden faktisk søker",
         content: `Nettsiden jobber for deg døgnet rundt. Potensielle kunder kan forstå tilbudet ditt, se bevis og ta kontakt uten å vente på at du er tilgjengelig i åpningstid.
 
-Når siden er bygget med gode CTA-er og tydelig kontaktflyt, kan den kvalifisere leads automatisk og redusere tid brukt på uaktuelle henvendelser.`
+Når siden er bygget med gode CTA-er og tydelig kontaktflyt, kan den kvalifisere henvendelser automatisk og redusere tid brukt på uaktuelle henvendelser.`
       },
       {
         id: "eierskap",
@@ -224,7 +224,7 @@ Med riktig SEO-grunnmur bygger du organisk synlighet som kan vare lenge, i stede
         heading: "Du kan måle hva som faktisk gir henvendelser",
         content: `En profesjonell nettside gjør det mulig å måle hvilke sider som skaper kontakt, hvilke budskap som fungerer og hvor brukere faller av. Dette gir bedre prioriteringer enn magefølelse.
 
-Når du forbedrer basert på data, øker både konverteringsrate og kvaliteten på leadsene. Nettsiden blir da en styrbar vekstkanal, ikke en passiv brosjyre.`
+Når du forbedrer basert på data, øker både konverteringsrate og kvaliteten på henvendelsene. Nettsiden blir da en styrbar vekstkanal, ikke en passiv brosjyre.`
       },
       {
         id: "oppsummering",
@@ -246,7 +246,7 @@ Start enkelt, men strategisk: bygg grunnmuren riktig fra dag én. Deretter kan d
           "Tydelig budskap, relevante tjenestesider, tillitsbevis, raske kontaktvalg og teknisk kvalitet. Dette gir både bedre brukeropplevelse og bedre synlighet i søk.",
       },
       {
-        question: "Hvor raskt kan nettsiden begynne å gi leads?",
+        question: "Hvor raskt kan nettsiden begynne å gi henvendelser?",
         answer:
           "Ofte ser man effekt tidlig på direkte trafikk og eksisterende nettverk. Organisk effekt via SEO kommer vanligvis gradvis over uker og måneder.",
       },
@@ -264,13 +264,13 @@ Start enkelt, men strategisk: bygg grunnmuren riktig fra dag én. Deretter kan d
     internalLinks: [
       { href: "/nettside-for-bedrift", label: "Se vår hovedtjeneste" },
       { href: "/case", label: "Se dokumenterte resultater" },
-      { href: "/kontakt", label: "Book gratis samtale" },
+      { href: "/kontakt", label: "Bestill gratis samtale" },
       { href: "/priser", label: "Se aktuelle prismodeller" },
     ],
   },
   {
     slug: "seo-for-sma-bedrifter",
-    title: "SEO for Små Bedrifter: Den Komplette Guiden (2026)",
+    title: "SEO for små bedrifter: den komplette guiden (2026)",
     description:
       "En konkret SEO-guide for norske småbedrifter: teknisk grunnmur, lokal synlighet, innholdsstrategi og måling som gir flere henvendelser.",
     keywords: [
@@ -322,7 +322,7 @@ Hver artikkel bør lede videre til en kommersiell side med naturlig ankertekst, 
       {
         id: "maaling",
         heading: "Mål SEO på forretningsresultat, ikke bare trafikk",
-        content: `Mange måler kun rangering og klikk. Det viktigste er likevel om trafikken skaper henvendelser, bookinger eller salg. Sett opp måling av skjema, telefonklikk og CTA-interaksjoner.
+        content: `Mange måler kun rangering og klikk. Det viktigste er likevel om trafikken skaper henvendelser, konsultasjonsforespørsler eller salg. Sett opp måling av skjema, telefonklikk og CTA-interaksjoner.
 
 Når du kombinerer søkedata med konverteringsdata, blir det tydelig hvilke sider som fortjener mest oppdatering og innsats.`
       },
@@ -370,7 +370,7 @@ For små bedrifter er den smarteste strategien ofte å bli best på et avgrenset
   },
   {
     slug: "wordpress-vs-webflow-for-smabedrifter",
-    title: "WordPress vs Webflow for Småbedrifter: Hva Bør Du Velge i 2026?",
+    title: "WordPress vs. Webflow for små bedrifter: hva bør du velge i 2026?",
     description:
       "En norsk, praktisk sammenligning av WordPress og Webflow for SMB: kostnad, fleksibilitet, SEO, vedlikehold og teamkapasitet.",
     keywords: [
@@ -470,7 +470,7 @@ Er du i tvil, be leverandøren forklare anbefalingen mot konkrete forretningsmå
   },
   {
     slug: "slik-velger-du-webbyra",
-    title: "Slik Velger Du Webbyrå: 10 Kriterier Norske Bedrifter Bør Bruke",
+    title: "Slik velger du webbyrå: 10 kriterier norske bedrifter bør bruke",
     description:
       "Praktisk kjøpsguide for norske bedrifter: hvordan velge riktig webbyrå med mindre risiko og bedre avkastning.",
     keywords: [
@@ -494,14 +494,14 @@ Er du i tvil, be leverandøren forklare anbefalingen mot konkrete forretningsmå
       {
         id: "hvorfor-vanskelig",
         heading: "Hvorfor byråvalg ofte blir feil",
-        content: `Mange velger byrå ut fra laveste pris eller peneste designutkast. Disse faktorene betyr noe, men de avgjør sjelden om prosjektet faktisk leverer leads og forretningsverdi.
+        content: `Mange velger byrå ut fra laveste pris eller peneste designutkast. Disse faktorene betyr noe, men de avgjør sjelden om prosjektet faktisk leverer henvendelser og forretningsverdi.
 
 Det som skaper gode resultater er metode, kommunikasjon, prioritering og evne til å koble løsningene til bedriftens mål.`
       },
       {
         id: "forarbeid",
         heading: "Definer mål før du ber om tilbud",
-        content: `Før tilbudsinnhenting bør du avklare hva nettsiden skal oppnå: flere henvendelser, bedre kvalitet på leads, enklere salgsprosess eller høyere tillit i markedet.
+        content: `Før tilbudsinnhenting bør du avklare hva nettsiden skal oppnå: flere henvendelser, bedre kvalitet på henvendelser, enklere salgsprosess eller høyere tillit i markedet.
 
 Uten tydelige mål blir tilbudene vanskelig sammenlignbare, og prosjektet får uklare prioriteringer fra dag én.`
       },
@@ -529,7 +529,7 @@ Dersom kommunikasjonen er treg og uklar før avtale, blir den sjelden bedre unde
       {
         id: "avslutning",
         heading: "Velg partner, ikke bare leverandør",
-        content: `Riktig webbyrå utfordrer prioriteringer, forklarer trade-offs og hjelper deg å ta bedre beslutninger. Målet er ikke bare lansering, men varig effekt over tid.
+        content: `Riktig webbyrå utfordrer prioriteringer, forklarer avveininger og hjelper deg å ta bedre beslutninger. Målet er ikke bare lansering, men varig effekt over tid.
 
 Når du velger med tydelige kriterier, øker sjansen for et prosjekt som leverer på både kvalitet, fremdrift og forretningsmål.`
       },
@@ -543,7 +543,7 @@ Når du velger med tydelige kriterier, øker sjansen for et prosjekt som leverer
       {
         question: "Hvilke spørsmål bør vi stille i første møte?",
         answer:
-          "Spør om arbeidsprosess, ansvarsfordeling, hvordan de måler effekt, hvem som gjør innhold/SEO, og hvordan de håndterer endringer etter signert scope.",
+          "Spør om arbeidsprosess, ansvarsfordeling, hvordan de måler effekt, hvem som gjør innhold/SEO, og hvordan de håndterer endringer etter signert omfang.",
       },
       {
         question: "Hva er vanligste feil i byråkontrakter?",
@@ -565,12 +565,12 @@ Når du velger med tydelige kriterier, øker sjansen for et prosjekt som leverer
       { href: "/webdesign-byra", label: "Se hvordan vi jobber som byrå" },
       { href: "/case", label: "Se case med målbare resultater" },
       { href: "/priser", label: "Sammenlign pakker" },
-      { href: "/kontakt", label: "Book uforpliktende rådgivning" },
+      { href: "/kontakt", label: "Bestill uforpliktende rådgivning" },
     ],
   },
   {
     slug: "nettside-for-handverker-flere-oppdrag",
-    title: "Nettside for Håndverker: Slik Får Du Flere Oppdrag fra Google",
+    title: "Nettside for håndverkere: slik får du flere oppdrag fra Google",
     description:
       "En konkret guide for håndverkere som vil få flere lokale henvendelser gjennom bedre nettside, tillitsbevis og lokal SEO.",
     keywords: [
@@ -594,7 +594,7 @@ Når du velger med tydelige kriterier, øker sjansen for et prosjekt som leverer
       {
         id: "hvorfor-taper",
         heading: "Hvorfor mange håndverkere taper henvendelser digitalt",
-        content: `Mange håndverksbedrifter er faglig sterke, men taper leads fordi nettsiden ikke svarer raskt på kundens grunnspørsmål: Hva gjør dere, hvor jobber dere, hva koster det, og hvordan får jeg kontakt?
+        content: `Mange håndverksbedrifter er faglig sterke, men taper henvendelser fordi nettsiden ikke svarer raskt på kundens grunnspørsmål: Hva gjør dere, hvor jobber dere, hva koster det, og hvordan får jeg kontakt?
 
 Når disse svarene er utydelige eller skjult, velger kunden ofte neste leverandør i søkeresultatet.`
       },
@@ -665,14 +665,14 @@ Start med kjerneinnholdet, så kan du skalere med flere lokale sider og guider o
       { href: "/bransjer/handverker", label: "Se vår løsning for håndverkere" },
       { href: "/seo-for-nettsider", label: "Les om lokal SEO-oppsett" },
       { href: "/priser", label: "Se prisnivå" },
-      { href: "/kontakt", label: "Book gratis behovsvurdering" },
+      { href: "/kontakt", label: "Bestill gratis behovsvurdering" },
     ],
   },
   {
     slug: "seo-for-smabedrifter-for-lansering",
-    title: "SEO for Små Bedrifter: Dette Må Være På Plass Før Du Lanserer",
+    title: "SEO for små bedrifter: dette må være på plass før lansering",
     description:
-      "Pre-launch SEO-sjekkliste for norsk SMB: teknisk kvalitet, innholdsstruktur, schema, internlenker og måling før go-live.",
+      "SEO-sjekkliste før lansering for norsk SMB: teknisk kvalitet, innholdsstruktur, schema, internlenker og måling før lansering.",
     keywords: [
       "seo sjekkliste før lansering",
       "teknisk seo",
@@ -700,7 +700,7 @@ Når SEO planlegges tidlig, får du en informasjonsarkitektur som både søkemot
       },
       {
         id: "teknisk-minimum",
-        heading: "Teknisk minimum før go-live",
+        heading: "Teknisk minimum før lansering",
         content: `Før publisering bør canonical, metadata, robots og sitemap være riktig satt mot primærdomenet. Kontroller også statuskoder, redirect-kjede, internlenker og mobilhastighet.
 
 Små tekniske feil kan hindre god indeksering selv om designet ser ferdig ut.`
@@ -710,7 +710,7 @@ Små tekniske feil kan hindre god indeksering selv om designet ser ferdig ut.`
         heading: "Innholdsstruktur som matcher kjøpsreisen",
         content: `Sørg for egne sider for kjerne­tjenester, ikke bare én generell side. Legg til kjøpsnære guider som svarer på pris, valg og sammenligning.
 
-Koble informasjonsinnhold til money pages med tydelige interne lenker, slik at trafikken kan bevege seg mot kontakt.`
+Koble informasjonsinnhold til konverteringssider med tydelige interne lenker, slik at trafikken kan bevege seg mot kontakt.`
       },
       {
         id: "schema",
@@ -729,7 +729,7 @@ Når måling er på plass tidlig, kan du forbedre med høyere sikkerhet og raske
       {
         id: "lanseringsplan",
         heading: "7-dagers plan etter lansering",
-        content: `Uke 1 bør brukes på kontroll av indeksering, metadata, schema, konverteringsflyt og kritiske sider på mobil. Dette fanger opp feil før de rekker å skade synlighet og leadflow.
+        content: `Uke 1 bør brukes på kontroll av indeksering, metadata, schema, konverteringsflyt og kritiske sider på mobil. Dette fanger opp feil før de rekker å skade synlighet og henvendelsesflyt.
 
 Etter første uke kan du starte systematisk innholdsoppdatering på sider med tidlig trafikkpotensial.`
       },
@@ -738,12 +738,12 @@ Etter første uke kan du starte systematisk innholdsoppdatering på sider med ti
       {
         question: "Hva er de vanligste SEO-feilene rett før lansering?",
         answer:
-          "Feil canonical-domene, manglende metadata, indekseringsblokker i robots/noindex, brutte lenker og fravær av tracking er de vanligste feilene vi ser.",
+          "Feil canonical-domene, manglende metadata, indekseringsblokker i robots/noindex, brutte lenker og fravær av sporing er de vanligste feilene vi ser.",
       },
       {
         question: "Må vi ha alt perfekt før vi publiserer?",
         answer:
-          "Du trenger ikke perfeksjon, men grunnmuren må være riktig. Prioriter teknisk helse, tydelig struktur og målbare kontaktpunkter før go-live.",
+          "Du trenger ikke perfeksjon, men grunnmuren må være riktig. Prioriter teknisk helse, tydelig struktur og målbare kontaktpunkter før lansering.",
       },
       {
         question: "Hvor mange SEO-sider bør lanseres samtidig?",
@@ -763,16 +763,16 @@ Etter første uke kan du starte systematisk innholdsoppdatering på sider med ti
     ],
     internalLinks: [
       { href: "/seo-for-nettsider", label: "Se SEO-tjenesten vår" },
-      { href: "/kontakt", label: "Bestill pre-launch SEO-sjekk" },
+      { href: "/kontakt", label: "Bestill SEO-sjekk før lansering" },
       { href: "/blog/wordpress-seo-sjekkliste-for-norske-bedrifter", label: "Les WordPress SEO-sjekkliste" },
       { href: "/priser", label: "Se pakker for lansering og vekst" },
     ],
   },
   {
     slug: "typiske-feil-ved-bestilling-av-nettside",
-    title: "12 Typiske Feil Bedriftseiere Gjør Når De Bestiller Nettside",
+    title: "12 typiske feil bedriftseiere gjør når de bestiller nettside",
     description:
-      "Unngå vanlige prosjektfeil ved bestilling av nettside: mål, scope, plattformvalg, SEO, drift og måling.",
+      "Unngå vanlige prosjektfeil ved bestilling av nettside: mål, omfang, plattformvalg, SEO, drift og måling.",
     keywords: [
       "feil ved bestilling av nettside",
       "bestille nettside tips",
@@ -794,16 +794,16 @@ Etter første uke kan du starte systematisk innholdsoppdatering på sider med ti
       {
         id: "intro-feil",
         heading: "Hvorfor gode intensjoner ofte ender i dyr omvei",
-        content: `De fleste nettsideprosjekter starter godt, men sporer av når mål, scope og ansvar ikke er avklart tidlig nok. Da blir beslutninger tilfeldige, tidslinjer glipper og kostnader øker.
+        content: `De fleste nettsideprosjekter starter godt, men sporer av når mål, omfang og ansvar ikke er avklart tidlig nok. Da blir beslutninger tilfeldige, tidslinjer glipper og kostnader øker.
 
 Den gode nyheten er at de vanligste feilene er forutsigbare og kan forebygges med en enkel, strukturert prosjektmodell.`
       },
       {
-        id: "mal-scope",
-        heading: "Feil 1-4: uklare mål og for bredt scope",
+        id: "mal-omfang",
+        heading: "Feil 1-4: uklare mål og for bredt omfang",
         content: `Typiske tidlige feil er vage mål, for stort omfang i første fase, prisfokus uten verdi-vurdering og manglende ansvarsmatrise. Dette gir friksjon før utvikling i det hele tatt starter.
 
-Løsningen er tydelig brief med målbare resultatkrav, faseinndeling og klare roller mellom kunde og leverandør.`
+Løsningen er et tydelig kravgrunnlag med målbare resultatkrav, faseinndeling og klare roller mellom kunde og leverandør.`
       },
       {
         id: "innhold-plattform",
@@ -841,14 +841,14 @@ Med riktig struktur fra start øker sannsynligheten for en nettside som både le
           "Uklare mål er den vanligste feilen. Uten tydelig mål blir både leverandørvalg, prioritering og resultatmåling vanskelig.",
       },
       {
-        question: "Hvordan unngår vi scope creep i prosjektet?",
+        question: "Hvordan unngår vi omfangsglidning i prosjektet?",
         answer:
           "Del prosjektet i faser, lås leveranser i hver fase og bruk tydelig endringshåndtering med pris og konsekvens før nye ønsker tas inn.",
       },
       {
         question: "Når bør SEO og måling planlegges?",
         answer:
-          "Fra oppstart. SEO-struktur og tracking må inn i kravspesifikasjonen før design og utvikling, ellers blir det ofte dyr rework.",
+          "Fra oppstart. SEO-struktur og sporing må inn i kravspesifikasjonen før design og utvikling, ellers blir det ofte dyr omarbeiding.",
       },
       {
         question: "Bør vi lage alt innhold selv?",
@@ -870,7 +870,7 @@ Med riktig struktur fra start øker sannsynligheten for en nettside som både le
   },
   {
     slug: "engangskjop-vs-abonnement-nettside",
-    title: "Engangskjøp vs Abonnement: Hva Lønner Seg Når Du Skal Bestille Nettside?",
+    title: "Engangskjøp vs. abonnement: hva lønner seg når du skal bestille nettside?",
     description:
       "Sammenligning av engangskjøp og abonnement for nettsider: total kostnad, risiko, fleksibilitet og hva som passer ulike typer bedrifter.",
     keywords: [
@@ -970,7 +970,7 @@ Den beste modellen er den som støtter bedriftens vekstmål uten å skape drifts
   },
   {
     slug: "nettside-for-advokatfirma",
-    title: "Nettside for Advokatfirma: Slik Bygger Du Tillit og Får Flere Klienthenvendelser",
+    title: "Nettside for advokatfirma: slik bygger du tillit og får flere klienthenvendelser",
     description:
       "Guide for advokatfirmaer som vil bygge tillit, tydelig fagområdestruktur og flere kvalifiserte henvendelser via nettsiden.",
     keywords: [
@@ -1064,13 +1064,13 @@ Prioriter tydelighet, trygghet og faglig relevans i hele kjøpsreisen.`
     internalLinks: [
       { href: "/bransjer/advokat", label: "Se vår advokat-løsning" },
       { href: "/nettside-for-bedrift", label: "Les om vår hovedtjeneste" },
-      { href: "/kontakt", label: "Book rådgivning" },
+      { href: "/kontakt", label: "Bestill rådgivning" },
       { href: "/case", label: "Se relevante case" },
     ],
   },
   {
     slug: "drift-og-vedlikehold-av-nettside-pris",
-    title: "Drift og Vedlikehold av Nettside: Hva Koster Det i 2026?",
+    title: "Drift og vedlikehold av nettside: hva koster det i 2026?",
     description:
       "Hva koster drift og vedlikehold av nettside i Norge? Få oversikt over faste kostnader, risikoposter og hva som bør inngå i en vedlikeholdsavtale.",
     keywords: [
@@ -1115,7 +1115,7 @@ Bedrifter med hyppige innholdsoppdateringer bør også vurdere avtaler som inklu
       {
         id: "risiko-uten-avtale",
         heading: "Hva skjer hvis du hopper over vedlikehold",
-        content: `Uten vedlikehold øker risikoen for sårbarheter, tregere sider og teknisk gjeld. Små feil kan gradvis påvirke både søkesynlighet og leadkvalitet.
+        content: `Uten vedlikehold øker risikoen for sårbarheter, tregere sider og teknisk gjeld. Små feil kan gradvis påvirke både søkesynlighet og kvaliteten på henvendelser.
 
 Når feil først oppstår, blir akuttarbeid ofte dyrere enn en forutsigbar månedlig avtale.`
       },
@@ -1170,9 +1170,9 @@ Når driftsansvaret er tydelig, kan teamet ditt fokusere på vekst i stedet for 
   },
   {
     slug: "wordpress-seo-sjekkliste-for-norske-bedrifter",
-    title: "WordPress SEO-sjekkliste for Norske Bedrifter (2026)",
+    title: "WordPress SEO-sjekkliste for norske bedrifter (2026)",
     description:
-      "Praktisk WordPress SEO-sjekkliste for bedrifter: teknisk oppsett, innholdsstruktur, ytelse og vedlikehold som gir bedre rangering og flere leads.",
+      "Praktisk WordPress SEO-sjekkliste for bedrifter: teknisk oppsett, innholdsstruktur, ytelse og vedlikehold som gir bedre rangering og flere henvendelser.",
     keywords: [
       "wordpress seo",
       "wordpress seo sjekkliste",
@@ -1208,7 +1208,7 @@ Bruk noindex strategisk på sider som ikke har søkeverdi, men pass på at komme
       {
         id: "innholdsstruktur",
         heading: "Innholdsstruktur og internlenking",
-        content: `Bygg klare topic clusters med tjenestesider som hub og blogginnhold som støtter kjøpsreisen. Hver artikkel bør peke tydelig tilbake til relevante tjenester.
+        content: `Bygg klare temaklynger med tjenestesider som nav og blogginnhold som støtter kjøpsreisen. Hver artikkel bør peke tydelig tilbake til relevante tjenester.
 
 God internlenking hjelper både brukere og søkemotorer med å forstå hvilke sider som er viktigst.`
       },
@@ -1270,7 +1270,7 @@ WordPress SEO fungerer best når du behandler nettstedet som en kontinuerlig vek
   },
   {
     slug: "webflow-seo-guide-for-bedrifter",
-    title: "Webflow SEO-guide for Bedrifter: Struktur, Innhold og Konvertering",
+    title: "Webflow SEO-guide for bedrifter: struktur, innhold og konvertering",
     description:
       "Hvordan lykkes med SEO i Webflow: teknisk oppsett, sidemaler, internlenking og innhold som bygger synlighet i norske søk.",
     keywords: [
@@ -1308,7 +1308,7 @@ Når malene er konsistente, blir det enklere å publisere raskt uten å miste SE
       {
         id: "metadata",
         heading: "Metadata og canonical i CMS-innhold",
-        content: `Sørg for at CMS-felter brukes konsekvent til titles, descriptions og sosial deling. Uten tydelig governance får man fort duplikater eller svake metadata på nye sider.
+        content: `Sørg for at CMS-felter brukes konsekvent til titles, descriptions og sosial deling. Uten tydelig styring får man fort duplikater eller svake metadata på nye sider.
 
 Kontroller canonical-logikk på dynamiske sider og arkivstruktur for å unngå kannibalisering.`
       },
@@ -1324,7 +1324,7 @@ Målet er ikke bare flere sidevisninger, men en tydelig sti fra informasjon til 
         heading: "Ytelse og mobilopplevelse",
         content: `Hold designsystemet lett, optimaliser media og test sidene på mobil jevnlig. Visuell kvalitet må balanseres mot lastetid og interaksjonsflyt.
 
-Særlig for SMB er rask mobilopplevelse kritisk fordi mange leads kommer via mobil søk.`
+Særlig for SMB er rask mobilopplevelse kritisk fordi mange henvendelser kommer via mobil søk.`
       },
       {
         id: "oppsummering",
@@ -1364,13 +1364,13 @@ Sett en fast SEO-rytme for revisjon av toppsider og løpende forbedring av innho
     internalLinks: [
       { href: "/webflow-nettside", label: "Se Webflow-tjenesten vår" },
       { href: "/seo-for-nettsider", label: "Få hjelp med SEO-struktur" },
-      { href: "/kontakt", label: "Book en Webflow SEO-vurdering" },
+      { href: "/kontakt", label: "Bestill en Webflow SEO-vurdering" },
       { href: "/blog/wordpress-vs-webflow-for-smabedrifter", label: "Sammenlign WordPress og Webflow" },
     ],
   },
   {
     slug: "nettbutikk-pris-shopify-vs-woocommerce-norge",
-    title: "Nettbutikk Pris i Norge: Shopify vs WooCommerce for SMB",
+    title: "Nettbutikkpris i Norge: Shopify vs. WooCommerce for SMB",
     description:
       "Hva koster nettbutikk i Norge, og hvilken plattform passer best? En konkret sammenligning av Shopify og WooCommerce for små og mellomstore bedrifter.",
     keywords: [
@@ -1394,7 +1394,7 @@ Sett en fast SEO-rytme for revisjon av toppsider og løpende forbedring av innho
       {
         id: "kostnadsbilde",
         heading: "Hva bestemmer nettbutikkprisen i praksis",
-        content: `Nettbutikkkostnad bestemmes av mer enn plattformabonnement. Design, produktstruktur, checkout, integrasjoner, betalingsløsning, logistikk og markedsoppsett påvirker totalen.
+        content: `Nettbutikkkostnad bestemmes av mer enn plattformabonnement. Design, produktstruktur, kjøpsflyt, integrasjoner, betalingsløsning, logistikk og markedsoppsett påvirker totalen.
 
 Mange undervurderer også kostnader til innhold, foto, produktdata og løpende optimalisering.`
       },
@@ -1410,7 +1410,7 @@ Kostnadsbildet styres ofte av app-bruk, transaksjonsflyt, designnivå og hvor my
         heading: "WooCommerce: fleksibilitet og større kontroll",
         content: `WooCommerce passer bedrifter som ønsker høy fleksibilitet og tett integrasjon mot WordPress-miljø. Du kan forme løsningen svært spesifikt for behovet.
 
-Til gjengjeld øker kravene til vedlikehold, sikkerhet og teknisk governance over tid.`
+Til gjengjeld øker kravene til vedlikehold, sikkerhet og teknisk styring over tid.`
       },
       {
         id: "seo-konvertering",
@@ -1422,7 +1422,7 @@ Nettbutikk-SEO er tett koblet til konvertering. En side som rangerer, men ikke s
       {
         id: "tco",
         heading: "TCO over 24-36 måneder",
-        content: `Sammenlign plattformene på total kostnad: lisens, apps/plugins, drift, support, utvikling, markedsarbeid og behov for intern kompetanse.
+        content: `Sammenlign plattformene på total kostnad: lisens, apper/plugins, drift, support, utvikling, markedsarbeid og behov for intern kompetanse.
 
 Dette gir et mer realistisk beslutningsgrunnlag enn å sammenligne etableringspris alene.`
       },
@@ -1453,24 +1453,24 @@ Velg plattformen som teamet ditt kan skalere med uten å miste fart i salgs- og 
       {
         question: "Hvor lang tid tar det å lansere en nettbutikk?",
         answer:
-          "Det varierer med omfang, men SMB-prosjekter ligger ofte fra noen uker til noen måneder avhengig av produktdata og integrasjonsbehov.",
+          "Det varierer med omfang, men SMB-prosjekter varer ofte fra noen uker til noen måneder, avhengig av produktdata og integrasjonsbehov.",
       },
       {
         question: "Bør vi starte med minimumsløsning eller full pakke?",
         answer:
-          "For mange er minimumsløsning smartest: få kjernekategorier og stabil checkout først, deretter utvidelse basert på faktiske salgsdata.",
+          "For mange er minimumsløsning smartest: få kjernekategorier og stabil kjøpsflyt først, deretter utvidelse basert på faktiske salgsdata.",
       },
     ],
     internalLinks: [
       { href: "/nettbutikk", label: "Se vår nettbutikk-tjeneste" },
       { href: "/priser", label: "Få oversikt over prispakker" },
-      { href: "/kontakt", label: "Book nettbutikk-rådgivning" },
+      { href: "/kontakt", label: "Bestill nettbutikk-rådgivning" },
       { href: "/blog/engangskjop-vs-abonnement-nettside", label: "Sammenlign prismodeller" },
     ],
   },
   {
     slug: "lokal-seo-for-bedrifter-i-norge",
-    title: "Lokal SEO for Bedrifter i Norge: Slik Vinner Du Nære Søk",
+    title: "Lokal SEO for bedrifter i Norge: slik vinner du nære søk",
     description:
       "Lokal SEO-guide for norske bedrifter: struktur, innhold, tillitsbevis og måling som gir flere lokale henvendelser.",
     keywords: [
@@ -1558,21 +1558,21 @@ Bygg lokal struktur med kvalitet, og skaler gradvis der du faktisk leverer.`
       {
         question: "Hvordan måler vi lokal SEO riktig?",
         answer:
-          "Kombiner søkedata med konverteringsdata per område: samtaler, skjema og kvalitativ leadkvalitet. Da ser du hvilke lokale sider som faktisk skaper verdi.",
+          "Kombiner søkedata med konverteringsdata per område: samtaler, skjema og kvalitativ vurdering av henvendelser. Da ser du hvilke lokale sider som faktisk skaper verdi.",
       },
     ],
     internalLinks: [
       { href: "/seo-for-nettsider", label: "Se hvordan vi jobber med lokal SEO" },
       { href: "/lokalt/oslo-webdesign", label: "Eksempel: Webdesign Oslo" },
       { href: "/lokalt/bergen-webdesign", label: "Eksempel: Webdesign Bergen" },
-      { href: "/kontakt", label: "Book lokal SEO-vurdering" },
+      { href: "/kontakt", label: "Bestill lokal SEO-vurdering" },
     ],
   },
   {
     slug: "redesign-av-nettside-sjekkliste",
-    title: "Redesign av Nettside: Sjekkliste for SEO, UX og Konvertering",
+    title: "Redesign av nettside: sjekkliste for SEO, UX og konvertering",
     description:
-      "Planlegger du redesign? Denne sjekklisten hjelper norske bedrifter å oppgradere nettsiden uten å tape synlighet og leads.",
+      "Planlegger du redesign? Denne sjekklisten hjelper norske bedrifter å oppgradere nettsiden uten å tape synlighet og henvendelser.",
     keywords: [
       "redesign nettside",
       "nettside redesign sjekkliste",
@@ -1601,7 +1601,7 @@ Hvis kjernen er svak i flere ledd samtidig, kan redesign være riktig. Hvis utfo
       {
         id: "foranalyse",
         heading: "Analyser før du endrer",
-        content: `Kartlegg hvilke sider som i dag driver trafikk og leads. Disse sidene må behandles med ekstra forsiktighet for å unngå tap av synlighet.
+        content: `Kartlegg hvilke sider som i dag driver trafikk og henvendelser. Disse sidene må behandles med ekstra forsiktighet for å unngå tap av synlighet.
 
 Bruk data fra søk, atferd og konvertering for å definere hva som skal bevares, forbedres eller fases ut.`
       },
@@ -1643,12 +1643,12 @@ Med riktig forarbeid kan redesign gi kraftig løft uten å ofre eksisterende SEO
       {
         question: "Hvor lang tid tar et typisk redesignprosjekt?",
         answer:
-          "Tidslinje varierer med omfang, men SMB-prosjekter går ofte over flere uker med analyse, design, utvikling, QA og kontrollert lansering.",
+          "Tidslinje varierer med omfang, men SMB-prosjekter går ofte over flere uker med analyse, design, utvikling, kvalitetssikring og kontrollert lansering.",
       },
       {
         question: "Bør vi redesigne alt samtidig?",
         answer:
-          "Ikke alltid. Mange får bedre kontroll ved å ta redesign i faser, med prioritet på sider som påvirker leads og omsetning mest.",
+          "Ikke alltid. Mange får bedre kontroll ved å ta redesign i faser, med prioritet på sider som påvirker henvendelser og omsetning mest.",
       },
       {
         question: "Hva er vanligste feil ved redesign?",
@@ -1664,7 +1664,7 @@ Med riktig forarbeid kan redesign gi kraftig løft uten å ofre eksisterende SEO
     internalLinks: [
       { href: "/webdesign-byra", label: "Se vår redesign-prosess" },
       { href: "/seo-for-nettsider", label: "Sikre SEO ved redesign" },
-      { href: "/kontakt", label: "Book redesign-vurdering" },
+      { href: "/kontakt", label: "Bestill redesign-vurdering" },
       { href: "/case", label: "Se før/etter-case" },
     ],
   },

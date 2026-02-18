@@ -27,7 +27,7 @@ export default function Home() {
             name: BUSINESS_INFO.name,
           },
           description:
-            "Profesjonell nettside med hosting, domene, SSL, support og vedlikehold inkludert",
+            "Profesjonell nettside med hosting, domene, SSL, support og vedlikehold inkludert.",
           url: SITE_URL,
           offers: {
             "@type": "Offer",
@@ -57,7 +57,7 @@ export default function Home() {
             name: BUSINESS_INFO.name,
           },
           description:
-            "Profesjonell nettside som engangskjøp med design, mobilvennlig layout og SEO grunnoppsett",
+            "Profesjonell nettside som engangskjøp med design, mobilvennlig layout og SEO-grunnoppsett.",
           url: SITE_URL,
           offers: {
             "@type": "Offer",

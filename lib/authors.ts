@@ -28,12 +28,12 @@ export const authors: AuthorProfile[] = [
   {
     slug: "zryan-rzgar",
     name: "Zryan Rzgar",
-    role: "Fullstack-utvikler med 7 års erfaring, sivilingeniør innen datavitenskap",
-    bio: "Zryan Rzgar skriver og kvalitetssikrer innhold om webdesign, SEO, konvertering og teknisk drift for norske bedrifter. Han har 7 års erfaring som fullstack-utvikler, og er sivilingeniør innen datavitenskap.",
+    role: "Fullstack-utvikler med 7 års erfaring og sivilingeniør i datavitenskap",
+    bio: "Zryan Rzgar skriver og kvalitetssikrer innhold om webdesign, SEO, konvertering og teknisk drift for norske bedrifter. Han har 7 års erfaring som fullstack-utvikler og er sivilingeniør i datavitenskap.",
     expertise: [
       "Webdesign for bedrifter",
       "Teknisk SEO",
-      "Fullstack utvikling",
+      "Fullstack-utvikling",
       "Informasjonsarkitektur",
       "Konverteringsoptimalisering",
       "Drift og vedlikehold av nettsider",

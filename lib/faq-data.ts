@@ -20,7 +20,7 @@ export const faqs: FAQItem[] = [
     category: "generelt",
     question: "Trenger bedriften min en nettside?",
     answer:
-      "Ja, i 2026 er en nettside helt essensielt for norske bedrifter. Over 90% av forbrukere søker på nett før de velger en lokal tjeneste. En profesjonell nettside gir bedriften din troverdighet, synlighet på Google, og fungerer som et salgsdokument som jobber for deg 24 timer i døgnet. Uten nettside går du glipp av potensielle kunder som søker etter akkurat det du tilbyr.",
+      "Ja, i 2026 er en nettside helt avgjørende for norske bedrifter. Over 90 % av forbrukere søker på nett før de velger en lokal tjeneste. En profesjonell nettside gir bedriften din troverdighet, synlighet på Google og fungerer som et salgsverktøy som jobber for deg 24 timer i døgnet. Uten nettside går du glipp av potensielle kunder som søker etter akkurat det du tilbyr.",
   },
   {
     category: "generelt",
@@ -32,7 +32,7 @@ export const faqs: FAQItem[] = [
     category: "generelt",
     question: "Hvorfor velge ZWEB Digitalbyrå?",
     answer:
-      "ZWEB er et 100% norsk digitalbyrå med over 100 fornøyde kunder. Vi tilbyr konkurransedyktige priser fra 999 kr/mnd med alt inkludert, rask levering på 1–2 uker, ingen bindingstid, og personlig norsk kundestøtte. Vi fokuserer på kvalitet, resultater og å gjøre prosessen så enkel som mulig for deg.",
+      "ZWEB er et 100 % norsk digitalbyrå med over 100 fornøyde kunder. Vi tilbyr konkurransedyktige priser fra 999 kr/mnd med alt inkludert, rask levering på 1-2 uker, ingen bindingstid og personlig norsk kundestøtte. Vi fokuserer på kvalitet, resultater og en prosess som er så enkel som mulig for deg.",
   },
 
   // === PRISER OG PAKKER ===
@@ -52,7 +52,7 @@ export const faqs: FAQItem[] = [
     category: "priser",
     question: "Hva inkluderer prisen på 999 kr/mnd?",
     answer:
-      "Alt inkludert-pakken på 999 kr/mnd dekker: profesjonelt skreddersydd design, inntil 7 sider, mobilvennlig nettside, kontaktskjema, komplett SEO-optimalisering, Google Analytics, webhotell, domene, SSL-sertifikat, løpende support og vedlikehold, månedlige oppdateringer, samt backup og sikkerhet. Du slipper å tenke på noe teknisk.",
+      "Alt inkludert-pakken på 999 kr/mnd dekker: profesjonelt skreddersydd design, inntil 7 sider, mobilvennlig nettside, kontaktskjema, komplett SEO-optimalisering, Google Analytics, webhotell, domene, SSL-sertifikat, løpende support og vedlikehold, månedlige oppdateringer samt backup og sikkerhet. Du slipper å tenke på det tekniske.",
   },
 
   // === PROSESS OG LEVERING ===
@@ -66,7 +66,7 @@ export const faqs: FAQItem[] = [
     category: "prosess",
     question: "Hvordan er prosessen for å lage en nettside?",
     answer:
-      "Prosessen starter med en gratis, uforpliktende samtale der vi kartlegger dine behov og mål. Deretter designer og utvikler vi nettsiden. Du får se resultatet og gi tilbakemeldinger, og vi gjør justeringer til du er 100% fornøyd. Til slutt lanserer vi nettsiden. Du trenger ingen teknisk kunnskap — vi tar oss av alt.",
+      "Prosessen starter med en gratis, uforpliktende samtale der vi kartlegger behovene og målene dine. Deretter designer og utvikler vi nettsiden. Du får se resultatet og gi tilbakemeldinger, og vi gjør justeringer til du er helt fornøyd. Til slutt lanserer vi nettsiden. Du trenger ingen teknisk kunnskap - vi tar oss av alt.",
   },
   {
     category: "prosess",
@@ -80,13 +80,13 @@ export const faqs: FAQItem[] = [
     category: "teknisk",
     question: "Er nettsidene mobilvennlige?",
     answer:
-      "Ja, alle våre nettsider er 100% responsive og fungerer perfekt på mobil, nettbrett og desktop. Responsivt design betyr at nettsiden automatisk tilpasser seg skjermstørrelsen. Dette er viktig både for brukeropplevelsen og for å rangere godt på Google, som prioriterer mobilvennlige nettsider i søkeresultatene.",
+      "Ja, alle nettsidene våre er fullt responsive og fungerer godt på mobil, nettbrett og datamaskin. Responsivt design betyr at nettsiden automatisk tilpasser seg skjermstørrelsen. Dette er viktig både for brukeropplevelsen og for å rangere godt på Google, som prioriterer mobilvennlige nettsider i søkeresultatene.",
   },
   {
     category: "teknisk",
     question: "Hva er responsivt design?",
     answer:
-      "Responsivt design betyr at nettsiden automatisk tilpasser seg ulike skjermstørrelser — mobil, nettbrett og desktop. I stedet for å lage separate versjoner, tilpasser en responsiv nettside layout, bilder og tekst dynamisk. Over 60% av norske nettsøkere bruker mobil, så dette er avgjørende for en god brukeropplevelse.",
+      "Responsivt design betyr at nettsiden automatisk tilpasser seg ulike skjermstørrelser - mobil, nettbrett og datamaskin. I stedet for å lage separate versjoner, tilpasser en responsiv nettside utforming, bilder og tekst dynamisk. Over 60 % av norske nettsøkere bruker mobil, så dette er avgjørende for en god brukeropplevelse.",
   },
   {
     category: "teknisk",
@@ -98,7 +98,7 @@ export const faqs: FAQItem[] = [
     category: "teknisk",
     question: "Hva om jeg allerede har et domene?",
     answer:
-      "Ingen problem! Vi hjelper deg med å koble ditt eksisterende domene til den nye nettsiden. Har du ikke domene fra før, fikser vi det for deg uten ekstra kostnad med alt inkludert-pakken.",
+      "Ikke noe problem. Vi hjelper deg med å koble det eksisterende domenet ditt til den nye nettsiden. Har du ikke domene fra før, ordner vi det uten ekstra kostnad med alt inkludert-pakken.",
   },
   {
     category: "teknisk",

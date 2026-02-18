@@ -57,7 +57,7 @@ export function ContactForm() {
                 Klar for en uforpliktende samtale?
               </h2>
               <p className="text-primary-foreground/80 leading-relaxed">
-                Fyll ut skjemaet, så tar vi kontakt for en gratis og uforpliktende 
+                Fyll ut skjemaet, så tar vi kontakt for en gratis og uforpliktende
                 samtale om hvordan vi kan hjelpe din bedrift.
               </p>
             </div>
@@ -104,9 +104,9 @@ export function ContactForm() {
               <p className="text-sm text-primary-foreground/60 mb-3">Hvorfor velge ZWEB?</p>
               <div className="space-y-2">
                 {[
-                  "100% norsk selskap",
+                  "100 % norsk selskap",
                   "Over 100 fornøyde kunder",
-                  "Ingen bindingstid på engangskjøp",
+                  "Ingen bindingstid på abonnement",
                   "Rask responstid",
                 ].map((item) => (
                   <div key={item} className="flex items-center gap-2">
@@ -134,7 +134,7 @@ export function ContactForm() {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="text-center mb-6">
                   <h3 className="text-xl font-semibold text-foreground">
-                    Ikke forpliktende samtale
+                    Uforpliktende samtale
                   </h3>
                   <p className="text-sm text-muted-foreground mt-1">
                     Vi svarer vanligvis innen 24 timer
@@ -201,9 +201,9 @@ export function ContactForm() {
                     className="w-full h-10 px-3 rounded-md border border-input bg-background text-sm"
                   >
                     <option value="">Velg pakke</option>
-                    <option value="alt-inkludert">Alt inkludert - 999 kr/mnd (Anbefalt)</option>
+                    <option value="alt-inkludert">Alt inkludert - 999 kr/mnd (anbefalt)</option>
                     <option value="engangskjop">Engangskjøp - 6 999 kr</option>
-                    <option value="usikker">Usikker - trenger rådgivning</option>
+                    <option value="usikker">Usikker - trenger veiledning</option>
                   </select>
                 </div>
 
@@ -235,7 +235,7 @@ export function ContactForm() {
                 </Button>
 
                 <p className="text-xs text-center text-muted-foreground">
-                  Ved å sende inn dette skjemaet godtar du at vi kontakter deg 
+                  Ved å sende inn dette skjemaet godtar du at vi kontakter deg
                   angående din forespørsel.
                 </p>
               </form>

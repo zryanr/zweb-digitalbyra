@@ -9,7 +9,7 @@ import { SITE_URL, SITE_NAME } from "@/lib/constants"
 import { buildPageMetadata } from "@/lib/seo"
 
 const BLOG_INDEX_METADATA = {
-  title: "Blogg — Guider om nettsider, SEO og webdesign",
+  title: "Blogg - guider om nettsider, SEO og webdesign",
   description:
     "Les våre artikler og guider om nettsider for bedrifter, SEO-optimalisering, webdesign og digitale løsninger for norske bedrifter.",
   path: "/blog",
@@ -36,8 +36,8 @@ export async function generateMetadata({
 
   return {
     ...base,
-    title: `Søk i blogg: ${query}`,
-    description: `Søkeresultater i ZWEB-bloggen for \"${query}\".`,
+    title: `Søk i bloggen: ${query}`,
+    description: `Søkeresultater i ZWEB-bloggen for "${query}".`,
     robots: {
       index: false,
       follow: true,
@@ -70,7 +70,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
         data={{
           "@context": "https://schema.org",
           "@type": "Blog",
-          name: "ZWEB Digitalbyrå Blogg",
+          name: "ZWEB Digitalbyrå-bloggen",
           description:
             "Guider og artikler om nettsider, SEO og webdesign for norske bedrifter",
           url: `${SITE_URL}/blog`,
@@ -114,7 +114,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
                 id="query"
                 name="query"
                 defaultValue={rawQuery}
-                placeholder="Søk etter pris, webflow, SEO, webbyrå ..."
+                placeholder="Søk etter pris, Webflow, SEO, webdesignbyrå ..."
                 className="w-full h-11 rounded-md border border-input bg-background px-3 text-sm"
               />
               <button
@@ -132,7 +132,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
               className="rounded-xl border border-border p-5 hover:border-accent/40 transition-colors"
             >
               <p className="text-xs uppercase tracking-wide text-accent font-medium mb-2">
-                Pillar guide
+                Hovedguide
               </p>
               <h2 className="text-lg font-semibold text-foreground mb-1">
                 Nettside pris
@@ -146,7 +146,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
               className="rounded-xl border border-border p-5 hover:border-accent/40 transition-colors"
             >
               <p className="text-xs uppercase tracking-wide text-accent font-medium mb-2">
-                Pillar guide
+                Hovedguide
               </p>
               <h2 className="text-lg font-semibold text-foreground mb-1">
                 WordPress vs Webflow
@@ -160,7 +160,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
               className="rounded-xl border border-border p-5 hover:border-accent/40 transition-colors"
             >
               <p className="text-xs uppercase tracking-wide text-accent font-medium mb-2">
-                Pillar guide
+                Hovedguide
               </p>
               <h2 className="text-lg font-semibold text-foreground mb-1">
                 SEO før lansering
