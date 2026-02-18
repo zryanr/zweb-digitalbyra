@@ -636,63 +636,64 @@ const rawLandingPages: RawLandingPage[] = [
     ],
     sections: [
       {
-        heading: "Konkurrer bedre i lokale søk",
+        heading: "Nettside i Trondheim som skaffer lokale henvendelser",
         paragraphs: [
-          "Vi hjelper bedrifter i Trondheim med nettsider som kombinerer tydelig verdi, lokal relevans og teknisk kvalitet.",
-          "Når noen søker etter webdesign trondheim, nettside trondheim eller webbyrå trondheim, må siden din svare raskt på tre ting: hva du tilbyr, hvorfor du er riktig valg, og hvordan kunden tar neste steg.",
+          "Driver du en lokal bedrift i Trondheim, må nettsiden hjelpe deg å få flere relevante henvendelser, ikke bare se bra ut.",
+          "Når en kunde søker etter for eksempel rørlegger Trondheim, elektriker Trondheim eller tannlege Trondheim, må siden din raskt vise hva du tilbyr, hvorfor kunden bør velge deg, og hvordan de tar kontakt.",
         ],
       },
       {
-        heading: "Dette må være på plass for å få flere henvendelser",
+        heading: "Dette trenger en lokal bedrift på nettsiden",
         paragraphs: [
-          "Mange nettsider taper synlighet og salg fordi budskap, struktur og kontaktflyt ikke henger sammen. Vi prioriterer tiltakene som påvirker både rangering og konvertering først.",
+          "De fleste besøkende bestemmer seg på få sekunder. Hvis tjenestene er uklare eller kontaktinformasjonen er vanskelig å finne, går de videre til neste aktør.",
         ],
         bullets: [
+          "Tydelig oversikt over tjenester, priser og geografisk område",
           "Tjenestesider bygget rundt det kundene faktisk søker etter",
-          "Målrettet internlenking fra artikler og case til konverteringssider",
+          "Synlig telefonnummer og enkel kontaktflyt på mobil",
           "Tydelige CTA-er over folden og etter nøkkelseksjoner",
           "Teknisk SEO med riktig metadata, struktur og hastighet",
           "Måling av henvendelser og løpende forbedring",
         ],
       },
       {
-        heading: "Slik jobber vi fra analyse til lansering",
+        heading: "Eksempel: nettside for en rørlegger i Trondheim",
         paragraphs: [
-          "Først analyserer vi hva som allerede fungerer i dag, hvilke sider som får trafikk, og hvor brukerne faller fra. Deretter lager vi en prioritert plan som kobler SEO-arbeid direkte til forretningsmål.",
-          "Du får en tydelig prosess med konkrete leveranser i hver fase, slik at prosjektet holder fart og retning fra første møte til publisering.",
+          "For en rørlegger handler nettsiden om å bli valgt raskt når behovet oppstår. Kunden vil se at du dekker riktig område, hvilke oppdrag du tar, og hvordan de får hjelp nå.",
+          "Med riktig struktur kan du rangere på kjøpsnære søk og gjøre det enkelt for kunden å kontakte deg direkte fra mobil.",
         ],
         bullets: [
-          "Analyse av søkeintensjon, konkurrenter og eksisterende innhold",
-          "Ny sidearkitektur med fokus på både synlighet og salg",
-          "Produksjon av tekst og design som reduserer tvil hos nye kunder",
-          "Kvalitetssikring av SEO, mobilopplevelse og sporing før lansering",
+          "Tjenestesider som akutt rørlegger, bad og rehabilitering",
+          "Lokale signaler for Trondheim og nærliggende områder",
+          "Tillitsskapende elementer som referanser og tydelig prosess",
+          "Kontaktknapper og CTA-er plassert der kunden faktisk tar beslutning",
         ],
       },
       {
-        heading: "Innhold som bygger tillit før første samtale",
+        heading: "Nettsiden skal gjøre det enkelt å velge deg",
         paragraphs: [
-          "Kjøpsklare besøkende tar ikke kontakt bare fordi siden er pen. De tar kontakt når nettsiden gir tydelige svar på prisnivå, prosess, leveranse og forventet resultat.",
-          "Derfor skriver vi innhold som kombinerer lokal relevans med konkret verdi, slik at riktige kunder forstår tilbudet ditt raskt og trygt.",
+          "En god lokal nettside fjerner tvil. Kunden skal raskt forstå hva du leverer, hva som skjer etter kontakt, og hvorfor du er et trygt valg.",
+          "Vi bygger innhold som er skrevet for kundene dine, med klart språk og konkrete neste steg i stedet for generelle og uklare formuleringer.",
         ],
       },
       {
-        heading: "Løpende forbedring etter lansering",
+        heading: "Synlighet og konvertering forbedres over tid",
         paragraphs: [
-          "Etter lansering følger vi med på hvilke søk og sider som skaper kvalifiserte henvendelser. Det gjør at vi kan prioritere forbedringer som faktisk påvirker bunnlinjen.",
-          "Vi justerer innhold, internlenker og konverteringspunkter basert på data, slik at nettsiden blir en stadig sterkere salgs- og markedskanal i Trondheim.",
+          "Etter lansering følger vi med på hvilke søk som gir henvendelser og hvilke sider som skaper kontakt. Da kan vi forbedre det som faktisk gir flere kunder.",
+          "Målet er at nettsiden din i Trondheim skal bli en stabil kanal for nye oppdrag, ikke en statisk brosjyre.",
         ],
       },
     ],
     faqs: [
       {
-        question: "Hva er inkludert i webdesign for bedrifter i Trondheim?",
+        question: "Passer dette for små lokale bedrifter i Trondheim?",
         answer:
-          "Leveransen inkluderer strategi, sidearkitektur, design, teknisk oppsett, innholdsarbeid og lansering. Omfanget tilpasses målene og konkurransen i markedet ditt.",
+          "Ja. Løsningen passer spesielt godt for lokale bedrifter som rørlegger, elektriker, tannlege, håndverker og andre tjenestebedrifter som vil ha flere henvendelser fra nærområdet.",
       },
       {
-        question: "Hvor lang tid tar det å bygge eller forbedre nettsiden?",
+        question: "Må vi skrive alt innholdet selv?",
         answer:
-          "Mindre forbedringsprosjekter kan ofte lanseres på noen uker. Større prosjekter tar vanligvis 4 til 8 uker, avhengig av antall sider, innhold og beslutningsflyt.",
+          "Nei. Vi hjelper med struktur, tekst og innhold slik at nettsiden forklarer tjenestene tydelig for kundene dine og samtidig fungerer godt i søk.",
       },
       {
         question: "Kan dere forbedre en eksisterende nettside i stedet for å starte på nytt?",
@@ -700,20 +701,20 @@ const rawLandingPages: RawLandingPage[] = [
           "Ja. Vi starter med en vurdering av teknisk kvalitet, innhold og konvertering for å se hva som bør beholdes. Deretter prioriterer vi de grepene som gir mest effekt først.",
       },
       {
-        question: "Når kan vi forvente SEO-resultater etter lansering?",
+        question: "Når kan vi forvente flere henvendelser fra nettsiden?",
         answer:
-          "Tekniske forbedringer kan gi tidlige signaler raskt, men tydelig utvikling i organiske henvendelser kommer ofte gradvis over 3 til 6 måneder.",
+          "Noen bedrifter ser tidlige forbedringer raskt, men tydelig vekst kommer vanligvis gradvis over tid. Hvor raskt det går avhenger av konkurranse, utgangspunkt og hvor godt innholdet treffer kundebehovet.",
       },
       {
-        question: "Hvilke tall bør vi følge med på for å måle effekt?",
+        question: "Hva bør vi måle for å vite om nettsiden fungerer?",
         answer:
-          "Vi følger spesielt med på kvalifiserte henvendelser, konverteringsrate fra organisk trafikk, utvikling i lokale søkeord og hvilke sider som bidrar mest til nye kundedialoger.",
+          "Vi følger blant annet med på kvalifiserte henvendelser, konverteringsrate, utvikling i lokale søk og hvilke sider som bidrar mest til nye kundedialoger.",
       },
     ],
-    ctaTitle: "Vil du få flere henvendelser fra Trondheim?",
+    ctaTitle: "Trenger du en nettside som gir kunder i Trondheim?",
     ctaDescription:
-      "Book en uforpliktende prat, så viser vi hvilke grep som gir størst effekt for din nettside.",
-    ctaPrimaryLabel: "Book gratis samtale",
+      "Book en uforpliktende prat, så får du konkrete forslag til hva som bør være på plass for din bedrift.",
+    ctaPrimaryLabel: "Få gratis gjennomgang",
     ctaSecondaryLabel: "Se priser og pakker",
     schemaType: "Service",
     serviceName: "Webdesign Trondheim",
