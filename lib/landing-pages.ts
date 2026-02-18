@@ -620,6 +620,7 @@ const rawLandingPages: RawLandingPage[] = [
   },
   {
     path: "/lokalt/trondheim-webdesign",
+    updatedDate: "2026-02-18",
     title: "Webdesign i Trondheim med fokus på resultater",
     description:
       "Nettsider for bedrifter i Trondheim som vil bli synlige i søk og konvertere bedre.",
@@ -638,16 +639,73 @@ const rawLandingPages: RawLandingPage[] = [
         heading: "Konkurrer bedre i lokale søk",
         paragraphs: [
           "Vi hjelper bedrifter i Trondheim med nettsider som kombinerer tydelig verdi, lokal relevans og teknisk kvalitet.",
+          "Når potensielle kunder søker etter tjenester i Trondheim, vurderer Google både innhold, teknisk kvalitet og lokal relevans. Derfor bygger vi sider som svarer presist på søkeintensjonen bak søk som webdesign trondheim, nettside trondheim og webbyrå trondheim.",
         ],
       },
       {
         heading: "Vår lokale leveransemodell",
-        paragraphs: [],
+        paragraphs: [
+          "Vi starter med å kartlegge hva som allerede fungerer på nettsiden din, hvilke tjenester som har høyest forretningsverdi, og hvor i kundereisen du mister flest henvendelser.",
+          "Deretter prioriterer vi struktur, innhold og konverteringspunkter i riktig rekkefølge, slik at du ser effekt raskere og unngår unødvendige kostnader.",
+        ],
         bullets: [
           "Sider tilpasset tjenestene du faktisk selger",
           "Målrettet internlenking fra innhold til konverteringssider",
           "Måling av henvendelser og løpende forbedring",
         ],
+      },
+      {
+        heading: "Innhold som bygger tillit og kjøpsvilje",
+        paragraphs: [
+          "Mange bedrifter taper potensielle kunder fordi nettsiden forklarer for lite om leveranse, prosess og forventet resultat. Vi skriver innhold som avklarer disse spørsmålene tidlig.",
+          "Resultatet er en nettside som ikke bare rangerer, men som også gjør det enklere for riktige kunder å ta kontakt med høyere tillit.",
+        ],
+        bullets: [
+          "Tydelige tjenestesider med konkret verdi og neste steg",
+          "Lokalt tilpasset språk som matcher hvordan kunder i regionen faktisk søker",
+          "FAQ-seksjoner som fanger opp vanlige innvendinger før første kontakt",
+        ],
+      },
+      {
+        heading: "Teknisk SEO og ytelse som tåler konkurranse",
+        paragraphs: [
+          "Vi bygger en teknisk grunnmur som gjør siden rask, mobilvennlig og enkel for søkemotorer å forstå. Dette gir bedre forutsetninger for stabile plasseringer over tid.",
+          "I tillegg setter vi opp tydelig metadata, internlenker og strukturert data slik at hver viktig tjenesteside får best mulig synlighet.",
+        ],
+      },
+      {
+        heading: "Måling som viser hva som faktisk virker",
+        paragraphs: [
+          "God webdesign handler ikke om magefølelse. Vi følger med på hvilke sider som tiltrekker riktig trafikk, hvilke søk som skaper henvendelser, og hvor i flyten brukere faller fra.",
+          "Basert på data justerer vi tekst, struktur og CTA-er løpende, slik at nettsiden gradvis blir en sterkere salgs- og markedskanal.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Hva skiller en nettside som rangerer i Trondheim fra en standard nettside?",
+        answer:
+          "Den viktigste forskjellen er lokal relevans kombinert med tydelig konverteringsstruktur. Du trenger innhold som matcher lokale søk, rask teknisk ytelse og klare neste steg for kunden.",
+      },
+      {
+        question: "Hvor lang tid tar det før vi ser SEO-effekt av ny nettside?",
+        answer:
+          "Mindre forbedringer kan gi effekt i løpet av noen uker, mens tydeligere vekst ofte kommer over 3 til 6 måneder. Tidslinjen påvirkes av konkurranse, historikk og kvaliteten på innholdet.",
+      },
+      {
+        question: "Kan dere forbedre en eksisterende nettside i stedet for å bygge alt på nytt?",
+        answer:
+          "Ja. Vi gjør først en teknisk og innholdsmessig vurdering for å se hva som kan beholdes. Deretter prioriterer vi tiltak som gir høyest effekt før vi eventuelt anbefaler en full redesign.",
+      },
+      {
+        question: "Hvilke resultater bør vi måle etter lansering?",
+        answer:
+          "Vi anbefaler å måle kvalifiserte henvendelser, konverteringsrate fra organisk trafikk, utvikling i lokale søkeord og hvilke sider som bidrar mest til nye kundedialoger.",
+      },
+      {
+        question: "Passer denne tjenesten for små bedrifter i Trondheim?",
+        answer:
+          "Ja. Leveransemodellen er laget for små og mellomstore bedrifter som vil bruke nettsiden som en aktiv kanal for salg og ikke bare som en digital brosjyre.",
       },
     ],
     schemaType: "Service",
