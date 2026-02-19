@@ -14,6 +14,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   applicationName: SITE_NAME,
+  creator: SITE_NAME,
+  publisher: SITE_NAME,
+  authors: [{ name: SITE_NAME, url: SITE_URL }],
   title: {
     default: "ZWEB Digitalbyrå | Profesjonelle nettsider for norske bedrifter",
     template: "%s | ZWEB Digitalbyrå",
@@ -47,7 +50,7 @@ export const metadata: Metadata = {
         url: `${SITE_URL}/opengraph-image`,
         width: 1200,
         height: 630,
-        alt: "ZWEB Digitalbyrå - Nettsider for norske bedrifter",
+        alt: "ZWEB Digitalbyrå – nettsider for norske bedrifter",
       },
     ],
   },
@@ -69,10 +72,17 @@ export const metadata: Metadata = {
     },
   },
   referrer: "origin-when-cross-origin",
+  formatDetection: {
+    telephone: false,
+    email: false,
+    address: false,
+  },
   alternates: {
     canonical: "/",
     languages: {
       "nb-NO": "/",
+      nb: "/",
+      no: "/",
     },
   },
   icons: {
@@ -108,6 +118,7 @@ export default function RootLayout({
           data={{
             "@context": "https://schema.org",
             "@type": "Organization",
+            "@id": `${SITE_URL}#organization`,
             name: BUSINESS_INFO.name,
             legalName: BUSINESS_INFO.legalName,
             url: BUSINESS_INFO.url,
@@ -122,8 +133,8 @@ export default function RootLayout({
             contactPoint: {
               "@type": "ContactPoint",
               telephone: BUSINESS_INFO.phone,
-              contactType: "kundeservice",
-              availableLanguage: "Norwegian",
+              contactType: "customer service",
+              availableLanguage: ["nb", "no"],
             },
           }}
         />
@@ -131,6 +142,7 @@ export default function RootLayout({
           data={{
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
+            "@id": `${SITE_URL}#local-business`,
             name: BUSINESS_INFO.name,
             description:
               "Vi lager moderne og profesjonelle nettsider for norske bedrifter. Alt inkludert fra 999 kr/mnd.",
@@ -152,14 +164,21 @@ export default function RootLayout({
               "@type": "Country",
               name: "Norge",
             },
+            parentOrganization: {
+              "@id": `${SITE_URL}#organization`,
+            },
           }}
         />
         <JsonLd
           data={{
             "@context": "https://schema.org",
             "@type": "WebSite",
+            "@id": `${SITE_URL}#website`,
             name: SITE_NAME,
             url: SITE_URL,
+            publisher: {
+              "@id": `${SITE_URL}#organization`,
+            },
             potentialAction: {
               "@type": "SearchAction",
               target: `${SITE_URL}/blog?query={search_term_string}`,

@@ -6,10 +6,10 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { JsonLd } from "@/components/json-ld"
 import { SITE_URL, SITE_NAME } from "@/lib/constants"
-import { buildPageMetadata } from "@/lib/seo"
+import { buildBreadcrumbList, buildPageMetadata } from "@/lib/seo"
 
 const BLOG_INDEX_METADATA = {
-  title: "Blogg - guider om nettsider, SEO og webdesign",
+  title: "Blogg: guider om nettsider, SEO og webdesign",
   description:
     "Les våre artikler og guider om nettsider for bedrifter, SEO-optimalisering, webdesign og digitale løsninger for norske bedrifter.",
   path: "/blog",
@@ -67,9 +67,16 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
   return (
     <>
       <JsonLd
+        data={buildBreadcrumbList([
+          { name: "Hjem", path: "/" },
+          { name: "Blogg", path: "/blog" },
+        ])}
+      />
+      <JsonLd
         data={{
           "@context": "https://schema.org",
           "@type": "Blog",
+          "@id": `${SITE_URL}/blog#blog`,
           name: "ZWEB Digitalbyrå-bloggen",
           description:
             "Guider og artikler om nettsider, SEO og webdesign for norske bedrifter",
@@ -79,6 +86,21 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
             name: SITE_NAME,
             url: SITE_URL,
           },
+        }}
+      />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          name: "Artikler i ZWEB-bloggen",
+          itemListOrder: "https://schema.org/ItemListOrderDescending",
+          numberOfItems: allArticles.length,
+          itemListElement: allArticles.map((article, index) => ({
+            "@type": "ListItem",
+            position: index + 1,
+            url: `${SITE_URL}/blog/${article.slug}`,
+            name: article.title,
+          })),
         }}
       />
       <Header />
@@ -149,7 +171,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
                 Hovedguide
               </p>
               <h2 className="text-lg font-semibold text-foreground mb-1">
-                WordPress vs Webflow
+                WordPress vs. Webflow
               </h2>
               <p className="text-sm text-muted-foreground">
                 Velg riktig plattform for bedriften.

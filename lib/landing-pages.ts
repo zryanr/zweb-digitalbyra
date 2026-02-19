@@ -72,7 +72,7 @@ const rawLandingPages: RawLandingPage[] = [
       "Vi bygger raske, moderne og SEO-klare nettsider for små og mellomstore bedrifter i Norge.",
     metaTitle: "Nettside for bedrift i Norge | ZWEB Digitalbyrå",
     metaDescription:
-      "Få en profesjonell nettside for bedrift med tydelig budskap, høy ytelse og fokus på flere henvendelser.",
+      "Få en profesjonell nettside for bedrift med strategi, tekst, teknisk SEO og tydelige CTA-er som gir flere kvalifiserte henvendelser.",
     keywords: [
       "nettside for bedrift",
       "hjemmeside bedrift",
@@ -179,12 +179,12 @@ const rawLandingPages: RawLandingPage[] = [
   },
   {
     path: "/wordpress-nettside",
-    title: "WordPress nettside med full kontroll og fleksibilitet",
+    title: "WordPress-nettside med full kontroll og fleksibilitet",
     description:
       "Vi bygger WordPress-nettsider for bedrifter som trenger skalerbarhet, eierskap og SEO-klar struktur.",
-    metaTitle: "WordPress nettside for bedrifter | ZWEB",
+    metaTitle: "WordPress-nettside for bedrifter | ZWEB",
     metaDescription:
-      "Få en WordPress nettside med moderne design, høy ytelse og struktur for vekst.",
+      "Få en WordPress-nettside for bedrift med skreddersydd design, SEO-oppsett, opplæring og drift som gjør det enkelt å skalere innhold over tid.",
     keywords: ["wordpress nettside", "wordpress byrå norge", "wordpress bedrift"],
     eyebrow: "Plattform",
     breadcrumbs: [
@@ -224,12 +224,12 @@ const rawLandingPages: RawLandingPage[] = [
   },
   {
     path: "/webflow-nettside",
-    title: "Webflow nettside for rask vekst",
+    title: "Webflow-nettside for rask vekst",
     description:
       "Webflow-løsninger for bedrifter som vil ha moderne design, høy hastighet og enkel redigering.",
-    metaTitle: "Webflow nettside for bedrifter | ZWEB",
+    metaTitle: "Webflow-nettside for bedrifter | ZWEB",
     metaDescription:
-      "Vi bygger Webflow-nettsider som kombinerer designfrihet, rask ytelse og strukturert SEO.",
+      "Vi bygger Webflow-nettsider for bedrifter som vil lansere raskt, redigere enkelt og kombinere designfrihet med teknisk SEO og konverteringsfokus.",
     keywords: ["webflow byrå norge", "webflow nettside", "webflow bedrift"],
     eyebrow: "Plattform",
     breadcrumbs: [
@@ -314,7 +314,7 @@ const rawLandingPages: RawLandingPage[] = [
       "Vi bygger synlighet fra dag én med teknisk SEO, innholdsstruktur og internlenking som støtter salgsmål.",
     metaTitle: "SEO for nettsider og små bedrifter | ZWEB",
     metaDescription:
-      "Teknisk SEO, sidearkitektur og innholdsstrategi for bedrifter som vil rangere og konvertere bedre.",
+      "Teknisk SEO, sidearkitektur og innholdsstrategi for norske bedrifter som vil rangere bedre i Google og få flere kvalifiserte henvendelser.",
     keywords: ["seo for nettsider", "seo små bedrifter", "teknisk seo"],
     eyebrow: "Synlighet",
     breadcrumbs: [
@@ -356,7 +356,7 @@ const rawLandingPages: RawLandingPage[] = [
       "Fast driftspakke for bedrifter som vil ha oppdatert, sikker og rask nettside hele året.",
     metaTitle: "Drift og vedlikehold av nettside | ZWEB",
     metaDescription:
-      "Hosting, oppdateringer, backup, sikkerhet og support i én vedlikeholdspakke for bedrifter.",
+      "Hosting, oppdateringer, backup, sikkerhet og support i én vedlikeholdspakke som holder nettsiden rask, trygg og stabil gjennom hele året.",
     keywords: ["drift nettside", "vedlikehold wordpress", "support nettside"],
     eyebrow: "Etter lansering",
     breadcrumbs: [
@@ -398,7 +398,7 @@ const rawLandingPages: RawLandingPage[] = [
       "Se hva som er inkludert i våre pakker, og hva som passer best for din bedrift.",
     metaTitle: "Nettsidepriser | Pakker for norske bedrifter",
     metaDescription:
-      "Transparente nettsidepriser med tydelige pakker, inkluderte tjenester og rask oppstart.",
+      "Sammenlign transparente nettsidepriser for norske bedrifter, se hva som er inkludert i hver pakke, og velg modellen som passer vekstmålene dine.",
     keywords: ["nettside pris", "hva koster nettside", "webdesign pris norge"],
     eyebrow: "Priser",
     breadcrumbs: [{ label: "Hjem", href: "/" }, { label: "Priser" }],
@@ -439,9 +439,9 @@ const rawLandingPages: RawLandingPage[] = [
     title: "Kontakt oss for en uforpliktende samtale",
     description:
       "Fortell oss hva du trenger, så får du konkrete råd og anbefalt neste steg.",
-    metaTitle: "Kontakt ZWEB Digitalbyrå",
+    metaTitle: "Kontakt ZWEB Digitalbyrå | Gratis rådgivning",
     metaDescription:
-      "Bestill en gratis og uforpliktende samtale om ny nettside, SEO eller drift.",
+      "Book en gratis og uforpliktende samtale om ny nettside, SEO eller drift, og få anbefalt neste steg tilpasset bedriften din.",
     keywords: ["kontakt webbyrå", "bestill nettside", "gratis samtale webdesign"],
     breadcrumbs: [{ label: "Hjem", href: "/" }, { label: "Kontakt" }],
     sections: [
@@ -479,7 +479,7 @@ const rawLandingPages: RawLandingPage[] = [
       "Bransjetilpasset nettside for håndverkere med lokal SEO, tydelig kontaktflyt og høy tillit.",
     metaTitle: "Nettside for håndverkere | Få flere lokale oppdrag",
     metaDescription:
-      "Vi bygger håndverker-nettsider med lokal synlighet, sterke tillitssignaler og flere henvendelser.",
+      "Vi bygger nettsider for håndverkere med lokal SEO, tydelig tjenestestruktur, sterke tillitssignaler og kontaktflyt som gir flere oppdrag.",
     keywords: ["nettside for håndverker", "håndverker nettside", "lokal seo håndverker"],
     eyebrow: "Bransje",
     breadcrumbs: [
@@ -516,7 +516,7 @@ const rawLandingPages: RawLandingPage[] = [
       "Vi bygger nettsider for advokater med klar tjenestestruktur, faglig tyngde og høy konvertering.",
     metaTitle: "Nettside for advokatfirma | ZWEB",
     metaDescription:
-      "Profesjonell nettside for advokater med tydelige fagområder, tillitssignaler og bedre henvendelsesflyt.",
+      "Profesjonell nettside for advokatfirma med tydelige fagområder, juridisk tillitsprofil og kontaktflyt som øker kvalifiserte klienthenvendelser.",
     keywords: ["nettside for advokat", "advokat nettside", "webdesign advokatfirma"],
     eyebrow: "Bransje",
     breadcrumbs: [
@@ -551,9 +551,9 @@ const rawLandingPages: RawLandingPage[] = [
     title: "Webdesign i Oslo for små og mellomstore bedrifter",
     description:
       "Lokal webdesign-partner for bedrifter i Oslo som vil ha bedre synlighet og flere henvendelser.",
-    metaTitle: "Webdesign Oslo | Nettside for bedrifter",
+    metaTitle: "Webdesign i Oslo | Nettside for bedrifter",
     metaDescription:
-      "Vi hjelper bedrifter i Oslo med nettsider som kombinerer design, SEO og konvertering.",
+      "Vi hjelper bedrifter i Oslo med nettsider som kombinerer lokal SEO, tydelig budskap og konverteringsfokus for flere kvalifiserte henvendelser.",
     keywords: ["webdesign oslo", "nettside oslo", "webbyrå oslo"],
     eyebrow: "Lokal synlighet",
     breadcrumbs: [
@@ -587,9 +587,9 @@ const rawLandingPages: RawLandingPage[] = [
     title: "Webdesign i Bergen for bedrifter som vil vokse",
     description:
       "Vi bygger moderne nettsider for bedrifter i Bergen med fokus på synlighet og henvendelser.",
-    metaTitle: "Webdesign Bergen | Nettside for bedrift",
+    metaTitle: "Webdesign i Bergen | Nettside for bedrift",
     metaDescription:
-      "Lokal webdesign i Bergen med tydelig budskap, SEO-grunnmur og konverteringsfokus.",
+      "Lokal webdesign i Bergen med strategisk sidearkitektur, teknisk SEO og tydelig kontaktflyt som gir flere relevante henvendelser.",
     keywords: ["webdesign bergen", "nettside bergen", "webbyrå bergen"],
     eyebrow: "Lokal synlighet",
     breadcrumbs: [
@@ -620,12 +620,13 @@ const rawLandingPages: RawLandingPage[] = [
   },
   {
     path: "/lokalt/trondheim-webdesign",
+    updatedDate: "2026-02-18",
     title: "Webdesign i Trondheim med fokus på resultater",
     description:
       "Nettsider for bedrifter i Trondheim som vil bli synlige i søk og konvertere bedre.",
-    metaTitle: "Webdesign Trondheim | Nettside og SEO",
+    metaTitle: "Webdesign i Trondheim | Nettside og SEO",
     metaDescription:
-      "Vi lager nettsider for bedrifter i Trondheim med fokus på konvertering, fart og lokal SEO.",
+      "Vi lager nettsider for bedrifter i Trondheim med lokal SEO, tydelig verdi og konverteringsfokus som gir flere kvalifiserte henvendelser.",
     keywords: ["webdesign trondheim", "nettside trondheim", "webbyrå trondheim"],
     eyebrow: "Lokal synlighet",
     breadcrumbs: [
@@ -638,16 +639,77 @@ const rawLandingPages: RawLandingPage[] = [
         heading: "Konkurrer bedre i lokale søk",
         paragraphs: [
           "Vi hjelper bedrifter i Trondheim med nettsider som kombinerer tydelig verdi, lokal relevans og teknisk kvalitet.",
+          "Når en kunde søker etter for eksempel rørlegger Trondheim, elektriker Trondheim eller tannlege Trondheim, må siden raskt vise hva du tilbyr, hvorfor du er et trygt valg, og hvordan kunden tar kontakt.",
         ],
       },
       {
         heading: "Vår lokale leveransemodell",
-        paragraphs: [],
+        paragraphs: [
+          "Modellen er laget for lokale bedrifter som trenger en nettside som både rangerer i søk og skaper kvalifiserte henvendelser.",
+        ],
         bullets: [
+          "Tydelig oversikt over tjenester, priser og geografisk område",
           "Sider tilpasset tjenestene du faktisk selger",
+          "Synlig telefonnummer og enkel kontaktflyt på mobil",
           "Målrettet internlenking fra innhold til konverteringssider",
+          "Tydelige CTA-er over folden og etter nøkkelseksjoner",
+          "Teknisk SEO med riktig metadata, struktur og hastighet",
           "Måling av henvendelser og løpende forbedring",
         ],
+      },
+      {
+        heading: "Eksempel: nettside for en rørlegger i Trondheim",
+        paragraphs: [
+          "For en rørlegger handler nettsiden om å bli valgt raskt når behovet oppstår. Kunden vil se at du dekker riktig område, hvilke oppdrag du tar, og hvordan de får hjelp nå.",
+          "Med riktig struktur kan du rangere på kjøpsnære søk og gjøre det enkelt for kunden å kontakte deg direkte fra mobil.",
+        ],
+        bullets: [
+          "Tjenestesider som akutt rørlegger, bad og rehabilitering",
+          "Lokale signaler for Trondheim og nærliggende områder",
+          "Tillitsskapende elementer som referanser og tydelig prosess",
+          "Kontaktknapper og CTA-er plassert der kunden faktisk tar beslutning",
+        ],
+      },
+      {
+        heading: "Hva en kunde vil se før de tar kontakt",
+        paragraphs: [
+          "En god lokal nettside fjerner tvil raskt. Kunden vil forstå hva du leverer, hvilket område du dekker, og hva som skjer videre etter at de tar kontakt.",
+          "Derfor prioriterer vi tydelige tjenester, klare CTA-er og innhold som svarer på vanlige spørsmål før første samtale.",
+        ],
+      },
+      {
+        heading: "Synlighet og konvertering forbedres over tid",
+        paragraphs: [
+          "Etter lansering følger vi med på hvilke søk som gir henvendelser og hvilke sider som skaper kontakt. Da kan vi forbedre det som faktisk gir flere kunder.",
+          "Målet er at nettsiden din i Trondheim skal bli en stabil kanal for nye oppdrag, ikke en statisk brosjyre.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Hva er inkludert i webdesign trondheim?",
+        answer:
+          "Leveransen inkluderer strategi, design, teknisk oppsett og publisering. Eksakt omfang avhenger av pakken du velger.",
+      },
+      {
+        question: "Hvor raskt kan vi starte prosjektet?",
+        answer:
+          "De fleste prosjekter kan starte innen få arbeidsdager etter avklart omfang og oppstartsmøte.",
+      },
+      {
+        question: "Kan dere hjelpe med SEO og innhold samtidig?",
+        answer:
+          "Ja. Vi bygger inn teknisk SEO og hjelper med innhold som støtter både synlighet og konvertering.",
+      },
+      {
+        question: "Passer dette for små lokale bedrifter i Trondheim?",
+        answer:
+          "Ja. Løsningen passer godt for lokale tjenestebedrifter som rørlegger, elektriker, tannlege, håndverker og andre som vil ha flere henvendelser fra nærområdet.",
+      },
+      {
+        question: "Når kan vi forvente flere henvendelser fra nettsiden?",
+        answer:
+          "Noen bedrifter ser tidlige forbedringer raskt, men tydelig vekst kommer vanligvis gradvis. Tidslinjen påvirkes av konkurranse, utgangspunkt og hvor godt innholdet treffer kundebehovet.",
       },
     ],
     schemaType: "Service",
@@ -656,12 +718,12 @@ const rawLandingPages: RawLandingPage[] = [
   },
   {
     path: "/guider/nettside-pris",
-    title: "Guide: Hva koster en nettside for bedrifter?",
+    title: "Guide: hva koster en nettside for bedrifter?",
     description:
       "Lær hva som påvirker nettsidepris, og hvordan du sammenligner tilbud på en smart måte.",
-    metaTitle: "Nettside pris guide for bedrifter | ZWEB",
+    metaTitle: "Nettside prisguide for bedrifter | ZWEB",
     metaDescription:
-      "Praktisk guide til nettsidepris: kostnadsdrivere, sammenligning av tilbud og valg av riktig prismodell.",
+      "Praktisk guide til nettsidepris for bedrifter: kostnadsdrivere, skjulte poster, sammenligning av tilbud og valg av riktig prismodell.",
     keywords: ["nettside pris guide", "hva koster nettside", "webdesign pris"],
     eyebrow: "Hovedguide",
     breadcrumbs: [
@@ -702,12 +764,12 @@ const rawLandingPages: RawLandingPage[] = [
   },
   {
     path: "/guider/wordpress-vs-webflow",
-    title: "Guide: WordPress vs Webflow for små bedrifter",
+    title: "Guide: WordPress vs. Webflow for små bedrifter",
     description:
       "Praktisk sammenligning av WordPress og Webflow med fokus på pris, drift, SEO og fleksibilitet.",
-    metaTitle: "WordPress vs Webflow guide | ZWEB",
+    metaTitle: "WordPress vs. Webflow-guide | ZWEB",
     metaDescription:
-      "Lær forskjellen mellom WordPress og Webflow, og velg riktig plattform for bedriften din.",
+      "Lær forskjellen mellom WordPress og Webflow med norsk SMB-fokus på pris, drift, SEO, fleksibilitet og hvilken plattform som passer best.",
     keywords: ["wordpress vs webflow", "webflow eller wordpress", "plattformsammenligning"],
     eyebrow: "Hovedguide",
     breadcrumbs: [
@@ -750,9 +812,9 @@ const rawLandingPages: RawLandingPage[] = [
     title: "Guide: SEO-sjekkliste før lansering av nettside",
     description:
       "Steg-for-steg sjekkliste for teknisk SEO, innhold og måling før du publiserer ny nettside.",
-    metaTitle: "SEO sjekkliste før lansering | ZWEB",
+    metaTitle: "SEO-sjekkliste før lansering | ZWEB",
     metaDescription:
-      "Bruk denne sjekklisten for å sikre at ny nettside er teknisk og innholdsmessig klar for synlighet i Google.",
+      "Bruk denne SEO-sjekklisten før lansering for å sikre riktig metadata, struktur, internlenking og måling før ny nettside går live.",
     keywords: ["seo sjekkliste", "seo før lansering", "teknisk seo nettside"],
     eyebrow: "Hovedguide",
     breadcrumbs: [
@@ -794,9 +856,9 @@ const rawLandingPages: RawLandingPage[] = [
     path: "/personvern",
     title: "Personvernerklæring",
     description: "Informasjon om hvordan vi behandler personopplysninger.",
-    metaTitle: "Personvernerklæring | ZWEB",
+    metaTitle: "Personvernerklæring for kunder og besøkende | ZWEB",
     metaDescription:
-      "Les hvordan ZWEB Digitalbyrå samler inn, bruker og lagrer personopplysninger.",
+      "Les hvordan ZWEB Digitalbyrå samler inn, bruker, lagrer og beskytter personopplysninger når du bruker nettsiden eller tar kontakt med oss.",
     keywords: ["personvern", "personvernerklæring", "gdpr"],
     breadcrumbs: [{ label: "Hjem", href: "/" }, { label: "Personvern" }],
     sections: [
@@ -836,7 +898,7 @@ const rawLandingPages: RawLandingPage[] = [
     description: "Generelle vilkår for bruk av nettstedet og kjøp av tjenester fra ZWEB Digitalbyrå.",
     metaTitle: "Vilkår og betingelser | ZWEB Digitalbyrå",
     metaDescription:
-      "Les våre vilkår og betingelser: avtaleinngåelse, leveranse, betaling, ansvar, rettigheter og tvisteløsning.",
+      "Les vilkår for bruk av nettstedet, leveranser, ansvar og kommunikasjon, inkludert hva som gjelder for tilbud, innhold og avtaleforhold.",
     keywords: ["vilkår", "bruksvilkår", "betingelser"],
     breadcrumbs: [{ label: "Hjem", href: "/" }, { label: "Vilkår" }],
     sections: [

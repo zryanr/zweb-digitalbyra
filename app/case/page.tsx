@@ -9,7 +9,7 @@ import { buildBreadcrumbList, buildPageMetadata } from "@/lib/seo"
 export const metadata: Metadata = buildPageMetadata({
   title: "Case og resultater fra prosjektene våre | ZWEB",
   description:
-    "Se hvordan vi hjelper norske bedrifter med nettsider, SEO og konverteringsforbedringer.",
+    "Se dokumenterte case fra norske bedrifter: hvilke tiltak vi gjorde, hvilke resultater som kom, og hvordan dette kan overføres til din nettside.",
   path: "/case",
   keywords: ["webdesign case", "nettside referanser", "resultater nettside"],
 })

@@ -65,20 +65,38 @@ export default async function BlogArticlePage({ params }: Props) {
   const authorProfile = getAuthorBySlug(article.authorSlug)
   const authorImage = authorProfile?.image || "/placeholder-user.jpg"
   const authorImageAlt = authorProfile?.imageAlt || `Profilbilde av ${article.author.name}`
+  const wordCount = article.sections
+    .map((section) => section.content)
+    .join(" ")
+    .split(/\s+/)
+    .filter(Boolean).length
 
   return (
     <>
       <JsonLd
         data={{
           "@context": "https://schema.org",
-          "@type": "Article",
+          "@type": "BlogPosting",
+          "@id": `${SITE_URL}/blog/${slug}#blogposting`,
           headline: article.title,
+          name: article.title,
           description: article.description,
           datePublished: article.date,
           dateModified: article.updatedDate || article.date,
           inLanguage: "nb-NO",
           isAccessibleForFree: true,
+          articleSection: article.category,
+          wordCount,
           keywords: article.keywords.join(", "),
+          about: article.keywords.map((keyword) => ({
+            "@type": "Thing",
+            name: keyword,
+          })),
+          mentions: article.sources.map((source) => ({
+            "@type": "CreativeWork",
+            name: source.title,
+            url: source.url,
+          })),
           author: {
             "@type": "Person",
             name: article.author.name,
@@ -93,12 +111,19 @@ export default async function BlogArticlePage({ params }: Props) {
           },
           publisher: {
             "@type": "Organization",
+            "@id": `${SITE_URL}#organization`,
             name: SITE_NAME,
             url: SITE_URL,
             logo: {
               "@type": "ImageObject",
               url: `${SITE_URL}/icon.svg`,
             },
+          },
+          isPartOf: {
+            "@type": "Blog",
+            "@id": `${SITE_URL}/blog#blog`,
+            name: "ZWEB Digitalbyrå Blogg",
+            url: `${SITE_URL}/blog`,
           },
           mainEntityOfPage: {
             "@type": "WebPage",

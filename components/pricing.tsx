@@ -8,7 +8,7 @@ import { AnimateOnScroll } from "@/components/animate-on-scroll"
 const pricingPlans = [
   {
     name: "Alt inkludert",
-    description: "Anbefalt for de fleste bedrifter",
+    description: "For bedrifter som vil ha drift, support og oppdateringer inkludert",
     price: "999",
     period: "per måned",
     features: [
@@ -32,7 +32,7 @@ const pricingPlans = [
   },
   {
     name: "Engangskjøp",
-    description: "For deg som ønsker full kontroll selv",
+    description: "For deg som ønsker å eie nettsiden og håndtere drift internt",
     price: "6 999",
     period: "engangspris",
     features: [
@@ -66,11 +66,11 @@ export function Pricing() {
               Enkle og transparente priser
             </p>
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4 text-balance">
-              Nettsidepriser - velg pakken som passer bedriften din
+              Nettside priser for bedrifter: sammenlign modellene før du velger
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              Ingen skjulte kostnader. Du vet alltid hva du betaler for.
-              Prisene er ekskl. mva.
+              Sammenlign engangskjøp og abonnement på likt grunnlag. Ingen skjulte
+              kostnader, og tydelig hva som er inkludert i hver modell.
             </p>
           </div>
         </AnimateOnScroll>
