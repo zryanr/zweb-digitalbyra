@@ -10,7 +10,11 @@ import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Phone, Mail, MapPin, CheckCircle2, Loader2 } from "lucide-react"
 
-export function ContactForm() {
+type ContactFormProps = {
+  integrated?: boolean
+}
+
+export function ContactForm({ integrated = false }: ContactFormProps) {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [submitError, setSubmitError] = useState<string | null>(null)
@@ -43,12 +47,72 @@ export function ContactForm() {
     setIsSubmitted(true)
   }
 
+  const sectionClassName = integrated
+    ? "py-20 lg:py-28"
+    : "py-20 lg:py-28 bg-primary text-primary-foreground"
+
+  const gridClassName = integrated
+    ? "grid lg:grid-cols-2 rounded-3xl border border-border/80 bg-gradient-to-br from-secondary/50 via-background to-secondary/20 overflow-hidden"
+    : "grid lg:grid-cols-2 gap-12 lg:gap-16"
+
+  const infoColumnClassName = integrated
+    ? "space-y-8 p-6 sm:p-8 lg:p-10"
+    : "space-y-8"
+
+  const introCopyClassName = integrated
+    ? "text-muted-foreground leading-relaxed"
+    : "text-primary-foreground/80 leading-relaxed"
+
+  const infoRowClassName = integrated
+    ? "flex items-center gap-4 rounded-xl border border-border/70 bg-background/80 p-4"
+    : "flex items-center gap-4"
+
+  const infoIconClassName = integrated
+    ? "w-12 h-12 bg-accent/20 rounded-lg flex items-center justify-center text-foreground"
+    : "w-12 h-12 bg-primary-foreground/10 rounded-lg flex items-center justify-center"
+
+  const infoLabelClassName = integrated
+    ? "text-sm text-muted-foreground"
+    : "text-sm text-primary-foreground/60"
+
+  const trustContainerClassName = integrated
+    ? "pt-6 border-t border-border/80"
+    : "pt-6 border-t border-primary-foreground/10"
+
+  const trustLabelClassName = integrated
+    ? "text-sm text-muted-foreground mb-3"
+    : "text-sm text-primary-foreground/60 mb-3"
+
+  const trustIconClassName = integrated
+    ? "w-4 h-4 text-primary"
+    : "w-4 h-4 text-accent"
+
+  const formColumnClassName = integrated
+    ? "bg-background/70 p-6 sm:p-8 lg:p-10 lg:border-l lg:border-border/80"
+    : "bg-card text-card-foreground p-6 sm:p-8 rounded-2xl"
+
+  const successIconContainerClassName = integrated
+    ? "w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6"
+    : "w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mb-6"
+
+  const successIconClassName = integrated
+    ? "w-8 h-8 text-primary"
+    : "w-8 h-8 text-accent"
+
+  const formClassName = integrated
+    ? "space-y-6 rounded-2xl border border-border/70 bg-background p-6 sm:p-7 shadow-sm"
+    : "space-y-6"
+
+  const submitButtonClassName = integrated
+    ? "w-full bg-primary text-primary-foreground hover:bg-primary/90"
+    : "w-full bg-accent text-accent-foreground hover:bg-accent/90"
+
   return (
-    <section id="kontakt" className="py-20 lg:py-28 bg-primary text-primary-foreground">
+    <section id="kontakt" className={sectionClassName}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
+        <div className={gridClassName}>
           {/* Left side - Info */}
-          <div className="space-y-8">
+          <div className={infoColumnClassName}>
             <div>
               <p className="text-sm font-medium text-accent uppercase tracking-wide mb-3">
                 Ta kontakt
@@ -56,7 +120,7 @@ export function ContactForm() {
               <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-balance">
                 Klar for en uforpliktende gjennomgang?
               </h2>
-              <p className="text-primary-foreground/80 leading-relaxed">
+              <p className={introCopyClassName}>
                 Fyll ut skjemaet, så tar vi kontakt med en konkret anbefaling for
                 nettside, SEO og neste steg basert på behovet i bedriften din.
               </p>
@@ -64,44 +128,44 @@ export function ContactForm() {
 
             {/* Contact info */}
             <div className="space-y-4">
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-primary-foreground/10 rounded-lg flex items-center justify-center">
+              <div className={infoRowClassName}>
+                <div className={infoIconClassName}>
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-sm text-primary-foreground/60">Ring oss</p>
+                  <p className={infoLabelClassName}>Ring oss</p>
                   <a href="tel:+4794112356" className="font-medium hover:text-accent transition-colors">
                     94 11 23 56
                   </a>
                 </div>
               </div>
 
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-primary-foreground/10 rounded-lg flex items-center justify-center">
+              <div className={infoRowClassName}>
+                <div className={infoIconClassName}>
                   <Mail className="w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-sm text-primary-foreground/60">E-post</p>
+                  <p className={infoLabelClassName}>E-post</p>
                   <a href="mailto:hei@zweb.no" className="font-medium hover:text-accent transition-colors">
                     hei@zweb.no
                   </a>
                 </div>
               </div>
 
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-primary-foreground/10 rounded-lg flex items-center justify-center">
+              <div className={infoRowClassName}>
+                <div className={infoIconClassName}>
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-sm text-primary-foreground/60">Lokasjon</p>
+                  <p className={infoLabelClassName}>Lokasjon</p>
                   <p className="font-medium">Norge</p>
                 </div>
               </div>
             </div>
 
             {/* Trust signals */}
-            <div className="pt-6 border-t border-primary-foreground/10">
-              <p className="text-sm text-primary-foreground/60 mb-3">Hvorfor velge ZWEB?</p>
+            <div className={trustContainerClassName}>
+              <p className={trustLabelClassName}>Hvorfor velge ZWEB?</p>
               <div className="space-y-2">
                 {[
                   "100 % norsk selskap",
@@ -110,7 +174,7 @@ export function ContactForm() {
                   "Rask responstid",
                 ].map((item) => (
                   <div key={item} className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-accent" />
+                    <CheckCircle2 className={trustIconClassName} />
                     <span className="text-sm">{item}</span>
                   </div>
                 ))}
@@ -119,11 +183,11 @@ export function ContactForm() {
           </div>
 
           {/* Right side - Form */}
-          <div className="bg-card text-card-foreground p-6 sm:p-8 rounded-2xl">
+          <div className={formColumnClassName}>
             {isSubmitted ? (
               <div className="h-full flex flex-col items-center justify-center text-center py-12">
-                <div className="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mb-6">
-                  <CheckCircle2 className="w-8 h-8 text-accent" />
+                <div className={successIconContainerClassName}>
+                  <CheckCircle2 className={successIconClassName} />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Takk for din henvendelse!</h3>
                 <p className="text-muted-foreground">
@@ -131,7 +195,7 @@ export function ContactForm() {
                 </p>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} className={formClassName}>
                 <div className="text-center mb-6">
                   <h3 className="text-xl font-semibold text-foreground">
                     Uforpliktende samtale
@@ -221,7 +285,7 @@ export function ContactForm() {
                 <Button
                   type="submit"
                   size="lg"
-                  className="w-full bg-accent text-accent-foreground hover:bg-accent/90"
+                  className={submitButtonClassName}
                   disabled={isSubmitting}
                 >
                   {isSubmitting ? (

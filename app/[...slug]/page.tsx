@@ -127,7 +127,7 @@ export default async function LandingPage({ params }: Props) {
         ))}
 
         {page.path === "/priser" ? <Pricing /> : null}
-        {page.path === "/kontakt" ? <ContactForm /> : null}
+        {page.path === "/kontakt" ? <ContactForm integrated /> : null}
         {page.faqs?.length ? <PageFaq items={page.faqs} /> : null}
       </MarketingLayout>
     </>
